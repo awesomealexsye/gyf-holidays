@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Top 10 Must-Visit Destinations in 2025",
+    "excerpt": "Discover the most exciting travel destinations for your corporate trips and group bookings in 2025. From exotic beaches to cultural wonders.",
+    "content": "As we step into 2025, the travel industry is buzzing with exciting new destinations perfect for corporate travel and group bookings. Our curated list includes breathtaking locations that offer the perfect blend of business and leisure. Whether you're planning a team-building retreat or a corporate incentive trip, these destinations promise unforgettable experiences. From the pristine beaches of Bali to the cultural richness of Kyoto, each destination has been carefully selected to meet the diverse needs of B2B travelers.",
+    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop&q=80",
+    "date": "2025-10-05",
+    "category": "Travel Tips"
+  },
+  {
+    "id": 2,
+    "title": "Corporate Travel Trends for the Modern Business",
+    "excerpt": "Understanding the evolving landscape of corporate travel and how businesses can maximize ROI while ensuring employee satisfaction.",
+    "content": "The corporate travel landscape is evolving rapidly, with businesses seeking more value and flexibility in their travel programs. Today's corporate travelers expect seamless experiences, sustainable options, and personalized services. We analyze the key trends shaping B2B travel, including the rise of bleisure (business + leisure), the importance of duty of care, and the integration of technology in travel management. Companies that adapt to these trends will see improved employee satisfaction and better return on investment.",
+    "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&auto=format&fit=crop&q=80",
+    "date": "2025-09-28",
+    "category": "Business Travel"
+  },
+  {
+    "id": 3,
+    "title": "Sustainable Tourism: Our Commitment to Eco-Friendly Travel",
+    "excerpt": "Learn how GYF Holidays is leading the way in sustainable tourism practices and helping businesses reduce their carbon footprint.",
+    "content": "At GYF Holidays, we believe in responsible tourism that benefits both travelers and destinations. Our commitment to sustainability goes beyond just words - we've implemented comprehensive eco-friendly practices across all our services. From partnering with green hotels to promoting carbon offset programs, we're helping businesses achieve their sustainability goals while enjoying incredible travel experiences. This article explores our initiatives and how corporate clients can make a positive environmental impact through their travel choices.",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&auto=format&fit=crop&q=80",
+    "date": "2025-09-20",
+    "category": "Sustainability"
+  },
+  {
+    "id": 4,
+    "title": "The Ultimate Guide to Planning Successful Group Tours",
+    "excerpt": "Expert tips and strategies for organizing seamless group travel experiences that leave everyone satisfied and within budget.",
+    "content": "Planning group tours can be challenging, but with the right approach, it becomes an opportunity to create memorable experiences. This comprehensive guide covers everything from selecting the perfect destination to managing logistics and ensuring all travelers' needs are met. We share insider tips on negotiating group rates, handling special requirements, and creating itineraries that balance sightseeing with free time. Whether you're organizing a corporate retreat or a large incentive trip, these strategies will help ensure success.",
+    "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&auto=format&fit=crop&q=80",
+    "date": "2025-09-15",
+    "category": "Travel Planning"
+  },
+  {
+    "id": 5,
+    "title": "Exploring India's Hidden Gems: Offbeat Destinations",
+    "excerpt": "Venture beyond the usual tourist spots and discover India's incredible offbeat destinations perfect for unique corporate experiences.",
+    "content": "India is full of hidden treasures waiting to be discovered. While popular destinations have their charm, offbeat locations offer unique experiences that can make corporate trips truly special. From the serene valleys of Spiti to the pristine beaches of Gokarna, we showcase destinations that combine natural beauty with cultural authenticity. These locations are perfect for companies looking to offer their teams something different - places where they can disconnect from daily routines and reconnect with nature and culture.",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop&q=80",
+    "date": "2025-09-10",
+    "category": "Destinations"
+  },
+  {
+    "id": 6,
+    "title": "Travel Safety and Security: Best Practices for Corporate Travel",
+    "excerpt": "Essential safety guidelines and risk management strategies for ensuring secure and worry-free business travel experiences.",
+    "content": "In today's complex world, travel safety is paramount for businesses sending employees abroad. This article outlines comprehensive safety protocols and best practices for corporate travel. We cover pre-trip preparation, emergency response procedures, health and medical considerations, and the importance of travel insurance. Our expert team shares insights on risk assessment, communication strategies, and how to handle unexpected situations. By following these guidelines, companies can ensure their travelers remain safe and secure throughout their journeys.",
+    "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=800&auto=format&fit=crop&q=80",
+    "date": "2025-09-01",
+    "category": "Travel Safety"
+  }
+]
+
