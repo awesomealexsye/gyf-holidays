@@ -105,7 +105,7 @@ const AboutUs = () => {
                 Our Story
               </h2>
               <p className="text-gray-600 mb-4">
-                Founded in {config.company.foundedYear}, GYF Holidays began with a simple yet powerful vision: to transform the way businesses approach corporate travel and group bookings. What started as a small team of passionate travel enthusiasts has grown into a leading B2B travel solutions provider.
+                GYF Holidays began with a simple yet powerful vision: to transform the way businesses approach corporate travel and group bookings. What started as a small team of passionate travel enthusiasts has grown into a leading B2B travel solutions provider.
               </p>
               <p className="text-gray-600 mb-4">
                 Over the years, we've built strong relationships with hotels, airlines, and local partners worldwide, enabling us to offer unmatched value and service to our business clients. Our commitment to excellence has made us the preferred choice for corporate travel agencies, event management companies, and tour operators across the country.
@@ -201,93 +201,6 @@ const AboutUs = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{value.title}</h3>
                 <p className="text-gray-600">{value.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Timeline */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Journey
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Key milestones in our growth and success
-            </p>
-          </motion.div>
-
-          <div className="max-w-4xl mx-auto">
-            {milestones.map((milestone, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="flex gap-8 mb-12 last:mb-0"
-              >
-                <div className="flex flex-col items-center">
-                  <div className="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-                    {milestone.year}
-                  </div>
-                  {index < milestones.length - 1 && (
-                    <div className="w-1 h-full bg-primary-200 mt-4"></div>
-                  )}
-                </div>
-                <div className="flex-1 pb-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{milestone.title}</h3>
-                  <p className="text-gray-600">{milestone.description}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Meet Our Leadership Team
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Experienced professionals dedicated to your success
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {team.map((member, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
-              >
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
-                  <p className="text-primary-600 font-semibold">{member.position}</p>
-                </div>
               </motion.div>
             ))}
           </div>

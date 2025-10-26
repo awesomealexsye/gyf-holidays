@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FaUser, FaEnvelope, FaPhone, FaBuilding, FaBriefcase, FaUsers, FaCalendar, FaMapMarkerAlt, FaComment } from 'react-icons/fa'
+import { FaUser, FaEnvelope, FaPhone, FaBuilding, FaBriefcase, FaUsers, FaCalendar, FaMapMarkerAlt, FaComment, FaWhatsapp } from 'react-icons/fa'
+import config from '../config'
 
 const ContactForm = ({ title = "Send Us an Inquiry", compact = false }) => {
   const [formData, setFormData] = useState({
@@ -51,6 +52,23 @@ const ContactForm = ({ title = "Send Us an Inquiry", compact = false }) => {
         setShowSuccess(false)
       }, 5000)
     }, 1500)
+  }
+
+  const handleWhatsAppSubmit = () => {
+    const message = `Hello! I'm interested in your travel packages.
+
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+Business: ${formData.businessName}
+Company Type: ${formData.companyType}
+Travelers: ${formData.numberOfTravelers}
+Travel Date: ${formData.travelDate}
+Destination: ${formData.destination}
+Message: ${formData.message}`
+
+    const whatsappUrl = `https://wa.me/${config.contact.whatsapp}?text=${encodeURIComponent(message)}`
+    window.open(whatsappUrl, '_blank')
   }
 
   const companyTypes = [
@@ -250,18 +268,30 @@ const ContactForm = ({ title = "Send Us an Inquiry", compact = false }) => {
           </div>
         </div>
 
-        {/* Submit Button */}
-        <button
-          type="submit"
-          disabled={isSubmitting}
-          className={`w-full py-4 rounded-lg font-semibold text-white transition-all ${
-            isSubmitting
-              ? 'bg-gray-400 cursor-not-allowed'
-              : 'gradient-primary hover:shadow-lg transform hover:-translate-y-0.5'
-          }`}
-        >
-          {isSubmitting ? 'Submitting...' : 'Submit Inquiry'}
-        </button>
+        {/* Submit Buttons */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <button
+            type="submit"
+            disabled={isSubmitting}
+            className={`py-4 px-6 rounded-lg font-semibold text-white transition-all ${
+              isSubmitting
+                ? 'bg-gray-400 cursor-not-allowed'
+                : 'gradient-primary hover:shadow-lg transform hover:-translate-y-0.5'
+            }`}
+          >
+            {isSubmitting ? 'Submitting...' : 'Submit Inquiry'}
+          </button>
+          
+          <button
+            type="button"
+            onClick={handleWhatsAppSubmit}
+            className="flex items-center justify-center space-x-2 py-4 px-6 bg-green-500 hover:bg-green-600 text-white rounded-lg font-semibold transition-all hover:shadow-lg transform hover:-translate-y-0.5"
+          >
+            <FaWhatsapp className="text-xl" />
+            <span className="hidden sm:inline">Send on WhatsApp</span>
+            <span className="sm:hidden">WhatsApp</span>
+          </button>
+        </div>
       </form>
     </div>
   )

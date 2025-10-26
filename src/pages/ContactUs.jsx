@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa'
 import Hero from '../components/Hero'
 import ContactForm from '../components/ContactForm'
 import config from '../config'
@@ -15,7 +15,7 @@ const ContactUs = () => {
     {
       icon: FaEnvelope,
       title: 'Email',
-      details: [config.contact.email, config.contact.salesEmail],
+      details: [config.contact.email, config.contact.salesEmail, config.contact.supportEmail],
       color: 'bg-green-500',
     },
     {
@@ -40,7 +40,7 @@ const ContactUs = () => {
       city: 'New Delhi (Head Office)',
       address: 'Unit No 590, 5th Floor, Vegas Commercial Building, Plot No 6, Block - B, Sector 14, Dwarka',
       phone: '+91 75505 35555',
-      email: 'info@gyfholidays.com',
+      emails: ['info@gyfholidays.com', 'sales@gyfholidays.com', 'support@gyfholidays.com'],
     },
   ]
 
@@ -162,20 +162,12 @@ const ContactUs = () => {
                       <FaInstagram />
                     </a>
                     <a
-                      href={config.social.twitter}
+                      href={config.social.youtube}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-primary-600 hover:text-white transition"
                     >
-                      <FaTwitter />
-                    </a>
-                    <a
-                      href={config.social.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-primary-600 hover:text-white transition"
-                    >
-                      <FaLinkedinIn />
+                      <FaYoutube />
                     </a>
                   </div>
                 </div>
@@ -227,12 +219,16 @@ const ContactUs = () => {
                       {office.phone}
                     </a>
                   </p>
-                  <p className="flex items-center space-x-2">
-                    <FaEnvelope className="flex-shrink-0 text-gray-400" />
-                    <a href={`mailto:${office.email}`} className="hover:text-primary-600 transition">
-                      {office.email}
-                    </a>
-                  </p>
+                  <div className="space-y-1">
+                    {office.emails.map((email, emailIndex) => (
+                      <p key={emailIndex} className="flex items-center space-x-2">
+                        <FaEnvelope className="flex-shrink-0 text-gray-400" />
+                        <a href={`mailto:${email}`} className="hover:text-primary-600 transition">
+                          {email}
+                        </a>
+                      </p>
+                    ))}
+                  </div>
                 </div>
               </motion.div>
             ))}

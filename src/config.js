@@ -11,12 +11,12 @@ const config = {
   },
   
   contact: {
-    phone: "+91 75505 35555",
-    alternatePhone: "+91 75505 35555",
+    phone: "+91 97113 33620",
+    alternatePhone: "+91 97113 33620",
     email: "info@gyfholidays.com",
-    salesEmail: "info@gyfholidays.com",
-    supportEmail: "info@gyfholidays.com",
-    whatsapp: "+917550535555",
+    salesEmail: "sales@gyfholidays.com",
+    supportEmail: "support@gyfholidays.com",
+    whatsapp: "+919711333 620",
     address: {
       street: "Unit No 590, 5th Floor, Vegas Commercial Building, Plot No 6, Block - B",
       city: "Sector 14, Dwarka, New Delhi",
@@ -33,11 +33,9 @@ const config = {
   },
   
   social: {
-    facebook: "https://facebook.com/gyfholidays",
-    instagram: "https://instagram.com/gyfholidays",
-    twitter: "https://twitter.com/gyfholidays",
-    linkedin: "https://linkedin.com/company/gyfholidays",
-    youtube: "https://youtube.com/@gyfholidays",
+    facebook: "https://www.facebook.com/share/1ArdYJLyGC/",
+    instagram: "https://www.instagram.com/gyf32418?utm_source=qr&igsh=MWN5aXNseGJzbDZsZQ==",
+    youtube: "https://www.youtube.com/@GYF-u6h",
   },
   
   stats: {

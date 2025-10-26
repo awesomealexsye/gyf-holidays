@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaYoutube, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
 import config from '../config'
 
 const Footer = () => {
@@ -39,24 +39,6 @@ const Footer = () => {
                 aria-label="Instagram"
               >
                 <FaInstagram />
-              </a>
-              <a
-                href={config.social.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary-600 transition"
-                aria-label="Twitter"
-              >
-                <FaTwitter />
-              </a>
-              <a
-                href={config.social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary-600 transition"
-                aria-label="LinkedIn"
-              >
-                <FaLinkedinIn />
               </a>
               <a
                 href={config.social.youtube}
