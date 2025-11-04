@@ -69,7 +69,7 @@ const Navbar = () => {
                 <span className="gradient-primary bg-clip-text text-transparent">GYF</span>
                 <span className="text-secondary-600"> Holidays</span>
               </div>
-              <p style={{fontSize:15}} className="text-xs text-gray-600 font-medium mt-0.5 leading-tight">Explore beyond the map</p>
+              <p style={{fontSize:20, fontFamily: "'Satisfy', cursive", fontStyle: 'italic', fontWeight:700, letterSpacing: '0.09em', wordSpacing: '0.2em'}} className="text-xs text-gray-600 mt-0.5 leading-tight">Explore beyond the map</p>
             </Link>
 
             {/* Desktop Navigation */}
