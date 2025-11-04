@@ -269,19 +269,7 @@ Message: ${formData.message}`
         </div>
 
         {/* Submit Buttons */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <button
-            type="submit"
-            disabled={isSubmitting}
-            className={`py-4 px-6 rounded-lg font-semibold text-white transition-all ${
-              isSubmitting
-                ? 'bg-gray-400 cursor-not-allowed'
-                : 'gradient-primary hover:shadow-lg transform hover:-translate-y-0.5'
-            }`}
-          >
-            {isSubmitting ? 'Submitting...' : 'Submit Inquiry'}
-          </button>
-          
+        <div className="grid grid-cols-1 sm:grid-cols-1 gap-1">
           <button
             type="button"
             onClick={handleWhatsAppSubmit}

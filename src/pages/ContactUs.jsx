@@ -39,7 +39,7 @@ const ContactUs = () => {
     {
       city: 'New Delhi (Head Office)',
       address: 'Unit No 590, 5th Floor, Vegas Commercial Building, Plot No 6, Block - B, Sector 14, Dwarka',
-      phone: '+91 75505 35555',
+      phone: '+91 97113 33620',
       emails: ['info@gyfholidays.com', 'sales@gyfholidays.com', 'support@gyfholidays.com'],
     },
   ]
@@ -49,7 +49,7 @@ const ContactUs = () => {
       {/* Hero Section */}
       <Hero
         title="Get In Touch"
-        subtitle="We're here to help you create unforgettable travel experiences"
+        subtitle="GYF PLANNERS PVT LTD - We're here to help you create unforgettable travel experiences"
         backgroundImage="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&auto=format&fit=crop&q=80"
         showCTA={false}
         height="h-[400px]"

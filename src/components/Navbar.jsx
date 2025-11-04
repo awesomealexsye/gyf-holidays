@@ -62,13 +62,14 @@ const Navbar = () => {
         }`}
       >
         <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center h-20">
+          <div className="flex justify-between items-center py-3">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="text-3xl font-bold">
+            <Link to="/" className="flex flex-col">
+              <div className="text-3xl font-bold leading-tight">
                 <span className="gradient-primary bg-clip-text text-transparent">GYF</span>
                 <span className="text-secondary-600"> Holidays</span>
               </div>
+              <p style={{fontSize:15}} className="text-xs text-gray-600 font-medium mt-0.5 leading-tight">Explore beyond the map</p>
             </Link>
 
             {/* Desktop Navigation */}

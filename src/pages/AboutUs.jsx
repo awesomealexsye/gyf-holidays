@@ -86,7 +86,7 @@ const AboutUs = () => {
       {/* Hero Section */}
       <Hero
         title="About GYF Holidays"
-        subtitle="Your Trusted Partner in Creating Unforgettable Travel Experiences"
+        subtitle="GYF PLANNERS PVT LTD - Your Trusted Partner in Creating Unforgettable Travel Experiences"
         backgroundImage="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1920&auto=format&fit=crop&q=80"
         showCTA={false}
         height="h-[400px]"
