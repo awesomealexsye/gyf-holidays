@@ -67,7 +67,8 @@ Travel Date: ${formData.travelDate}
 Destination: ${formData.destination}
 Message: ${formData.message}`
 
-    const whatsappUrl = `https://wa.me/${config.contact.whatsapp}?text=${encodeURIComponent(message)}`
+    const whatsappNumber = config.contact.whatsapp.replace(/\D/g, '')
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
   }
 
@@ -273,7 +274,11 @@ Message: ${formData.message}`
           <button
             type="button"
             onClick={handleWhatsAppSubmit}
-            className="flex items-center justify-center space-x-2 py-4 px-6 bg-green-500 hover:bg-green-600 text-white rounded-lg font-semibold transition-all hover:shadow-lg transform hover:-translate-y-0.5"
+            disabled={!formData.name || !formData.email || !formData.phone || !formData.businessName || !formData.companyType}
+            className={`flex items-center justify-center space-x-2 py-4 px-6 rounded-lg font-semibold transition-all hover:shadow-lg transform hover:-translate-y-0.5 ${!formData.name || !formData.email || !formData.phone || !formData.businessName || !formData.companyType
+                ? 'bg-gray-300 text-gray-500 cursor-not-allowed hover:shadow-none hover:translate-y-0'
+                : 'bg-green-500 hover:bg-green-600 text-white'
+              }`}
           >
             <FaWhatsapp className="text-xl" />
             <span className="hidden sm:inline">Send on WhatsApp</span>
