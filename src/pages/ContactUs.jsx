@@ -42,6 +42,11 @@ const ContactUs = () => {
       phone: '+91 97113 33620',
       emails: ['info@gyfholidays.com', 'sales@gyfholidays.com', 'support@gyfholidays.com'],
     },
+    {
+      city: 'London - Mayfair',
+      address: 'Albemarle Street, Mayfair, London, W1S',
+      emails: ['info@gyfholidays.com', 'sales@gyfholidays.com', 'support@gyfholidays.com'],
+    },
   ]
 
   return (
@@ -190,7 +195,7 @@ const ContactUs = () => {
               Our Office Locations
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Visit us at any of our offices across India
+              Visit us at any of our offices across the globe
             </p>
           </motion.div>
 
@@ -213,12 +218,14 @@ const ContactUs = () => {
                     <FaMapMarkerAlt className="mt-1 flex-shrink-0 text-gray-400" />
                     <span>{office.address}</span>
                   </p>
-                  <p className="flex items-center space-x-2">
-                    <FaPhone className="flex-shrink-0 text-gray-400" />
-                    <a href={`tel:${office.phone}`} className="hover:text-primary-600 transition">
-                      {office.phone}
-                    </a>
-                  </p>
+                  {office.phone && (
+                    <p className="flex items-center space-x-2">
+                      <FaPhone className="flex-shrink-0 text-gray-400" />
+                      <a href={`tel:${office.phone}`} className="hover:text-primary-600 transition">
+                        {office.phone}
+                      </a>
+                    </p>
+                  )}
                   <div className="space-y-1">
                     {office.emails.map((email, emailIndex) => (
                       <p key={emailIndex} className="flex items-center space-x-2">
