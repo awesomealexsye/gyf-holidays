@@ -26,7 +26,7 @@ const Navbar = () => {
     { path: '/about', label: 'About Us' },
     { path: '/services', label: 'Services' },
     { path: '/destinations', label: 'Destinations' },
-    { path: '/news', label: 'News' },
+
     { path: '/contact', label: 'Contact Us' },
   ]
 
@@ -55,11 +55,10 @@ const Navbar = () => {
 
       {/* Main Navbar */}
       <nav
-        className={`sticky top-0 z-50 transition-all duration-300 ${
-          scrolled
+        className={`sticky top-0 z-50 transition-all duration-300 ${scrolled
             ? 'bg-white shadow-lg'
             : 'bg-white/95 backdrop-blur-sm'
-        }`}
+          }`}
       >
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center py-3">
@@ -69,7 +68,7 @@ const Navbar = () => {
                 <span className="gradient-primary bg-clip-text text-transparent">GYF</span>
                 <span className="text-secondary-600"> Holidays</span>
               </div>
-              <p style={{fontSize:20, fontFamily: "'Satisfy', cursive", fontStyle: 'italic', fontWeight:700, letterSpacing: '0.09em', wordSpacing: '0.2em'}} className="text-xs text-gray-600 mt-0.5 leading-tight">Explore beyond the map</p>
+              <p style={{ fontSize: 20, fontFamily: "'Satisfy', cursive", fontStyle: 'italic', fontWeight: 700, letterSpacing: '0.09em', wordSpacing: '0.2em' }} className="text-xs text-gray-600 mt-0.5 leading-tight">Explore beyond the map</p>
             </Link>
 
             {/* Desktop Navigation */}
@@ -78,11 +77,10 @@ const Navbar = () => {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`px-4 py-2 rounded-lg font-medium transition-all ${
-                    location.pathname === link.path
+                  className={`px-4 py-2 rounded-lg font-medium transition-all ${location.pathname === link.path
                       ? 'text-primary-600 bg-primary-50'
                       : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
-                  }`}
+                    }`}
                 >
                   {link.label}
                 </Link>
@@ -123,11 +121,10 @@ const Navbar = () => {
                   <Link
                     key={link.path}
                     to={link.path}
-                    className={`block px-4 py-3 rounded-lg font-medium transition-all ${
-                      location.pathname === link.path
+                    className={`block px-4 py-3 rounded-lg font-medium transition-all ${location.pathname === link.path
                         ? 'text-primary-600 bg-primary-50'
                         : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
-                    }`}
+                      }`}
                   >
                     {link.label}
                   </Link>

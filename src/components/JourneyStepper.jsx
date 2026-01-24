@@ -7,7 +7,7 @@ const JourneyStepper = () => {
             icon: FaSuitcase,
             title: 'Preparation',
             description: 'Receive your personalized itinerary, travel documents, and expert tips for a smooth departure.',
-            details: ['Itinerary Finalization', 'Visa Assistance', 'Packing Guide']
+            details: ['Itinerary Finalization', 'Packing Guide']
         },
         {
             icon: FaMapMarkedAlt,

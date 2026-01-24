@@ -68,9 +68,7 @@ const Footer = () => {
               <li>
                 <Link to="/destinations" className="hover:text-primary-400 transition">Destinations</Link>
               </li>
-              <li>
-                <Link to="/news" className="hover:text-primary-400 transition">News & Blog</Link>
-              </li>
+
               <li>
                 <Link to="/contact" className="hover:text-primary-400 transition">Contact Us</Link>
               </li>
@@ -85,7 +83,6 @@ const Footer = () => {
               <li className="hover:text-primary-400 transition">Group Bookings</li>
               <li className="hover:text-primary-400 transition">Customized Packages</li>
               <li className="hover:text-primary-400 transition">Event Management</li>
-              <li className="hover:text-primary-400 transition">Visa Assistance</li>
               <li className="hover:text-primary-400 transition">Travel Consultation</li>
             </ul>
           </div>

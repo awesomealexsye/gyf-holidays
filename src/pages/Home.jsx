@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom'
 import { FaPlane, FaUsers, FaGlobe, FaHandshake, FaAward, FaClock, FaStar, FaQuoteLeft } from 'react-icons/fa'
 import Hero from '../components/Hero'
 import ContactForm from '../components/ContactForm'
-import NewsCard from '../components/NewsCard'
 import config from '../config'
-import newsData from '../data/news.json'
 import categories from '../data/categories.json'
 import Process from '../components/Process'
 import JourneyStepper from '../components/JourneyStepper'
@@ -305,39 +303,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Latest News */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Latest News & Insights
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Stay updated with the latest travel trends and tips
-            </p>
-          </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {newsData.slice(0, 3).map((article, index) => (
-              <NewsCard key={article.id} article={article} index={index} />
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <Link
-              to="/news"
-              className="inline-block px-8 py-4 gradient-primary text-white rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all"
-            >
-              View All News
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* Process Section */}
       <Process />

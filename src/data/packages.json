@@ -544,5 +544,232 @@
                 "description": "Check out from the hotel and private transfer to Budapest Airport for your onward journey."
             }
         ]
+    },
+    {
+        "id": "austria-explorer",
+        "categoryId": "uk-ireland-scotland",
+        "name": "Austria Explorer – Vienna, Salzburg & Innsbruck",
+        "destination": "Vienna • Salzburg • Hallstatt • Innsbruck",
+        "duration": "08 Days / 07 Nights",
+        "description": "Explore the imperial beauty of Austria, from the vibrant streets of Vienna to the stunning Alpine landscapes of Salzburg and Innsbruck.",
+        "highlights": [
+            "Centrally located hotel stays",
+            "Vienna City Tour & Schönbrunn Palace (Skip-the-line)",
+            "Salzburg guided walking tour",
+            "Full-day excursion to Hallstatt",
+            "Swarovski Crystal Worlds visit",
+            "Scenic intercity train journeys"
+        ],
+        "image": "/pictures/london/london.png",
+        "gallery": [
+            "/pictures/london/london.png"
+        ],
+        "itinerary": [
+            {
+                "day": "Day 1",
+                "title": "Arrival in Vienna",
+                "description": "Arrival at Vienna International Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure or short stroll around the city centre. Overnight stay in Vienna."
+            },
+            {
+                "day": "Day 2",
+                "title": "Vienna City Tour & Schönbrunn Palace",
+                "description": "Enjoy a full-day guided sightseeing tour of Vienna by bus. Visit attractions like Hofburg Palace, St. Stephen’s Cathedral, and Belvedere Palace. Skip-the-line tickets to Schönbrunn Palace included. Evening free to explore Vienna’s vibrant cafes. Overnight stay in Vienna."
+            },
+            {
+                "day": "Day 3",
+                "title": "Vienna to Salzburg",
+                "description": "Check out from Vienna and travel to Salzburg by train. Guided walking tour of Salzburg, visiting Mozart’s Birthplace, Mirabell Gardens, and Salzburg Cathedral. Evening at leisure. Overnight stay in Salzburg."
+            },
+            {
+                "day": "Day 4",
+                "title": "Day Trip to Hallstatt",
+                "description": "Full-day excursion to the picturesque village of Hallstatt. Explore the lakefront and enjoy panoramic views. Return to Salzburg in the evening. Overnight stay in Salzburg."
+            },
+            {
+                "day": "Day 5",
+                "title": "Salzburg to Innsbruck",
+                "description": "Check out from Salzburg and travel to Innsbruck by train. Overnight stay in Innsbruck."
+            },
+            {
+                "day": "Day 6",
+                "title": "Swarovski Crystal World",
+                "description": "Visit Swarovski Crystal Worlds in Wattens with Shuttle bus and tickets. Enjoy stunning Alpine scenery and unique experiences. Overnight stay in Innsbruck."
+            },
+            {
+                "day": "Day 7",
+                "title": "Innsbruck to Vienna",
+                "description": "Check out from Innsbruck and return to Vienna by train. Evening free for last-minute shopping or a stroll around Ringstrasse. Overnight stay in Vienna."
+            },
+            {
+                "day": "Day 8",
+                "title": "Departure from Vienna",
+                "description": "Check out from the hotel and private transfer to Vienna Airport for your onward journey."
+            }
+        ]
+    },
+    {
+        "id": "london-explorer",
+        "categoryId": "uk-ireland-scotland",
+        "name": "London Explorer – Iconic Sights & Magical Experiences",
+        "destination": "London, United Kingdom",
+        "duration": "05 Days / 04 Nights",
+        "description": "Discover the best of London with this comprehensive explorer package, featuring iconic landmarks, Thames cruises, and the magical world of Harry Potter.",
+        "highlights": [
+            "Private airport transfers",
+            "London Hop-On Hop-Off City Tour (24 Hours)",
+            "Thames River sightseeing cruise",
+            "London Eye entry ticket",
+            "Warner Bros. Studio Tour – The Making of Harry Potter",
+            "Full-day guided tour to Windsor, Stonehenge & Bath"
+        ],
+        "image": "/pictures/london/london.png",
+        "gallery": [
+            "/pictures/london/london.png"
+        ],
+        "itinerary": [
+            {
+                "day": "Day 1",
+                "title": "Arrival in London",
+                "description": "Arrival at London Heathrow Airport and private transfer to your hotel. Rest of the day free for leisure or a stroll around the city. Overnight stay in London."
+            },
+            {
+                "day": "Day 2",
+                "title": "London City Tour & Thames Cruise",
+                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of London. Visit major attractions such as Tower of London, Buckingham Palace, and Westminster Abbey. Included London Eye entry ticket and a one-way Thames River sightseeing cruise. Overnight stay in London."
+            },
+            {
+                "day": "Day 3",
+                "title": "Warner Bros. Studio Tour – The Making of Harry Potter",
+                "description": "Full-day excursion to Warner Bros. Studio. Explore the magical sets, props, and behind-the-scenes of Harry Potter. Return to London in the evening. Overnight stay in London."
+            },
+            {
+                "day": "Day 4",
+                "title": "Day Trip to Windsor, Stonehenge & Bath",
+                "description": "Full-day guided tour to Windsor, Stonehenge, and Bath. Optional entry tickets for local attractions can be added. Return to London in the evening. Overnight stay in London."
+            },
+            {
+                "day": "Day 5",
+                "title": "Departure from London",
+                "description": "Check out from the hotel and private transfer to London Heathrow Airport for your onward journey."
+            }
+        ]
+    },
+    {
+        "id": "london-to-highlands",
+        "categoryId": "uk-ireland-scotland",
+        "name": "From London Landmarks to Scottish Highlands",
+        "destination": "London & Edinburgh, United Kingdom",
+        "duration": "08 Days / 07 Nights",
+        "description": "Experience the contrast between the bustling city of London and the historic charm of Edinburgh, including the legendary Scottish Highlands.",
+        "highlights": [
+            "London & Edinburgh Hop-On Hop-Off tours",
+            "Thames River sightseeing cruise",
+            "Warner Bros. Studio Tour – The Making of Harry Potter",
+            "Windsor, Stonehenge & Bath excursion",
+            "Scenic train journey from London to Edinburgh",
+            "Full-day excursion to Loch Ness & Scottish Highlands"
+        ],
+        "image": "/pictures/london/london.png",
+        "gallery": [
+            "/pictures/london/london.png"
+        ],
+        "itinerary": [
+            {
+                "day": "Day 1",
+                "title": "Arrival in London",
+                "description": "Arrival at London Heathrow Airport and private transfer to your hotel. Rest of the day free for leisure or a stroll around the city. Overnight stay in London."
+            },
+            {
+                "day": "Day 2",
+                "title": "London City Tour & Thames Cruise",
+                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of London. Visit major attractions such as Tower of London, Buckingham Palace, and Westminster Abbey. Included London Eye entry ticket and a one-way Thames River sightseeing cruise. Overnight stay in London."
+            },
+            {
+                "day": "Day 3",
+                "title": "Warner Bros. Studio Tour – The Making of Harry Potter",
+                "description": "Full-day excursion to Warner Bros. Studio. Explore the magical sets, props, and behind-the-scenes of Harry Potter. Return to London in the evening. Overnight stay in London."
+            },
+            {
+                "day": "Day 4",
+                "title": "Day Trip to Windsor, Stonehenge & Bath",
+                "description": "Full-day guided tour to Windsor, Stonehenge, and Bath. Optional entry tickets for local attractions can be added. Return to London in the evening. Overnight stay in London."
+            },
+            {
+                "day": "Day 5",
+                "title": "London to Edinburgh",
+                "description": "Check out from the hotel and travel from London to Edinburgh by train. Arrival in Edinburgh and check-in at the hotel. Evening free to explore the historic city streets. Overnight stay in Edinburgh."
+            },
+            {
+                "day": "Day 6",
+                "title": "Edinburgh City Exploration",
+                "description": "Edinburgh Hop on Hop off, visiting Edinburgh Castle, Royal Mile, and Holyrood Palace. Evening at leisure to enjoy local Scottish cuisine or city views. Overnight stay in Edinburgh."
+            },
+            {
+                "day": "Day 7",
+                "title": "Day Trip to Loch Ness & Scottish Highlands",
+                "description": "Full-day excursion to the legendary Loch Ness and the scenic Scottish Highlands. Enjoy breathtaking landscapes, picturesque villages, and the chance to spot Nessie! Return to Edinburgh in the evening. Overnight stay in Edinburgh."
+            },
+            {
+                "day": "Day 8",
+                "title": "Departure from Edinburgh",
+                "description": "Check out from the hotel and private transfer to Edinburgh Airport for your onward journey."
+            }
+        ]
+    },
+    {
+        "id": "croatia-adriatic-wonders",
+        "categoryId": "uk-ireland-scotland",
+        "name": "Plitvice, Islands & Adriatic Wonders – Croatia Tour",
+        "destination": "Zagreb • Plitvice • Split • Hvar • Dubrovnik",
+        "duration": "07 Days / 06 Nights",
+        "description": "Experience the natural wonders and historic coastal cities of Croatia, from the cascading waterfalls of Plitvice Lakes to the stunning islands of the Adriatic.",
+        "highlights": [
+            "Private transfer in Zagreb & Dubrovnik",
+            "Full-day excursion to Plitvice Lakes & Rastoke Village",
+            "Island hopping adventure by speedboat (Hvar & Blue Cave)",
+            "Scenic ferry journey from Split to Dubrovnik",
+            "Guided walking tour of Dubrovnik’s Old Town & Walls"
+        ],
+        "image": "/pictures/london/london.png",
+        "gallery": [
+            "/pictures/london/london.png"
+        ],
+        "itinerary": [
+            {
+                "day": "Day 1",
+                "title": "Arrival in Zagreb",
+                "description": "Arrival at Zagreb Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure or explore the city centre. Overnight stay in Zagreb."
+            },
+            {
+                "day": "Day 2",
+                "title": "Plitvice Lakes & Rastoke Village",
+                "description": "Full-day excursion to Plitvice Lakes National Park, a UNESCO World Heritage Site known for its cascading lakes and waterfalls. Visit Rastoke Village, famous for its charming watermills and riverside views. Return to Zagreb in the evening. Overnight stay in Zagreb."
+            },
+            {
+                "day": "Day 3",
+                "title": "Zagreb to Split",
+                "description": "Check out from your hotel and travel from Zagreb to Split by train, bus, or private transfer. Arrival in Split and check-in at the hotel. Evening free to explore Split’s historic centre and waterfront promenade. Overnight stay in Split."
+            },
+            {
+                "day": "Day 4",
+                "title": "Island Hopping Adventure",
+                "description": "Full-day excursion by speedboat to Blue Island, Hvar Island, and 5 nearby islands. Enjoy swimming, sunbathing, and exploring the islands’ scenic beaches and villages. Return to Split in the evening. Overnight stay in Split."
+            },
+            {
+                "day": "Day 5",
+                "title": "Split to Dubrovnik",
+                "description": "Check out from Split and travel to Dubrovnik by ferry. Arrival in Dubrovnik and check-in at the hotel. Evening at leisure to explore the Old Town or stroll along the Stradun. Overnight stay in Dubrovnik."
+            },
+            {
+                "day": "Day 6",
+                "title": "Dubrovnik City Tour & City Walls",
+                "description": "Guided walking tour of Dubrovnik’s historic Old Town. Walk along the famous city walls and enjoy panoramic views of the Adriatic Sea and red-tiled rooftops. Evening free for leisure. Overnight stay in Dubrovnik."
+            },
+            {
+                "day": "Day 7",
+                "title": "Departure from Dubrovnik",
+                "description": "Check out from your hotel and private transfer to Dubrovnik Airport for your onward journey."
+            }
+        ]
     }
 ]

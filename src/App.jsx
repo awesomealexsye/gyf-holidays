@@ -8,8 +8,6 @@ import AboutUs from './pages/AboutUs'
 import Services from './pages/Services'
 import Destination from './pages/Destination'
 import ContactUs from './pages/ContactUs'
-import News from './pages/News'
-import NewsDetails from './pages/NewsDetails'
 import PackageCategory from './pages/PackageCategory'
 import PackageDetails from './pages/PackageDetails'
 
@@ -24,8 +22,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/destinations" element={<Destination />} />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/news/:newsId" element={<NewsDetails />} />
+
           <Route path="/packages/:categoryId" element={<PackageCategory />} />
           <Route path="/package/:packageId" element={<PackageDetails />} />
         </Routes>
