@@ -1,13 +1,12 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { 
-  FaPlane, 
-  FaUsers, 
-  FaCog, 
-  FaCalendarAlt, 
-  FaPassport, 
-  FaHeadset, 
-  FaHotel, 
+import {
+  FaPlane,
+  FaUsers,
+  FaCog,
+  FaCalendarAlt,
+  FaHeadset,
+  FaHotel,
   FaBus,
   FaUmbrellaBeach,
   FaGlobe,
@@ -15,6 +14,7 @@ import {
   FaCheckCircle
 } from 'react-icons/fa'
 import Hero from '../components/Hero'
+import Process from '../components/Process'
 
 const Services = () => {
   const mainServices = [
@@ -71,19 +71,6 @@ const Services = () => {
       color: 'bg-orange-500',
     },
     {
-      icon: FaPassport,
-      title: 'Visa Assistance',
-      description: 'Expert visa consultation and application support for international travel. Our team stays updated with the latest visa requirements and processes to ensure smooth documentation for all destinations.',
-      features: [
-        'Visa requirement analysis',
-        'Document preparation',
-        'Application assistance',
-        'Embassy coordination',
-        'Status tracking',
-      ],
-      color: 'bg-red-500',
-    },
-    {
       icon: FaHeadset,
       title: 'Travel Consultation',
       description: 'Expert travel advice and consultation services to help you make informed decisions. Our experienced consultants provide insights on destinations, timing, budgets, and best practices for business travel.',
@@ -104,35 +91,6 @@ const Services = () => {
     { icon: FaUmbrellaBeach, title: 'Leisure Packages', description: 'Vacation and holiday packages' },
     { icon: FaGlobe, title: 'International Tours', description: 'Global destination expertise' },
     { icon: FaHandshake, title: 'Travel Insurance', description: 'Comprehensive coverage options' },
-    { icon: FaCheckCircle, title: 'Travel Documentation', description: 'Complete documentation support' },
-  ]
-
-  const processSteps = [
-    {
-      number: '01',
-      title: 'Inquiry',
-      description: 'Share your travel requirements with us',
-    },
-    {
-      number: '02',
-      title: 'Consultation',
-      description: 'Our experts discuss options and customize solutions',
-    },
-    {
-      number: '03',
-      title: 'Proposal',
-      description: 'Receive detailed itinerary and pricing',
-    },
-    {
-      number: '04',
-      title: 'Booking',
-      description: 'Confirm and finalize your travel arrangements',
-    },
-    {
-      number: '05',
-      title: 'Support',
-      description: 'Enjoy 24/7 assistance throughout your journey',
-    },
   ]
 
   return (
@@ -171,9 +129,8 @@ const Services = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className={`bg-white rounded-2xl shadow-xl overflow-hidden ${
-                  index % 2 === 0 ? '' : ''
-                }`}
+                className={`bg-white rounded-2xl shadow-xl overflow-hidden ${index % 2 === 0 ? '' : ''
+                  }`}
               >
                 <div className={`grid grid-cols-1 ${index % 2 === 0 ? 'lg:grid-cols-2' : 'lg:grid-cols-2'} gap-0`}>
                   <div className={`p-8 md:p-12 ${index % 2 === 0 ? '' : 'lg:order-2'}`}>
@@ -244,47 +201,7 @@ const Services = () => {
       </section>
 
       {/* Process Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Process
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Simple, transparent, and efficient - here's how we work
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-            {processSteps.map((step, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="relative text-center"
-              >
-                <div className="mb-6">
-                  <div className="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center mx-auto text-white text-2xl font-bold">
-                    {step.number}
-                  </div>
-                  {index < processSteps.length - 1 && (
-                    <div className="hidden md:block absolute top-10 left-1/2 w-full h-1 bg-primary-200"></div>
-                  )}
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{step.title}</h3>
-                <p className="text-gray-600">{step.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Process />
 
       {/* CTA Section */}
       <section className="py-20 gradient-hero">

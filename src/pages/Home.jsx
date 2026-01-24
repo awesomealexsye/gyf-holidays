@@ -6,6 +6,9 @@ import ContactForm from '../components/ContactForm'
 import NewsCard from '../components/NewsCard'
 import config from '../config'
 import newsData from '../data/news.json'
+import categories from '../data/categories.json'
+import Process from '../components/Process'
+import JourneyStepper from '../components/JourneyStepper'
 
 const Home = () => {
   const services = [
@@ -35,38 +38,7 @@ const Home = () => {
     },
   ]
 
-  const destinations = [
-    {
-      name: 'Bali, Indonesia',
-      image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&auto=format&fit=crop&q=80',
-      tours: '25+ Tours',
-    },
-    {
-      name: 'Dubai, UAE',
-      image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&auto=format&fit=crop&q=80',
-      tours: '30+ Tours',
-    },
-    {
-      name: 'Paris, France',
-      image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&auto=format&fit=crop&q=80',
-      tours: '20+ Tours',
-    },
-    {
-      name: 'Maldives',
-      image: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=600&auto=format&fit=crop&q=80',
-      tours: '15+ Tours',
-    },
-    {
-      name: 'Switzerland',
-      image: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=600&auto=format&fit=crop&q=80',
-      tours: '18+ Tours',
-    },
-    {
-      name: 'Thailand',
-      image: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=600&auto=format&fit=crop&q=80',
-      tours: '35+ Tours',
-    },
-  ]
+  const featuredCategories = categories
 
   const testimonials = [
     {
@@ -205,32 +177,37 @@ const Home = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Popular Destinations
+              Tour Packages
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Explore our handpicked destinations perfect for corporate trips and group travel
+              Choose from our most popular tour categories and discover amazing travel experiences
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {destinations.map((destination, index) => (
+            {featuredCategories.map((category, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="relative group overflow-hidden rounded-xl shadow-lg h-80 cursor-pointer"
+                className="relative group overflow-hidden rounded-2xl shadow-lg h-96 cursor-pointer"
               >
-                <img
-                  src={destination.image}
-                  alt={destination.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
-                  <h3 className="text-white text-2xl font-bold mb-2">{destination.name}</h3>
-                  <p className="text-white/90">{destination.tours}</p>
-                </div>
+                <Link to={`/packages/${category.id}`}>
+                  <img
+                    src={category.image}
+                    alt={category.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex flex-col justify-end p-8">
+                    <h3 className="text-white text-3xl font-bold mb-3">{category.name}</h3>
+                    <p className="text-white/80 line-clamp-2 mb-4">{category.description}</p>
+                    <span className="inline-block w-fit px-6 py-2 bg-primary-600 text-white rounded-full text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-4 group-hover:translate-y-0 duration-300">
+                      View Packages
+                    </span>
+                  </div>
+                </Link>
               </motion.div>
             ))}
           </div>
@@ -238,9 +215,9 @@ const Home = () => {
           <div className="text-center mt-12">
             <Link
               to="/destinations"
-              className="inline-block px-8 py-4 gradient-secondary text-white rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all"
+              className="inline-block px-8 py-4 bg-gray-900 text-white rounded-lg font-semibold hover:bg-gray-800 transform hover:-translate-y-1 transition-all shadow-lg"
             >
-              Explore All Destinations
+              Explore All Regions
             </Link>
           </div>
         </div>
@@ -361,6 +338,12 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Process Section */}
+      <Process />
+
+      {/* Journey Stepper Section */}
+      <JourneyStepper />
 
       {/* Contact Form Section */}
       <section className="py-20">

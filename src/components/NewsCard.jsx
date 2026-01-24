@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { FaCalendar, FaTag } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const NewsCard = ({ article, index = 0 }) => {
   return (
@@ -37,7 +38,10 @@ const NewsCard = ({ article, index = 0 }) => {
           {article.excerpt}
         </p>
 
-        <button className="text-primary-600 font-semibold hover:text-primary-700 flex items-center transition-colors">
+        <Link
+          to={`/news/${article.id}`}
+          className="text-primary-600 font-semibold hover:text-primary-700 flex items-center transition-colors"
+        >
           Read More
           <svg
             className="w-4 h-4 ml-2 transform group-hover:translate-x-2 transition-transform"
@@ -47,7 +51,7 @@ const NewsCard = ({ article, index = 0 }) => {
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
-        </button>
+        </Link>
       </div>
     </motion.div>
   )
