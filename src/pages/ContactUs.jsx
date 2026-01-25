@@ -30,7 +30,7 @@ const ContactUs = () => {
     {
       icon: FaClock,
       title: 'Business Hours',
-      details: [config.businessHours.weekdays, config.businessHours.saturday],
+      details: [config.businessHours.weekdays, config.businessHours.sunday],
       color: 'bg-orange-500',
     },
   ]

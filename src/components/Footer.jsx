@@ -113,7 +113,6 @@ const Footer = () => {
             <div className="mt-4">
               <h5 className="text-white font-semibold mb-2">Business Hours</h5>
               <p className="text-sm text-gray-400">{config.businessHours.weekdays}</p>
-              <p className="text-sm text-gray-400">{config.businessHours.saturday}</p>
               <p className="text-sm text-gray-400">{config.businessHours.sunday}</p>
             </div>
           </div>

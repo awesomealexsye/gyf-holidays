@@ -54,22 +54,33 @@ const ContactForm = ({ title = "Send Us an Inquiry", compact = false }) => {
     }, 1500)
   }
 
-  const handleWhatsAppSubmit = () => {
-    const message = `Hello! I'm interested in your travel packages.
+  const handleEmailSubmit = () => {
+    const subject = `Travel Inquiry from ${formData.name} - ${formData.businessName}`
+    const body = `Hello GYF Holidays,
+
+I have a new travel inquiry. Here are the details:
 
 Name: ${formData.name}
 Email: ${formData.email}
 Phone: ${formData.phone}
 Business: ${formData.businessName}
 Company Type: ${formData.companyType}
-Travelers: ${formData.numberOfTravelers}
-Travel Date: ${formData.travelDate}
-Destination: ${formData.destination}
-Message: ${formData.message}`
+Number of Travelers: ${formData.numberOfTravelers || 'N/A'}
+Preferred Travel Date: ${formData.travelDate || 'N/A'}
+Destination of Interest: ${formData.destination || 'N/A'}
 
-    const whatsappNumber = config.contact.whatsapp.replace(/\D/g, '')
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
-    window.open(whatsappUrl, '_blank')
+Special Requirements:
+${formData.message || 'No additional requirements specified.'}
+
+Regards,
+${formData.name}`
+
+    const mailtoUrl = `mailto:${config.contact.salesEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    window.location.href = mailtoUrl
+
+    // Show success message locally
+    setShowSuccess(true)
+    setTimeout(() => setShowSuccess(false), 5000)
   }
 
   const companyTypes = [
@@ -90,11 +101,11 @@ Message: ${formData.message}`
           animate={{ opacity: 1, y: 0 }}
           className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800"
         >
-          Thank you for your inquiry! We'll get back to you within 24 hours.
+          Thank you! Your email client has been opened with your inquiry.
         </motion.div>
       )}
 
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={(e) => { e.preventDefault(); handleEmailSubmit(); }} className="space-y-4">
         <div className={`grid ${compact ? 'grid-cols-1' : 'grid-cols-1 md:grid-cols-2'} gap-4`}>
           {/* Name */}
           <div>
@@ -272,17 +283,16 @@ Message: ${formData.message}`
         {/* Submit Buttons */}
         <div className="grid grid-cols-1 sm:grid-cols-1 gap-1">
           <button
-            type="button"
-            onClick={handleWhatsAppSubmit}
+            type="submit"
             disabled={!formData.name || !formData.email || !formData.phone || !formData.businessName || !formData.companyType}
             className={`flex items-center justify-center space-x-2 py-4 px-6 rounded-lg font-semibold transition-all hover:shadow-lg transform hover:-translate-y-0.5 ${!formData.name || !formData.email || !formData.phone || !formData.businessName || !formData.companyType
-                ? 'bg-gray-300 text-gray-500 cursor-not-allowed hover:shadow-none hover:translate-y-0'
-                : 'bg-green-500 hover:bg-green-600 text-white'
+              ? 'bg-gray-300 text-gray-500 cursor-not-allowed hover:shadow-none hover:translate-y-0'
+              : 'bg-primary-600 hover:bg-primary-700 text-white'
               }`}
           >
-            <FaWhatsapp className="text-xl" />
-            <span className="hidden sm:inline">Send on WhatsApp</span>
-            <span className="sm:hidden">WhatsApp</span>
+            <FaEnvelope className="text-xl" />
+            <span className="hidden sm:inline">Send Inquiry via Email</span>
+            <span className="sm:hidden">Send Email</span>
           </button>
         </div>
       </form>
