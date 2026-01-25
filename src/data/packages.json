@@ -505,7 +505,7 @@
             "Imperial landmarks & historic streets",
             "Prague Castle guided tour"
         ],
-        "image": "https://images.unsplash.com/photo-1541943181603-d8fe267a5dcf?w=800&auto=format&fit=crop&q=80",
+        "image": "/pictures/uk-ireland/eastern-europe-highlights.jpeg",
         "gallery": [],
         "itinerary": [
             {
@@ -547,7 +547,7 @@
     },
     {
         "id": "austria-explorer",
-        "categoryId": "uk-ireland-scotland",
+        "categoryId": "europe-package",
         "name": "Austria Explorer – Vienna, Salzburg & Innsbruck",
         "destination": "Vienna • Salzburg • Hallstatt • Innsbruck",
         "duration": "08 Days / 07 Nights",
@@ -560,9 +560,9 @@
             "Swarovski Crystal Worlds visit",
             "Scenic intercity train journeys"
         ],
-        "image": "/pictures/london/london.png",
+        "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&auto=format&fit=crop&q=80",
         "gallery": [
-            "/pictures/london/london.png"
+            "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&auto=format&fit=crop&q=80"
         ],
         "itinerary": [
             {
@@ -622,9 +622,9 @@
             "Warner Bros. Studio Tour – The Making of Harry Potter",
             "Full-day guided tour to Windsor, Stonehenge & Bath"
         ],
-        "image": "/pictures/london/london.png",
+        "image": "/pictures/london/LondonExplorerIconicSights-MagicalExperiences.jpeg",
         "gallery": [
-            "/pictures/london/london.png"
+            "/pictures/london/LondonExplorerIconicSights-MagicalExperiences.jpeg"
         ],
         "itinerary": [
             {
@@ -669,9 +669,9 @@
             "Scenic train journey from London to Edinburgh",
             "Full-day excursion to Loch Ness & Scottish Highlands"
         ],
-        "image": "/pictures/london/london.png",
+        "image": "/pictures/london/From london-landmarkstoscottishhighlands.jpeg",
         "gallery": [
-            "/pictures/london/london.png"
+            "/pictures/london/From london-landmarkstoscottishhighlands.jpeg"
         ],
         "itinerary": [
             {
@@ -718,7 +718,7 @@
     },
     {
         "id": "croatia-adriatic-wonders",
-        "categoryId": "uk-ireland-scotland",
+        "categoryId": "europe-package",
         "name": "Plitvice, Islands & Adriatic Wonders – Croatia Tour",
         "destination": "Zagreb • Plitvice • Split • Hvar • Dubrovnik",
         "duration": "07 Days / 06 Nights",
@@ -730,9 +730,9 @@
             "Scenic ferry journey from Split to Dubrovnik",
             "Guided walking tour of Dubrovnik’s Old Town & Walls"
         ],
-        "image": "/pictures/london/london.png",
+        "image": "/pictures/crotia-package/img1.jpeg",
         "gallery": [
-            "/pictures/london/london.png"
+            "/pictures/crotia-package/img1.jpeg"
         ],
         "itinerary": [
             {
@@ -769,6 +769,115 @@
                 "day": "Day 7",
                 "title": "Departure from Dubrovnik",
                 "description": "Check out from your hotel and private transfer to Dubrovnik Airport for your onward journey."
+            }
+        ]
+    },
+    {
+        "id": "scotland-explorer",
+        "categoryId": "uk-ireland-scotland",
+        "name": "Scotland Explorer – Castles, Lakes & Highlands",
+        "destination": "Edinburgh • Glasgow • Inverness",
+        "duration": "07 Days / 06 Nights",
+        "description": "Discover the best of Scotland with this explorer package, featuring iconic castles, stunning lakes, and the majestic Highlands.",
+        "highlights": [
+            "Edinburgh Castle tickets",
+            "Edinburgh Hop on Hop off city bus tour",
+            "Loch Lomond & The Trossachs National Park excursion",
+            "Isle of Skye and Eilean Donan Castle Tour",
+            "Scenic Highland landscapes",
+            "Private airport transfers"
+        ],
+        "image": "/pictures/scotland-explorere/scotland-explorer.jpeg",
+        "gallery": [
+            "/pictures/scotland-explorere/scotland-explorer.jpeg"
+        ],
+        "itinerary": [
+            {
+                "day": "Day 1",
+                "title": "Arrival in Edinburgh",
+                "description": "Arrival at Edinburgh Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure or a stroll along the Royal Mile. Overnight stay in Edinburgh."
+            },
+            {
+                "day": "Day 2",
+                "title": "Edinburgh City Tour",
+                "description": "Edinburgh Hop on Hop off city bus tour & Edinburgh Castle tickets. Visit: Edinburgh Castle, Royal Mile, Holyrood Palace, Princes Street Gardens. Evening free at leisure. Overnight stay in Edinburgh."
+            },
+            {
+                "day": "Day 3",
+                "title": "Edinburgh to Glasgow",
+                "description": "Check out from the hotel and travel from Edinburgh to Glasgow by train or private transfer. Arrival in Glasgow and check-in at the hotel. Explore Glasgow city highlights: George Square, Glasgow Cathedral, River Clyde waterfront. Evening free for shopping or leisure. Overnight stay in Glasgow."
+            },
+            {
+                "day": "Day 4",
+                "title": "Loch Lomond & The Trossachs National Park",
+                "description": "Full-day excursion to Loch Lomond & The Trossachs National Park. Enjoy scenic landscapes, lakes, and charming villages. Return to Glasgow in the evening. Overnight stay in Glasgow."
+            },
+            {
+                "day": "Day 5",
+                "title": "Glasgow to Inverness (Scottish Highlands)",
+                "description": "Check out from Glasgow and travel to Inverness, the capital of the Scottish Highlands. En route, enjoy scenic Highland landscapes and photo stops. Arrival in Inverness and check-in at the hotel. Evening free to explore the city. Overnight stay in Inverness."
+            },
+            {
+                "day": "Day 6",
+                "title": "Isle of Skye and Eilean Donan Castle Tour",
+                "description": "Discover the natural beauty of Scotland's Highlands and the Isle of Skye. Return to Inverness in the evening. Overnight stay in Inverness."
+            },
+            {
+                "day": "Day 7",
+                "title": "Departure from Inverness",
+                "description": "Check out from the hotel and transfer to Inverness Airport for your onward journey."
+            }
+        ]
+    },
+    {
+        "id": "giants-castles-ireland",
+        "categoryId": "uk-ireland-scotland",
+        "name": "Giants, Castles & Culture – Ireland Tour",
+        "destination": "Belfast • Dublin",
+        "duration": "06 Days / 05 Nights",
+        "description": "Explore the wonders of Northern Ireland and the Republic of Ireland, from the Giant's Causeway to the vibrant city of Dublin.",
+        "highlights": [
+            "Giant’s Causeway (UNESCO World Heritage Site)",
+            "Game of Thrones filming locations tour",
+            "Belfast HOHO city bus tour",
+            "Dublin HOHO city bus tour",
+            "Guinness Storehouse entry ticket",
+            "Private airport transfers"
+        ],
+        "image": "/pictures/scotland-explorere/giant-castle.jpeg",
+        "gallery": [
+            "/pictures/scotland-explorere/giant-castle.jpeg"
+        ],
+        "itinerary": [
+            {
+                "day": "Day 1",
+                "title": "Arrival in Belfast",
+                "description": "Arrival at Belfast Airport. Meet & greet and private transfer to your hotel. Rest of the day free at leisure. Overnight stay in Belfast."
+            },
+            {
+                "day": "Day 2",
+                "title": "Belfast City Tour",
+                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Belfast. Explore major attractions at your own pace, including City Hall, Titanic Quarter, and the Peace Walls. Overnight stay in Belfast."
+            },
+            {
+                "day": "Day 3",
+                "title": "Giant’s Causeway & Game of Thrones Tour",
+                "description": "Full-day guided excursion to the spectacular Giant’s Causeway, a UNESCO World Heritage Site. Visit famous Game of Thrones filming locations along the scenic Antrim Coast. Return to Belfast in the evening. Overnight stay in Belfast."
+            },
+            {
+                "day": "Day 4",
+                "title": "Belfast to Dublin",
+                "description": "Check out from the hotel and travel from Belfast to Dublin by train. Arrival in Dublin and check-in at the hotel. Evening free for leisure or exploring Dublin’s city centre. Overnight stay in Dublin."
+            },
+            {
+                "day": "Day 5",
+                "title": "Dublin City Tour & Guinness Storehouse",
+                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Dublin. Visit iconic landmarks at your own pace. Included entry ticket to the Guinness Storehouse. Overnight stay in Dublin."
+            },
+            {
+                "day": "Day 6",
+                "title": "Departure from Dublin",
+                "description": "Check out from the hotel and private transfer to Dublin Airport for your onward journey."
             }
         ]
     }

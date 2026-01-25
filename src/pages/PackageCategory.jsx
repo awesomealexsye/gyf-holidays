@@ -44,7 +44,7 @@ const PackageCategory = () => {
                                     transition={{ delay: index * 0.1 }}
                                     className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow group"
                                 >
-                                    <div className="relative h-64 overflow-hidden">
+                                    <div className="relative aspect-video overflow-hidden">
                                         <img
                                             src={pkg.image}
                                             alt={pkg.name}

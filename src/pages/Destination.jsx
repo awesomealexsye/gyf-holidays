@@ -39,8 +39,8 @@ const Destination = () => {
                 key={btn.id}
                 onClick={() => setActiveCategory(btn.id)}
                 className={`px-6 py-3 rounded-lg font-semibold transition-all ${activeCategory === btn.id
-                    ? 'gradient-primary text-white shadow-lg'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  ? 'gradient-primary text-white shadow-lg'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
               >
                 {btn.label}
@@ -77,7 +77,7 @@ const Destination = () => {
                   transition={{ delay: index * 0.05 }}
                   className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow group"
                 >
-                  <div className="relative h-64 overflow-hidden">
+                  <div className="relative aspect-video overflow-hidden">
                     <img
                       src={pkg.image}
                       alt={pkg.name}

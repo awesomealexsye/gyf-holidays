@@ -186,24 +186,31 @@ const Home = () => {
             {featuredCategories.map((category, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="relative group overflow-hidden rounded-2xl shadow-lg h-96 cursor-pointer"
+                className="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden group hover:shadow-2xl transition-all duration-500"
               >
-                <Link to={`/packages/${category.id}`}>
-                  <img
-                    src={category.image}
-                    alt={category.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex flex-col justify-end p-8">
-                    <h3 className="text-white text-3xl font-bold mb-3">{category.name}</h3>
-                    <p className="text-white/80 line-clamp-2 mb-4">{category.description}</p>
-                    <span className="inline-block w-fit px-6 py-2 bg-primary-600 text-white rounded-full text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-4 group-hover:translate-y-0 duration-300">
-                      View Packages
-                    </span>
+                <Link to={`/packages/${category.id}`} className="flex flex-col h-full">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src={category.image}
+                      alt={category.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-black/5 group-hover:bg-black/0 transition-colors duration-500"></div>
+                  </div>
+                  <div className="p-8 flex-grow flex flex-col items-center text-center">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors">
+                      {category.name}
+                    </h3>
+                    <p className="text-gray-600 mb-6 line-clamp-2">
+                      {category.description}
+                    </p>
+                    <div className="mt-auto inline-flex items-center text-primary-600 font-bold group-hover:translate-x-2 transition-transform duration-300">
+                      View Packages <FaGlobe className="ml-2 text-sm" />
+                    </div>
                   </div>
                 </Link>
               </motion.div>

@@ -325,18 +325,6 @@ const Services = () => {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
 
-                      {/* Floating Glass Label */}
-                      <div className="absolute top-8 left-8">
-                        <div className="bg-white/10 backdrop-blur-xl border border-white/20 p-4 rounded-3xl shadow-2xl flex items-center space-x-4">
-                          <div className={`${service.color} w-12 h-12 rounded-2xl flex items-center justify-center text-white shadow-lg ring-4 ring-white/10`}>
-                            <service.icon className="text-xl" />
-                          </div>
-                          <div>
-                            <p className="text-white/60 text-xs font-bold uppercase tracking-widest leading-none mb-1">Service Tier</p>
-                            <p className="text-white font-bold leading-none">Premium Business</p>
-                          </div>
-                        </div>
-                      </div>
 
                       <div className="absolute bottom-10 left-10">
                         <h3 className="text-white text-3xl font-black md:text-4xl drop-shadow-2xl leading-tight">
@@ -350,11 +338,6 @@ const Services = () => {
                     </div>
                   </div>
 
-                  {/* Decorative Elements */}
-                  <div className={`absolute -bottom-10 ${index % 2 === 0 ? '-right-10' : '-left-10'} w-40 h-40 bg-white shadow-2xl rounded-3xl p-6 hidden md:flex flex-col justify-end ring-1 ring-gray-100 z-20`}>
-                    <p className="text-3xl font-black text-primary-600 mb-1 leading-none">0{index + 1}</p>
-                    <p className="text-gray-400 font-bold uppercase text-[10px] tracking-widest leading-none">Step Forward</p>
-                  </div>
                 </motion.div>
 
                 {/* Content Side */}
