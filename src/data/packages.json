@@ -880,5 +880,181 @@
                 "description": "Check out from the hotel and private transfer to Dublin Airport for your onward journey."
             }
         ]
+    },
+    {
+        "id": "norway-northern-lights-fjords",
+        "categoryId": "scandinavia",
+        "name": "Chasing Northern Lights & Fjords – Discover Magical Norway",
+        "destination": "Tromsø • Oslo • Bergen",
+        "duration": "07 Days / 06 Nights",
+        "description": "Experience the magical beauty of Norway with Northern Lights tours, stunning fjords, and iconic Norwegian cities.",
+        "highlights": [
+            "Northern Lights tour in Tromsø",
+            "Arctic Cathedral & Polar Museum visit",
+            "Oslo Hop-on Hop-off Bus Tour",
+            "Norway in a Nutshell journey",
+            "Bergen guided walking tour",
+            "Mount Ulriken Cable Car ride",
+            "Private airport transfers"
+        ],
+        "image": "/pictures/scandinavia/img1.jpeg",
+        "gallery": [
+            "/pictures/scandinavia/img1.jpeg"
+        ],
+        "itinerary": [
+            {
+                "day": "Day 1",
+                "title": "Arrival in Tromsø",
+                "description": "Arrival at Tromsø Airport. Meet & greet followed by a private transfer to the hotel. Overnight stay in Tromsø."
+            },
+            {
+                "day": "Day 2",
+                "title": "Tromsø City Tour & Northern Lights",
+                "description": "Guided walking tour of Tromsø, exploring Arctic Cathedral, Polar Museum and city highlights. In the evening, enjoy an exciting Northern Lights tour. Overnight stay in Tromsø."
+            },
+            {
+                "day": "Day 3",
+                "title": "Tromsø to Oslo",
+                "description": "Check out from the hotel and transfer to the airport. Flight from Tromsø to Oslo. Arrival and transfer to the hotel. Overnight stay in Oslo."
+            },
+            {
+                "day": "Day 4",
+                "title": "Oslo City Exploration",
+                "description": "Enjoy a Hop-on Hop-off Bus Tour (24 hrs) covering major attractions such as the Royal Palace, Vigeland Sculpture Park, Opera House and more. Overnight stay in Oslo."
+            },
+            {
+                "day": "Day 5",
+                "title": "Oslo to Bergen (Norway in a Nutshell)",
+                "description": "Check out from Oslo and experience the famous Norway in a Nutshell journey by train, fjord cruise and bus en route to Bergen. Arrival in Bergen and transfer to the hotel. Overnight stay in Bergen."
+            },
+            {
+                "day": "Day 6",
+                "title": "Bergen City Tour & Mount Ulriken",
+                "description": "Guided walking tour of Bergen including Bryggen Wharf, Fish Market and historic city centre. Enjoy a round-trip ride on the Ulriken Cable Car for panoramic views. Overnight stay in Bergen."
+            },
+            {
+                "day": "Day 7",
+                "title": "Departure from Bergen",
+                "description": "Check out from the hotel and transfer to Bergen Airport for departure."
+            }
+        ]
+    },
+    {
+        "id": "finland-explorer",
+        "categoryId": "scandinavia",
+        "name": "Finland Explorer – Northern Lights & Santa's Wonderland",
+        "destination": "Helsinki • Rovaniemi",
+        "duration": "05 Days / 04 Nights",
+        "description": "Explore the magic of Finland from the vibrant capital Helsinki to the Arctic wonders of Rovaniemi, home to Santa Claus.",
+        "highlights": [
+            "Helsinki Hop-On Hop-Off City Bus Tour",
+            "Helsinki Cathedral & Sibelius Monument",
+            "Temppeliaukio Rock Church",
+            "Northern Lights Tour in Rovaniemi",
+            "Santa Claus Village visit",
+            "Reindeer sleigh ride",
+            "Husky safari experience",
+            "Arctic Circle crossing ceremony"
+        ],
+        "image": "/pictures/scandinavia/img2.jpeg",
+        "gallery": [
+            "/pictures/scandinavia/img2.jpeg"
+        ],
+        "itinerary": [
+            {
+                "day": "Day 1",
+                "title": "Arrival in Helsinki",
+                "description": "Arrival at Helsinki Airport. Meet & greet and private transfer to your hotel. Rest of the day free at leisure. Overnight stay in Helsinki."
+            },
+            {
+                "day": "Day 2",
+                "title": "Helsinki City Tour",
+                "description": "Enjoy a Hop-On Hop-Off City Bus Tour covering major attractions: Senate Square, Helsinki Cathedral, Market Square, Sibelius Monument, and Temppeliaukio (Rock Church). Overnight stay in Helsinki."
+            },
+            {
+                "day": "Day 3",
+                "title": "Helsinki to Rovaniemi (Lapland)",
+                "description": "Check out from the hotel and travel from Helsinki to Rovaniemi by train. Arrival and transfer to the hotel. In the evening, enjoy an exciting Northern Lights Tour. Overnight stay in Rovaniemi."
+            },
+            {
+                "day": "Day 4",
+                "title": "Santa Claus Village & Arctic Activities",
+                "description": "Visit the famous Santa Claus Village at the Arctic Circle. Enjoy: Reindeer Farm visit with sleigh ride, Husky Farm visit with husky safari, and Arctic Circle crossing ceremony. Free time for shopping and photos. Overnight stay in Rovaniemi."
+            },
+            {
+                "day": "Day 5",
+                "title": "Departure from Rovaniemi",
+                "description": "Check out from the hotel and transfer to Rovaniemi Airport for your onward journey."
+            }
+        ]
+    },
+    {
+        "id": "lapland-adventure",
+        "categoryId": "scandinavia",
+        "name": "Lapland Adventure – Northern Lights, Igloos & Arctic Dreams",
+        "destination": "Helsinki • Tallinn • Rovaniemi • Saariselkä",
+        "duration": "09 Days / 08 Nights",
+        "description": "An unforgettable Arctic adventure featuring a day trip to Tallinn, Northern Lights tours, Santa Claus Village, and a magical stay in a Glass Igloo Resort.",
+        "highlights": [
+            "Day trip to Tallinn, Estonia",
+            "Santa Claus Express overnight train",
+            "Northern Lights tours",
+            "Santa Claus Village & Arctic activities",
+            "Reindeer & Husky safaris",
+            "2 nights in Glass Igloo Resort",
+            "Arctic Circle crossing ceremony",
+            "Optional winter activities (snowmobile, ice fishing)"
+        ],
+        "image": "/pictures/scandinavia/img3.jpeg",
+        "gallery": [
+            "/pictures/scandinavia/img3.jpeg"
+        ],
+        "itinerary": [
+            {
+                "day": "Day 1",
+                "title": "Arrival in Helsinki",
+                "description": "Arrival at Helsinki Airport. Meet & greet and private transfer to the hotel. Rest of the day free at leisure. Overnight stay in Helsinki."
+            },
+            {
+                "day": "Day 2",
+                "title": "Day Trip to Tallinn & Overnight Train to Rovaniemi",
+                "description": "Guided day trip to Tallinn, Estonia with return ferry tickets. Explore Tallinn Old Town, medieval streets, and historic landmarks. In the evening, board the Santa Claus Express overnight train to Rovaniemi. Overnight on train."
+            },
+            {
+                "day": "Day 3",
+                "title": "Arrival in Rovaniemi & Northern Lights Tour",
+                "description": "Arrival in Rovaniemi, the capital of Lapland. Transfer to the hotel and free time to explore the city. In the evening, enjoy an exciting Northern Lights Tour. Overnight stay in Rovaniemi."
+            },
+            {
+                "day": "Day 4",
+                "title": "Santa Claus Village & Arctic Activities",
+                "description": "Full-day excursion to Santa Claus Village at the Arctic Circle. Enjoy: Reindeer Farm visit with sleigh ride, Husky Farm visit with husky safari, and Arctic Circle crossing ceremony. Free time for shopping and photos. Overnight stay in Rovaniemi."
+            },
+            {
+                "day": "Day 5",
+                "title": "Rovaniemi to Saariselkä (Igloo Stay)",
+                "description": "Check out from Rovaniemi and travel to Saariselkä by bus or private transfer. Check-in at a Glass Igloo Resort. Enjoy the magical Arctic surroundings and Northern Lights views (weather permitting). Overnight stay in a Glass Igloo."
+            },
+            {
+                "day": "Day 6",
+                "title": "Free Day in Saariselkä",
+                "description": "Free day at the resort for optional activities: Snowmobile safari, Husky safari, Ice fishing, Winter hiking and Arctic experiences. Overnight stay in a Glass Igloo."
+            },
+            {
+                "day": "Day 7",
+                "title": "Free Day in Saariselkä",
+                "description": "Free day at the resort for optional activities: Snowmobile safari, Husky safari, Ice fishing, Winter hiking and Arctic experiences. Overnight stay in a Glass Igloo."
+            },
+            {
+                "day": "Day 8",
+                "title": "Saariselkä to Helsinki",
+                "description": "Check out from the resort and transfer to Ivalo Airport. Flight from Ivalo to Helsinki. Arrival in Helsinki and transfer to the hotel. Overnight stay in Helsinki."
+            },
+            {
+                "day": "Day 9",
+                "title": "Departure from Helsinki",
+                "description": "Check out from the hotel and private transfer to Helsinki Airport for your onward journey."
+            }
+        ]
     }
 ]
