@@ -1,85 +1,130 @@
-import { motion } from 'framer-motion'
-import { FaEye, FaBullseye, FaHeart, FaUsers, FaGlobe, FaAward, FaHandshake, FaShieldAlt } from 'react-icons/fa'
-import Hero from '../components/Hero'
-import config from '../config'
+import { motion } from "framer-motion";
+import {
+  FaEye,
+  FaBullseye,
+  FaHeart,
+  FaUsers,
+  FaGlobe,
+  FaAward,
+  FaHandshake,
+  FaShieldAlt,
+} from "react-icons/fa";
+import Hero from "../components/Hero";
+import config from "../config";
 
 const AboutUs = () => {
   const values = [
     {
       icon: FaHeart,
-      title: 'Customer First',
-      description: 'Your satisfaction is our top priority. We go above and beyond to exceed expectations.',
+      title: "Customer First",
+      description:
+        "Your satisfaction is our top priority. We go above and beyond to exceed expectations.",
     },
     {
       icon: FaShieldAlt,
-      title: 'Trust & Reliability',
-      description: 'Building lasting relationships through honest, transparent, and dependable service.',
+      title: "Trust & Reliability",
+      description:
+        "Building lasting relationships through honest, transparent, and dependable service.",
     },
     {
       icon: FaAward,
-      title: 'Excellence',
-      description: 'Commitment to delivering the highest quality in every aspect of our service.',
+      title: "Excellence",
+      description:
+        "Commitment to delivering the highest quality in every aspect of our service.",
     },
     {
       icon: FaGlobe,
-      title: 'Innovation',
-      description: 'Continuously evolving to bring you the best travel solutions and experiences.',
+      title: "Innovation",
+      description:
+        "Continuously evolving to bring you the best travel solutions and experiences.",
     },
-  ]
+  ];
 
   const milestones = [
-    { year: '2015', title: 'Founded', description: 'GYF Holidays established with a vision to revolutionize B2B travel' },
-    { year: '2017', title: 'Expansion', description: 'Expanded to 50+ destinations across Asia and Europe' },
-    { year: '2019', title: 'Recognition', description: 'Awarded "Best B2B Travel Partner" by Travel Industry Council' },
-    { year: '2021', title: 'Digital Transformation', description: 'Launched advanced booking platform for seamless experiences' },
-    { year: '2025', title: 'Global Leader', description: 'Serving 5000+ businesses across 150+ destinations worldwide' },
-  ]
+    {
+      year: "2015",
+      title: "Founded",
+      description:
+        "GYF Holidays established with a vision to revolutionize B2B travel",
+    },
+    {
+      year: "2017",
+      title: "Expansion",
+      description: "Expanded to 50+ destinations across Asia and Europe",
+    },
+    {
+      year: "2019",
+      title: "Recognition",
+      description:
+        'Awarded "Best B2B Travel Partner" by Travel Industry Council',
+    },
+    {
+      year: "2021",
+      title: "Digital Transformation",
+      description:
+        "Launched advanced booking platform for seamless experiences",
+    },
+    {
+      year: "2025",
+      title: "Global Leader",
+      description:
+        "Serving 5000+ businesses across 150+ destinations worldwide",
+    },
+  ];
 
   const team = [
     {
-      name: 'Sunil Kapoor',
-      position: 'Founder & CEO',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&auto=format&fit=crop&q=80',
+      name: "Sunil Kapoor",
+      position: "Founder & CEO",
+      image:
+        "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&auto=format&fit=crop&q=80",
     },
     {
-      name: 'Priya Mehta',
-      position: 'Head of Operations',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80',
+      name: "Priya Mehta",
+      position: "Head of Operations",
+      image:
+        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
     },
     {
-      name: 'Rahul Singh',
-      position: 'Business Development',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80',
+      name: "Rahul Singh",
+      position: "Business Development",
+      image:
+        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80",
     },
     {
-      name: 'Anita Sharma',
-      position: 'Client Relations',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80',
+      name: "Anita Sharma",
+      position: "Client Relations",
+      image:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80",
     },
-  ]
+  ];
 
   const benefits = [
     {
       icon: FaHandshake,
-      title: 'Dedicated Account Manager',
-      description: 'Personalized support from a dedicated professional who understands your business needs.',
+      title: "Dedicated Account Manager",
+      description:
+        "Personalized support from a dedicated professional who understands your business needs.",
     },
     {
       icon: FaAward,
-      title: 'Competitive Pricing',
-      description: 'Exclusive B2B rates and volume discounts that maximize your profit margins.',
+      title: "Competitive Pricing",
+      description:
+        "Exclusive B2B rates and volume discounts that maximize your profit margins.",
     },
     {
       icon: FaUsers,
-      title: 'Priority Service',
-      description: 'Fast-track processing and priority assistance for all your bookings and queries.',
+      title: "Priority Service",
+      description:
+        "Fast-track processing and priority assistance for all your bookings and queries.",
     },
     {
       icon: FaGlobe,
-      title: 'Global Network',
-      description: 'Access to our worldwide network of hotels, airlines, and local partners.',
+      title: "Global Network",
+      description:
+        "Access to our worldwide network of hotels, airlines, and local partners.",
     },
-  ]
+  ];
 
   return (
     <div>
@@ -105,13 +150,38 @@ const AboutUs = () => {
                 Our Story
               </h2>
               <p className="text-gray-600 mb-4">
-                GYF Holidays began with a simple yet powerful vision: to transform the way businesses approach corporate travel and group bookings. What started as a small team of passionate travel enthusiasts has grown into a leading B2B travel solutions provider.
+                Every great journey begins with a vision. At GYF Holidays, our
+                journey began with a simple idea — to create a reliable and
+                professional destination management partner that travel
+                businesses can truly depend on.
               </p>
               <p className="text-gray-600 mb-4">
-                Over the years, we've built strong relationships with hotels, airlines, and local partners worldwide, enabling us to offer unmatched value and service to our business clients. Our commitment to excellence has made us the preferred choice for corporate travel agencies, event management companies, and tour operators across the country.
+                What started as a small team with deep knowledge of European
+                destinations has grown into a trusted B2B travel solutions
+                provider, supporting travel agencies, tour operators, and
+                corporate clients with seamless ground services and customized
+                travel experiences.
+              </p>
+              <p className="text-gray-600 mb-4">
+                Over the years, we have developed strong partnerships with
+                hotels, local service providers, and on-ground experts across
+                Europe, the UK, and Scandinavia. These relationships allow us to
+                deliver consistent quality, competitive pricing, and smooth
+                operations for FIT, group, and corporate travel.
+              </p>
+              <p className="text-gray-600 mb-4">
+                We believe that successful travel experiences are built on
+                precision, transparency, and local expertise. That's why every
+                itinerary we design is carefully curated, every service is
+                thoughtfully selected, and every partner relationship is built
+                on trust.
               </p>
               <p className="text-gray-600">
-                Today, we're proud to serve over {config.stats.happyClients.toLocaleString()}+ businesses, offering customized travel solutions across {config.stats.destinations}+ destinations worldwide.
+                Today, GYF Holidays stands as a growing destination management
+                company, empowering travel businesses with dependable solutions,
+                personalized support, and memorable travel experiences across
+                multiple international destinations. Our story continues with
+                every partner we serve and every journey we help create.
               </p>
             </motion.div>
 
@@ -144,9 +214,14 @@ const AboutUs = () => {
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
                 <FaBullseye className="text-primary-600 text-3xl" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Our Mission
+              </h3>
               <p className="text-gray-600">
-                To empower businesses with exceptional travel solutions that combine quality, value, and personalized service. We strive to make every journey seamless, memorable, and perfectly aligned with our partners' business objectives.
+                To empower businesses with exceptional travel solutions that
+                combine quality, value, and personalized service. We strive to
+                make every journey seamless, memorable, and perfectly aligned
+                with our partners' business objectives.
               </p>
             </motion.div>
 
@@ -160,9 +235,14 @@ const AboutUs = () => {
               <div className="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mb-6">
                 <FaEye className="text-secondary-600 text-3xl" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Our Vision
+              </h3>
               <p className="text-gray-600">
-                To be the most trusted and innovative B2B travel partner globally, recognized for creating extraordinary experiences, fostering lasting relationships, and contributing to the success of businesses worldwide.
+                To be the most trusted and innovative B2B travel partner
+                globally, recognized for creating extraordinary experiences,
+                fostering lasting relationships, and contributing to the success
+                of businesses worldwide.
               </p>
             </motion.div>
           </div>
@@ -199,7 +279,9 @@ const AboutUs = () => {
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <value.icon className="text-primary-600 text-2xl" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{value.title}</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  {value.title}
+                </h3>
                 <p className="text-gray-600">{value.description}</p>
               </motion.div>
             ))}
@@ -245,8 +327,7 @@ const AboutUs = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default AboutUs
-
+export default AboutUs;
