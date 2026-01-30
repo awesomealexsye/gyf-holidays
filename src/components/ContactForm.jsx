@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FaUser, FaEnvelope, FaPhone, FaBuilding, FaBriefcase, FaUsers, FaCalendar, FaMapMarkerAlt, FaComment, FaWhatsapp } from 'react-icons/fa'
+import { FaUser, FaEnvelope, FaPhone, FaBuilding, FaBriefcase, FaUsers, FaCalendar, FaMapMarkerAlt, FaComment, FaSpinner } from 'react-icons/fa'
 import config from '../config'
 
 const ContactForm = ({ title = "Send Us an Inquiry", compact = false }) => {
@@ -54,34 +54,7 @@ const ContactForm = ({ title = "Send Us an Inquiry", compact = false }) => {
     }, 1500)
   }
 
-  const handleEmailSubmit = () => {
-    const subject = `Travel Inquiry from ${formData.name} - ${formData.businessName}`
-    const body = `Hello GYF Holidays,
-
-I have a new travel inquiry. Here are the details:
-
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Business: ${formData.businessName}
-Company Type: ${formData.companyType}
-Number of Travelers: ${formData.numberOfTravelers || 'N/A'}
-Preferred Travel Date: ${formData.travelDate || 'N/A'}
-Destination of Interest: ${formData.destination || 'N/A'}
-
-Special Requirements:
-${formData.message || 'No additional requirements specified.'}
-
-Regards,
-${formData.name}`
-
-    const mailtoUrl = `mailto:${config.contact.salesEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
-    window.location.href = mailtoUrl
-
-    // Show success message locally
-    setShowSuccess(true)
-    setTimeout(() => setShowSuccess(false), 5000)
-  }
+  // Removed client-side email handler in favor of server-side PHP submission
 
   const companyTypes = [
     'Travel Agency',
@@ -105,7 +78,12 @@ ${formData.name}`
         </motion.div>
       )}
 
-      <form onSubmit={(e) => { e.preventDefault(); handleEmailSubmit(); }} className="space-y-4">
+      <form 
+        action="https://gyfholidays.com/my-forms-submit.php" 
+        method="POST" 
+        onSubmit={() => setIsSubmitting(true)}
+        className="space-y-4"
+      >
         <div className={`grid ${compact ? 'grid-cols-1' : 'grid-cols-1 md:grid-cols-2'} gap-4`}>
           {/* Name */}
           <div>
@@ -284,15 +262,24 @@ ${formData.name}`
         <div className="grid grid-cols-1 sm:grid-cols-1 gap-1">
           <button
             type="submit"
-            disabled={!formData.name || !formData.email || !formData.phone || !formData.businessName || !formData.companyType}
-            className={`flex items-center justify-center space-x-2 py-4 px-6 rounded-lg font-semibold transition-all hover:shadow-lg transform hover:-translate-y-0.5 ${!formData.name || !formData.email || !formData.phone || !formData.businessName || !formData.companyType
+            disabled={isSubmitting || !formData.name || !formData.email || !formData.phone || !formData.businessName || !formData.companyType}
+            className={`flex items-center justify-center space-x-2 py-4 px-6 rounded-lg font-semibold transition-all hover:shadow-lg transform hover:-translate-y-0.5 ${(isSubmitting || !formData.name || !formData.email || !formData.phone || !formData.businessName || !formData.companyType)
               ? 'bg-gray-300 text-gray-500 cursor-not-allowed hover:shadow-none hover:translate-y-0'
               : 'bg-primary-600 hover:bg-primary-700 text-white'
               }`}
           >
-            <FaEnvelope className="text-xl" />
-            <span className="hidden sm:inline">Send Inquiry via Email</span>
-            <span className="sm:hidden">Send Email</span>
+            {isSubmitting ? (
+              <>
+                <FaSpinner className="text-xl animate-spin" />
+                <span>Sending Inquiry...</span>
+              </>
+            ) : (
+              <>
+                <FaEnvelope className="text-xl" />
+                <span className="hidden sm:inline">Send Inquiry via Email</span>
+                <span className="sm:hidden">Send Email</span>
+              </>
+            )}
           </button>
         </div>
       </form>

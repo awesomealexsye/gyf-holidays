@@ -11,7 +11,6 @@ import {
 } from "react-icons/fa";
 import Hero from "../components/Hero";
 import config from "../config";
-
 const AboutUs = () => {
   const values = [
     {
@@ -149,6 +148,12 @@ const AboutUs = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Our Story
               </h2>
+              <p className="text-gray-600 mb-4">
+                <b>Founded in 2018</b> , GYF Holidays began with a clear vision 
+                — to redefine destination management by offering reliable, 
+                professional, and partner-focused travel solutions for the 
+                global B2B market. 
+              </p>
               <p className="text-gray-600 mb-4">
                 Every great journey begins with a vision. At GYF Holidays, our
                 journey began with a simple idea — to create a reliable and
