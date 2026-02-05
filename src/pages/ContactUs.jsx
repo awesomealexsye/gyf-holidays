@@ -39,7 +39,7 @@ const ContactUs = () => {
     {
       city: 'New Delhi (Head Office)',
       address: 'Unit No 590, 5th Floor, Vegas Commercial Building, Plot No 6, Block - B, Sector 14, Dwarka',
-      phone: '+91 97113 33620',
+      phone: '+91 88823 82864',
       emails: ['info@gyfholidays.com', 'sales@gyfholidays.com', 'support@gyfholidays.com'],
     },
     {

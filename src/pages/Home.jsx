@@ -90,33 +90,7 @@ const Home = () => {
         subtitle="Discover exceptional corporate travel solutions, customized packages, and unforgettable experiences for your business clients."
       />
 
-      {/* Stats Section */}
-      <section className="py-16 gradient-hero">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
-              { number: config.stats.destinations, label: 'Destinations', suffix: '+' },
-              { number: config.stats.happyClients, label: 'Happy Clients', suffix: '+' },
-              { number: config.stats.yearsExperience, label: 'Years Experience', suffix: '+' },
-              { number: config.stats.teamMembers, label: 'Team Members', suffix: '+' },
-            ].map((stat, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="text-center text-white"
-              >
-                <div className="text-4xl md:text-5xl font-bold mb-2">
-                  {stat.number}{stat.suffix}
-                </div>
-                <div className="text-lg opacity-90">{stat.label}</div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+   
 
       {/* Services Section */}
       <section className="py-20 bg-gray-50">

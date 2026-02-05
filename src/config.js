@@ -11,7 +11,7 @@ const config = {
   },
 
   contact: {
-    phone: "+91 97113 33620",
+    phone: "+91 88823 82864",
     email: "info@gyfholidays.com",
     salesEmail: "sales@gyfholidays.com",
     supportEmail: "support@gyfholidays.com",
