@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { FaPlane, FaUsers, FaGlobe, FaHandshake, FaAward, FaClock, FaStar, FaQuoteLeft } from 'react-icons/fa'
 import Hero from '../components/Hero'
+import Stats from '../components/Stats'
 import ContactForm from '../components/ContactForm'
 import config from '../config'
 import categories from '../data/categories.json'
@@ -89,6 +90,9 @@ const Home = () => {
         title="Your Trusted B2B Travel Partner"
         subtitle="Discover exceptional corporate travel solutions, customized packages, and unforgettable experiences for your business clients."
       />
+
+      {/* Stats Section */}
+      <Stats />
 
    
 

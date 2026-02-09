@@ -1,1060 +1,1046 @@
 [
-    {
-        "id": "paris-city-break",
-        "categoryId": "europe-package",
-        "name": "Paris City Break – Honeymoon Package",
-        "destination": "Paris, France",
-        "duration": "04 Days / 03 Nights",
-        "description": "Experience the magical beauty of Paris with this specially curated tour. Ideal for couples, families, and photography lovers.",
-        "highlights": [
-            "Centrally located hotel stay",
-            "Paris Hop-On Hop-Off City Tour (24 Hours)",
-            "Eiffel Tower",
-            "Louvre Museum",
-            "Seine River Cruise & Eiffel Tower Experience"
-        ],
-        "image": "/pictures/paris-city-break/paris-city-break-1.jpeg",
-        "gallery": [
-            "/pictures/paris-city-break/paris-city-break-2.jpeg",
-            "/pictures/paris-city-break/paris-city-break-3.jpeg",
-            "/pictures/paris-city-break/paris-city-break-4.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 01",
-                "title": "Arrival in Paris – Private Transfer to Hotel",
-                "description": "Arrival at Paris Charles de Gaulle (CDG) Airport. Meet & greet and private transfer to a centrally located hotel in Paris. Check-in and rest of the day at leisure. Overnight stay in Paris."
-            },
-            {
-                "day": "Day 02",
-                "title": "Paris Hop-On Hop-Off City Tour (24 Hours)",
-                "description": "Breakfast at the hotel. Enjoy a 24-hour Hop-On Hop-Off Paris City Bus Tour, covering major landmarks such as Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, Champs-Élysées, and Arc de Triomphe. Explore the city at your own pace. Overnight stay in Paris."
-            },
-            {
-                "day": "Day 03",
-                "title": "Seine River Cruise & Eiffel Tower Experience",
-                "description": "Breakfast at the hotel. Experience a romantic Seine River Cruise. Visit the Eiffel Tower with Skip-the-Line access to the 2nd Level by elevator. Free time for shopping or leisure. Overnight stay in Paris."
-            },
-            {
-                "day": "Day 04",
-                "title": "Departure – Private Transfer to Airport",
-                "description": "Breakfast at the hotel. Check-out from the hotel. Private transfer to Paris Charles de Gaulle (CDG) Airport for onward journey."
-            }
-        ]
-    },
-    {
-        "id": "swiss-experience",
-        "categoryId": "europe-package",
-        "name": "Swiss Experience",
-        "destination": "Lucerne • Interlaken • Zurich",
-        "duration": "05 Nights / 06 Days",
-        "description": "Discover the breathtaking beauty of Switzerland with this perfectly curated 6-day itinerary covering charming cities, majestic mountains, scenic lakes, and world-famous attractions.",
-        "highlights": [
-            "05 Nights accommodation in Lucerne, Interlaken & Zurich",
-            "04 Days Swiss Travel Pass (Consecutive)",
-            "Mount Titlis excursion with rotating cable car",
-            "Jungfraujoch – Top of Europe experience",
-            "Scenic Swiss train journeys",
-            "Lake cruises in Interlaken & Zurich",
-            "Lindt Home of Chocolate visit",
-            "Private airport transfer on departure"
-        ],
-        "image": "/pictures/swiss-package/swiss-package-1.jpeg",
-        "gallery": [
-            "/pictures/swiss-package/swiss-package-2.jpeg",
-            "/pictures/swiss-package/swiss-package-3.jpeg",
-            "/pictures/swiss-package/swiss-package-4.jpeg",
-            "/pictures/swiss-package/swiss-package-5.jpeg",
-            "/pictures/swiss-package/swiss-package-6.jpeg",
-            "/pictures/swiss-package/swiss-package-7.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 01",
-                "title": "Arrival in Zurich – Lucerne",
-                "description": "Arrival at Zurich Airport. Travel to Lucerne by train from Zurich Airport (train tickets included). Check-in at the hotel and enjoy leisure time. Overnight stay in Lucerne."
-            },
-            {
-                "day": "Day 02",
-                "title": "Mount Titlis Excursion",
-                "description": "Activate your 04 Days Swiss Travel Pass (Consecutive). Enjoy a full-day excursion to Mount Titlis with stunning Alpine views, Titlis Cliff Walk, and snow experiences. Overnight stay in Lucerne."
-            },
-            {
-                "day": "Day 03",
-                "title": "Lucerne – Interlaken & Lake Cruises",
-                "description": "Travel to Interlaken by train using the Swiss Travel Pass. Enjoy scenic views of Lake Thun and Lake Brienz, followed by a sightseeing lake cruise. Overnight stay in Interlaken."
-            },
-            {
-                "day": "Day 04",
-                "title": "Jungfraujoch – Top of Europe",
-                "description": "Full-day excursion to Jungfraujoch – Top of Europe. Explore the Ice Palace, Sphinx Observatory, and panoramic Alpine landscapes. Overnight stay in Interlaken."
-            },
-            {
-                "day": "Day 05",
-                "title": "Interlaken – Zurich & Lindt Chocolate",
-                "description": "Travel to Zurich by train using the Swiss Travel Pass. Visit Lindt Home of Chocolate, explore Zurich Old Town, and enjoy a Zurich Lake Cruise. Overnight stay in Zurich."
-            },
-            {
-                "day": "Day 06",
-                "title": "Departure from Zurich",
-                "description": "Check-out from the hotel and transfer to Zurich Airport by private vehicle."
-            }
-        ]
-    },
-    {
-        "id": "amsterdam-tulip",
-        "categoryId": "europe-package",
-        "name": "Amsterdam Tulip Garden Experience",
-        "destination": "Amsterdam, Netherlands",
-        "duration": "03 Nights / 04 Days",
-        "description": "Experience the magical beauty of spring in the Netherlands with our Amsterdam Tulip Garden Experience. Best Travel Period: Mid-March to Mid-May.",
-        "highlights": [
-            "Keukenhof Tulip Gardens",
-            "Amsterdam Canal Cruise",
-            "Zaanse Schans Windmills & Volendam",
-            "City sightseeing & leisure time"
-        ],
-        "image": "/pictures/amsterdam/amsterdam-1.jpeg",
-        "gallery": [
-            "/pictures/amsterdam/amsterdam-2.jpeg",
-            "/pictures/amsterdam/amsterdam-3.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 01",
-                "title": "Arrival in Amsterdam",
-                "description": "Arrival at Amsterdam Airport Schiphol. Transfer to hotel in Amsterdam city centre. Check-in and leisure time. Explore nearby cafes, Dam Square or shopping streets. Overnight stay in Amsterdam."
-            },
-            {
-                "day": "Day 02",
-                "title": "Keukenhof Tulip Garden Tour",
-                "description": "Breakfast at the hotel. Visit the world-famous Keukenhof Tulip Gardens. Enjoy millions of blooming tulips, themed gardens, and photo spots. Free time for leisure or shopping. Overnight stay in Amsterdam."
-            },
-            {
-                "day": "Day 03",
-                "title": "Zaanse Schans, Volendam & Marken + Canal Cruise",
-                "description": "Breakfast at the hotel. Half-day excursion to Zaanse Schans (traditional windmills), Volendam (fishing village), and Marken (Dutch countryside). Evening Amsterdam Canal Cruise. Overnight stay in Amsterdam."
-            },
-            {
-                "day": "Day 04",
-                "title": "Departure",
-                "description": "Breakfast at the hotel. Check-out and transfer to Amsterdam Airport."
-            }
-        ]
-    },
-    {
-        "id": "amsterdam-city",
-        "categoryId": "europe-package",
-        "name": "Amsterdam City Experience",
-        "destination": "Amsterdam, Netherlands",
-        "duration": "03 Nights / 04 Days",
-        "description": "Discover the charm of Amsterdam with our Amsterdam Standard City Experience, designed for travelers of all ages. Perfect for: Families, couples, seniors & youth.",
-        "highlights": [
-            "Amsterdam Hop-on Hop-off Tour",
-            "Canal Cruise",
-            "Zaanse Schans & Volendam",
-            "Giethoorn Village",
-            "Leisure & cultural exploration"
-        ],
-        "image": "/pictures/amsterdam/amsterdam-4.jpeg",
-        "gallery": [
-            "/pictures/amsterdam/amsterdam-5.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 01",
-                "title": "Arrival in Amsterdam",
-                "description": "Arrival at Amsterdam Airport Schiphol. Transfer to hotel and check-in. Leisure time to explore the city. Overnight stay in Amsterdam."
-            },
-            {
-                "day": "Day 02",
-                "title": "Amsterdam City Tour + Canal Cruise",
-                "description": "Breakfast at the hotel. Enjoy Hop-on Hop-off Amsterdam City Tour covering Rijksmuseum, Van Gogh Museum, Anne Frank House, and Dam Square. Evening Canal Cruise. Overnight stay in Amsterdam."
-            },
-            {
-                "day": "Day 03",
-                "title": "Day trip to Zaanse Schans, Dutch Villages and Windmills",
-                "description": "Breakfast at the hotel. Excursion to Zaanse Schans (windmills & cheese farms). Visit Giethoorn Village, known as the “Venice of the Netherlands”. Return to Amsterdam. Overnight stay in Amsterdam."
-            },
-            {
-                "day": "Day 04",
-                "title": "Departure",
-                "description": "Breakfast at the hotel. Check-out and transfer to Amsterdam Airport."
-            }
-        ]
-    },
-    {
-        "id": "greece-highlights",
-        "categoryId": "europe-package",
-        "name": "Greece Highlights – Athens, Mykonos & Santorini Tour",
-        "destination": "Athens • Mykonos • Santorini",
-        "duration": "06 Nights / 07 Days",
-        "description": "Discover the timeless beauty of Greece with this perfectly curated multi-island journey. From ancient history in Athens to the vibrant charm of Mykonos and the romantic sunsets of Santorini.",
-        "highlights": [
-            "02 Nights in Athens",
-            "02 Nights in Mykonos",
-            "02 Nights in Santorini",
-            "Athens Hop-on Hop-off City Tour",
-            "Acropolis & Acropolis Museum visit",
-            "High-speed ferry transfers between islands",
-            "Mykonos guided highlights tour",
-            "Santorini sightseeing & Oia sunset experience",
-            "Private airport/port transfers"
-        ],
-        "image": "/pictures/greece-highlights/greece-highlights-1.jpeg",
-        "gallery": [
-            "/pictures/greece-highlights/greece-highlights-2.jpeg",
-            "/pictures/greece-highlights/greece-highlights-3.jpeg",
-            "/pictures/greece-highlights/greece-highlights-4.jpeg",
-            "/pictures/greece-highlights/greece-highlights-5.jpeg",
-            "/pictures/greece-highlights/greece-highlights-6.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 01",
-                "title": "Arrival in Athens",
-                "description": "Arrival at Athens International Airport. Meet & greet and private transfer to your hotel. Check-in and leisure time. Overnight stay in Athens."
-            },
-            {
-                "day": "Day 02",
-                "title": "Athens City Tour & Acropolis",
-                "description": "Breakfast at the hotel. Enjoy Hop-on Hop-off Athens City Bus Tour. Visit the iconic Acropolis and Acropolis Museum. Explore Athens city at your own pace. Overnight stay in Athens."
-            },
-            {
-                "day": "Day 03",
-                "title": "Athens – Mykonos by Fast Ferry",
-                "description": "Breakfast at the hotel. Transfer to Athens port. Travel to Mykonos by high-speed ferry. Arrival in Mykonos and transfer to your hotel. Rest of the day at leisure. Overnight stay in Mykonos."
-            },
-            {
-                "day": "Day 04",
-                "title": "Mykonos Guided Highlights Tour",
-                "description": "Breakfast at the hotel. Enjoy a guided highlights tour of Mykonos, covering Mykonos Town (Chora), Little Venice, Windmills, and Panagia Paraportiani Church. Free time to explore beaches or cafés. Overnight stay in Mykonos."
-            },
-            {
-                "day": "Day 05",
-                "title": "Mykonos – Santorini by High-Speed Ferry",
-                "description": "Breakfast at the hotel. Transfer to Mykonos port. Travel to Santorini by high-speed ferry. Arrival in Santorini and transfer to your hotel. Leisure time to explore the island. Overnight stay in Santorini."
-            },
-            {
-                "day": "Day 06",
-                "title": "Santorini Sightseeing & Oia Sunset",
-                "description": "Breakfast at the hotel. Enjoy a traditional guided sightseeing tour of Santorini, including Fira Town, Pyrgos Village, and Black Sand Beach / Red Beach. Experience the world-famous sunset at Oia Village. Overnight stay in Santorini."
-            },
-            {
-                "day": "Day 07",
-                "title": "Departure from Santorini",
-                "description": "Breakfast at the hotel. Check-out from the hotel. Transfer to Santorini Airport / Port for onward journey."
-            }
-        ]
-    },
-    {
-        "id": "spain-highlights",
-        "categoryId": "europe-package",
-        "name": "Spain Highlights – Barcelona & Madrid",
-        "destination": "Barcelona • Madrid",
-        "duration": "06 Days / 05 Nights",
-        "description": "Discover the vibrant culture, stunning architecture, and rich history of Spain with this beautifully curated tour covering Barcelona and Madrid.",
-        "highlights": [
-            "03 Nights in Barcelona & 02 Nights in Madrid",
-            "Hop-on Hop-off Barcelona City Tour",
-            "Sagrada Familia entrance tickets",
-            "Costa Brava & Girona excursion",
-            "High-speed train: Barcelona – Madrid",
-            "Madrid panoramic city tour",
-            "Royal Palace of Madrid visit",
-            "Private airport transfers"
-        ],
-        "image": "/pictures/spain-highlights/spain-highlights-1.jpeg",
-        "gallery": [
-            "/pictures/spain-highlights/spain-highlights-2.jpeg",
-            "/pictures/spain-highlights/spain-highlights-3.jpeg",
-            "/pictures/spain-highlights/spain-highlights-4.jpeg",
-            "/pictures/spain-highlights/spain-highlights-5.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 01",
-                "title": "Arrival in Barcelona",
-                "description": "Arrival at Barcelona Airport. Meet & greet and private transfer to your hotel. Check-in and leisure time to explore the city. Overnight stay in Barcelona."
-            },
-            {
-                "day": "Day 02",
-                "title": "Barcelona City Tour & Sagrada Familia",
-                "description": "Breakfast at the hotel. Enjoy Hop-on Hop-off Barcelona City Bus Tour (24 Hours). Visit the iconic Sagrada Familia with entrance tickets. Explore Barcelona’s famous landmarks and neighborhoods. Overnight stay in Barcelona."
-            },
-            {
-                "day": "Day 03",
-                "title": "Costa Brava & Girona Day Trip",
-                "description": "Breakfast at the hotel. Full-day excursion to Costa Brava and Girona. Discover scenic coastal landscapes, medieval streets, and charming villages. Return to Barcelona. Overnight stay in Barcelona."
-            },
-            {
-                "day": "Day 04",
-                "title": "Barcelona – Madrid by High-Speed Train",
-                "description": "Breakfast at the hotel. Check-out from the hotel. Travel from Barcelona to Madrid by high-speed train. Arrival in Madrid and transfer to your hotel. Rest of the day at leisure. Overnight stay in Madrid."
-            },
-            {
-                "day": "Day 05",
-                "title": "Madrid City Tour & Royal Palace",
-                "description": "Breakfast at the hotel. Enjoy a panoramic Madrid City Tour by bus. Visit the magnificent Royal Palace of Madrid with entrance tickets. Free time for shopping or exploring the city. Overnight stay in Madrid."
-            },
-            {
-                "day": "Day 06",
-                "title": "Departure from Madrid",
-                "description": "Breakfast at the hotel. Check-out from the hotel. Private transfer to Madrid Airport for onward journey."
-            }
-        ]
-    },
-    {
-        "id": "explore-spain-portugal",
-        "categoryId": "europe-package",
-        "name": "Explore Spain & Portugal – Culture, Cities & Coastlines",
-        "destination": "Barcelona • Madrid • Lisbon • Porto",
-        "duration": "08 Days / 07 Nights",
-        "description": "Explore the vibrant culture, historic cities, stunning coastlines, and rich heritage of Spain and Portugal in one unforgettable journey.",
-        "highlights": [
-            "Barcelona, Madrid, Lisbon & Porto",
-            "Hop-on Hop-off Barcelona City Tour",
-            "Sagrada Familia entrance tickets",
-            "High-speed train: Barcelona – Madrid",
-            "Royal Palace of Madrid visit",
-            "Guided Lisbon city tour",
-            "Douro River cruise in Porto"
-        ],
-        "image": "/pictures/explore-spain-portugal/explore-spain-portugal-1.jpeg",
-        "gallery": [
-            "/pictures/explore-spain-portugal/explore-spain-portugal-2.jpeg",
-            "/pictures/explore-spain-portugal/explore-spain-portugal-3.jpeg",
-            "/pictures/explore-spain-portugal/explore-spain-portugal-4.jpeg",
-            "/pictures/explore-spain-portugal/explore-spain-portugal-5.jpeg",
-            "/pictures/explore-spain-portugal/explore-spain-portugal-6.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 01",
-                "title": "Arrival in Barcelona",
-                "description": "Arrival at Barcelona Airport. Meet & greet and private transfer to the hotel. Check-in and leisure time. Overnight stay in Barcelona."
-            },
-            {
-                "day": "Day 02",
-                "title": "Barcelona City Tour & Sagrada Familia",
-                "description": "Breakfast at the hotel. Enjoy Hop-on Hop-off Barcelona City Tour (24 Hours). Visit the iconic Sagrada Familia with entrance tickets. Explore Barcelona’s famous landmarks and neighborhoods. Overnight stay in Barcelona."
-            },
-            {
-                "day": "Day 03",
-                "title": "Barcelona – Madrid by High-Speed Train",
-                "description": "Breakfast at the hotel. Check-out from the hotel. Travel to Madrid by high-speed train. Arrival in Madrid and transfer to your hotel. Leisure time. Overnight stay in Madrid."
-            },
-            {
-                "day": "Day 04",
-                "title": "Madrid City Tour & Royal Palace",
-                "description": "Breakfast at the hotel. Enjoy a panoramic Madrid city tour by bus. Visit the Royal Palace of Madrid with entrance tickets. Free time for shopping or exploration. Overnight stay in Madrid."
-            },
-            {
-                "day": "Day 05",
-                "title": "Madrid – Lisbon (Portugal)",
-                "description": "Breakfast at the hotel. Transfer to Madrid Airport. Travel to Lisbon by flight. Arrival in Lisbon and transfer to your hotel. Leisure time. Overnight stay in Lisbon."
-            },
-            {
-                "day": "Day 06",
-                "title": "Lisbon City Tour & Belem",
-                "description": "Breakfast at the hotel. Guided Lisbon city tour including Belem Tower, Jerónimos Monastery, Alfama District, and Commerce Square. Overnight stay in Lisbon."
-            },
-            {
-                "day": "Day 07",
-                "title": "Lisbon – Porto",
-                "description": "Breakfast at the hotel. Travel to Porto by train. Explore Porto city and Douro River waterfront. Douro River cruise with tickets. Overnight stay in Porto."
-            },
-            {
-                "day": "Day 08",
-                "title": "Departure from Porto / Lisbon",
-                "description": "Breakfast at the hotel. Check-out and transfer to the airport for onward journey."
-            }
-        ]
-    },
-    {
-        "id": "italy-explorer",
-        "categoryId": "europe-package",
-        "name": "Italy Explorer: 6 Cities, Endless Wonders",
-        "destination": "Milan • Venice • Florence • Pisa • Rome & Vatican city",
-        "duration": "08 Days",
-        "description": "Discover the art, history, and romance of Italy with this comprehensive 8-day tour covering the most iconic cities.",
-        "highlights": [
-            "Milan, Venice, Florence, Pisa, Rome & Vatican City",
-            "Gondola ride in Venice",
-            "Skip-the-Line Colosseum & Roman Forum",
-            "Vatican Museums & St. Peter’s Basilica",
-            "Leaning Tower of Pisa",
-            "Tuscany wine tasting"
-        ],
-        "image": "/pictures/italy/italy-1.png",
-        "gallery": [
-            "/pictures/italy/italy-2.jpeg",
-            "/pictures/italy/italy-3.jpeg",
-            "/pictures/italy/italy-4.jpeg",
-            "/pictures/italy/italy-5.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in Milan",
-                "description": "Arrival at Milan Airport and private transfer to your hotel. Check-in and relax. Overnight stay in Milan."
-            },
-            {
-                "day": "Day 2",
-                "title": "Milan City Tour",
-                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Milan. Explore major attractions such as the Duomo Cathedral, La Scala Opera House, and Sforza Castle at your own pace. Overnight stay in Milan."
-            },
-            {
-                "day": "Day 3",
-                "title": "Milan to Venice",
-                "description": "Check out from the hotel and travel from Milan to Venice Island by train. Upon arrival, proceed to your hotel. In the evening, enjoy a romantic Gondola ride through Venice’s picturesque canals. Overnight stay in Venice."
-            },
-            {
-                "day": "Day 4",
-                "title": "Venice to Florence",
-                "description": "Check out from Venice and travel to Florence by train. Arrival in Florence and check-in at the hotel. Evening free for leisure and exploration of the historic city centre. Overnight stay in Florence."
-            },
-            {
-                "day": "Day 5",
-                "title": "Tuscany & Pisa Excursion",
-                "description": "Enjoy a day trip to the beautiful Tuscan countryside and Pisa. Visit the Leaning Tower of Pisa and enjoy a wine tasting experience in Tuscany. Return to Florence. Overnight stay in Florence."
-            },
-            {
-                "day": "Day 6",
-                "title": "Florence to Rome",
-                "description": "Check out from Florence and travel to Rome by train. Arrival in Rome and check-in at the hotel. In the evening, enjoy a Skip-the-Line guided tour of the Colosseum and Roman Forum. Overnight stay in Rome."
-            },
-            {
-                "day": "Day 7",
-                "title": "Rome & Vatican City",
-                "description": "Enjoy a 24-hour Hop-On Hop-Off bus tour in Rome. Visit Vatican City and the Vatican Museums with entrance tickets. Explore St. Peter’s Basilica and other major attractions. Overnight stay in Rome."
-            },
-            {
-                "day": "Day 8",
-                "title": "Departure from Rome",
-                "description": "Check out from the hotel and private transfer to Rome Airport for your onward journey."
-            }
-        ]
-    },
-    {
-        "id": "south-italy-dream",
-        "categoryId": "europe-package",
-        "name": "South Italy Dream – Rome, Capri & Amalfi Coast",
-        "destination": "Rome • Naples • Capri • Amalfi Coast • Sorrento • Positano",
-        "duration": "06 Days",
-        "description": "Experience the stunning beauty of Southern Italy, from the eternal city of Rome to the breathtaking Amalfi Coast and the glamorous island of Capri.",
-        "highlights": [
-            "Rome, Naples, Capri & Amalfi Coast",
-            "Colosseum entrance tickets",
-            "Full-day excursion to Capri Island",
-            "Blue Grotto & Faraglioni Rocks visit",
-            "Amalfi Coast scenic day trip",
-            "Sorrento & Positano exploration"
-        ],
-        "image": "/pictures/italy/italy-2.jpeg",
-        "gallery": [
-            "/pictures/italy/italy-3.jpeg",
-            "/pictures/italy/italy-4.jpeg",
-            "/pictures/italy/italy-5.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in Rome",
-                "description": "Arrival at Rome International Airport & private transfer to your hotel. Rest of the day free at leisure. Overnight stay in Rome."
-            },
-            {
-                "day": "Day 2",
-                "title": "Rome City Tour & Colosseum",
-                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Rome. Visit major landmarks at your own pace. Entrance tickets to the Colosseum included. Overnight stay in Rome."
-            },
-            {
-                "day": "Day 3",
-                "title": "Rome to Naples",
-                "description": "Check out from the hotel and travel from Rome to Naples by train. Arrival in Naples and check-in at the hotel. Evening free to explore Naples city or the waterfront. Overnight stay in Naples."
-            },
-            {
-                "day": "Day 4",
-                "title": "Capri Island Excursion",
-                "description": "After breakfast, proceed for a full-day excursion to Capri Island by ferry. Visit the famous Blue Grotto (Grotta Azzurra), Faraglioni Rocks, and enjoy free time in Capri town. Return to Naples in the evening. Overnight stay in Naples."
-            },
-            {
-                "day": "Day 5",
-                "title": "Amalfi Coast, Sorrento & Positano",
-                "description": "Enjoy a scenic day trip along the Amalfi Coast. Visit the beautiful towns of Sorrento and Positano. Enjoy breathtaking coastal views and leisure time. Return to Naples in the evening. Overnight stay in Naples."
-            },
-            {
-                "day": "Day 6",
-                "title": "Departure from Naples",
-                "description": "Check out from the hotel and private transfer to Naples Airport for your onward journey."
-            }
-        ]
-    },
-    {
-        "id": "eastern-europe-highlights",
-        "categoryId": "europe-package",
-        "name": "Eastern Europe Highlights – Prague, Vienna & Budapest",
-        "destination": "Prague • Vienna • Budapest",
-        "duration": "07 Days",
-        "description": "Explore the imperial majesty of Central and Eastern Europe's most beautiful capitals: Prague, Vienna, and Budapest.",
-        "highlights": [
-            "Prague, Vienna & Budapest",
-            "Vltava River cruise in Prague",
-            "Schönbrunn Palace skip-the-line tickets",
-            "Danube River cruise in Budapest",
-            "Imperial landmarks & historic streets",
-            "Prague Castle guided tour"
-        ],
-        "image": "/pictures/uk-ireland/eastern-europe-highlights.jpeg",
-        "gallery": [],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in Prague",
-                "description": "Arrival at Prague International Airport. Meet & greet and private transfer to your hotel. Rest of the day free at leisure. Overnight stay in Prague."
-            },
-            {
-                "day": "Day 2",
-                "title": "Prague City Tour & River Cruise",
-                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Prague. Guided tour of Prague Castle exteriors in English. Enjoy a relaxing Vltava River cruise. Overnight stay in Prague."
-            },
-            {
-                "day": "Day 3",
-                "title": "Prague to Vienna",
-                "description": "Check out from the hotel and travel from Prague to Vienna by train. Arrival in Vienna and check-in at the hotel. Evening free for leisure. Overnight stay in Vienna."
-            },
-            {
-                "day": "Day 4",
-                "title": "Vienna Guided Sightseeing & Schönbrunn Palace",
-                "description": "Enjoy a guided sightseeing tour of Vienna by bus. Skip-the-line tickets to Schönbrunn Palace included. Explore Vienna’s imperial landmarks. Overnight stay in Vienna."
-            },
-            {
-                "day": "Day 5",
-                "title": "Vienna to Budapest & Danube Cruise",
-                "description": "Check out from Vienna and travel to Budapest by train. Arrival in Budapest and check-in at the hotel. In the evening, enjoy a romantic sightseeing cruise along the River Danube with drinks. Overnight stay in Budapest."
-            },
-            {
-                "day": "Day 6",
-                "title": "Budapest City Tour",
-                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Budapest. Explore major attractions such as Buda Castle, Parliament, and Heroes’ Square. Overnight stay in Budapest."
-            },
-            {
-                "day": "Day 7",
-                "title": "Departure from Budapest",
-                "description": "Check out from the hotel and private transfer to Budapest Airport for your onward journey."
-            }
-        ]
-    },
-    {
-        "id": "austria-explorer",
-        "categoryId": "europe-package",
-        "name": "Austria Explorer – Vienna, Salzburg & Innsbruck",
-        "destination": "Vienna • Salzburg • Hallstatt • Innsbruck",
-        "duration": "08 Days / 07 Nights",
-        "description": "Explore the imperial beauty of Austria, from the vibrant streets of Vienna to the stunning Alpine landscapes of Salzburg and Innsbruck.",
-        "highlights": [
-            "Centrally located hotel stays",
-            "Vienna City Tour & Schönbrunn Palace (Skip-the-line)",
-            "Salzburg guided walking tour",
-            "Full-day excursion to Hallstatt",
-            "Swarovski Crystal Worlds visit",
-            "Scenic intercity train journeys"
-        ],
-        "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&auto=format&fit=crop&q=80",
-        "gallery": [
-            "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&auto=format&fit=crop&q=80"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in Vienna",
-                "description": "Arrival at Vienna International Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure or short stroll around the city centre. Overnight stay in Vienna."
-            },
-            {
-                "day": "Day 2",
-                "title": "Vienna City Tour & Schönbrunn Palace",
-                "description": "Enjoy a full-day guided sightseeing tour of Vienna by bus. Visit attractions like Hofburg Palace, St. Stephen’s Cathedral, and Belvedere Palace. Skip-the-line tickets to Schönbrunn Palace included. Evening free to explore Vienna’s vibrant cafes. Overnight stay in Vienna."
-            },
-            {
-                "day": "Day 3",
-                "title": "Vienna to Salzburg",
-                "description": "Check out from Vienna and travel to Salzburg by train. Guided walking tour of Salzburg, visiting Mozart’s Birthplace, Mirabell Gardens, and Salzburg Cathedral. Evening at leisure. Overnight stay in Salzburg."
-            },
-            {
-                "day": "Day 4",
-                "title": "Day Trip to Hallstatt",
-                "description": "Full-day excursion to the picturesque village of Hallstatt. Explore the lakefront and enjoy panoramic views. Return to Salzburg in the evening. Overnight stay in Salzburg."
-            },
-            {
-                "day": "Day 5",
-                "title": "Salzburg to Innsbruck",
-                "description": "Check out from Salzburg and travel to Innsbruck by train. Overnight stay in Innsbruck."
-            },
-            {
-                "day": "Day 6",
-                "title": "Swarovski Crystal World",
-                "description": "Visit Swarovski Crystal Worlds in Wattens with Shuttle bus and tickets. Enjoy stunning Alpine scenery and unique experiences. Overnight stay in Innsbruck."
-            },
-            {
-                "day": "Day 7",
-                "title": "Innsbruck to Vienna",
-                "description": "Check out from Innsbruck and return to Vienna by train. Evening free for last-minute shopping or a stroll around Ringstrasse. Overnight stay in Vienna."
-            },
-            {
-                "day": "Day 8",
-                "title": "Departure from Vienna",
-                "description": "Check out from the hotel and private transfer to Vienna Airport for your onward journey."
-            }
-        ]
-    },
-    {
-        "id": "london-explorer",
-        "categoryId": "uk-ireland-scotland",
-        "name": "London Explorer – Iconic Sights & Magical Experiences",
-        "destination": "London, United Kingdom",
-        "duration": "05 Days / 04 Nights",
-        "description": "Discover the best of London with this comprehensive explorer package, featuring iconic landmarks, Thames cruises, and the magical world of Harry Potter.",
-        "highlights": [
-            "Private airport transfers",
-            "London Hop-On Hop-Off City Tour (24 Hours)",
-            "Thames River sightseeing cruise",
-            "London Eye entry ticket",
-            "Warner Bros. Studio Tour – The Making of Harry Potter",
-            "Full-day guided tour to Windsor, Stonehenge & Bath"
-        ],
-        "image": "/pictures/london/LondonExplorerIconicSights-MagicalExperiences.jpeg",
-        "gallery": [
-            "/pictures/london/LondonExplorerIconicSights-MagicalExperiences.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in London",
-                "description": "Arrival at London Heathrow Airport and private transfer to your hotel. Rest of the day free for leisure or a stroll around the city. Overnight stay in London."
-            },
-            {
-                "day": "Day 2",
-                "title": "London City Tour & Thames Cruise",
-                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of London. Visit major attractions such as Tower of London, Buckingham Palace, and Westminster Abbey. Included London Eye entry ticket and a one-way Thames River sightseeing cruise. Overnight stay in London."
-            },
-            {
-                "day": "Day 3",
-                "title": "Warner Bros. Studio Tour – The Making of Harry Potter",
-                "description": "Full-day excursion to Warner Bros. Studio. Explore the magical sets, props, and behind-the-scenes of Harry Potter. Return to London in the evening. Overnight stay in London."
-            },
-            {
-                "day": "Day 4",
-                "title": "Day Trip to Windsor, Stonehenge & Bath",
-                "description": "Full-day guided tour to Windsor, Stonehenge, and Bath. Optional entry tickets for local attractions can be added. Return to London in the evening. Overnight stay in London."
-            },
-            {
-                "day": "Day 5",
-                "title": "Departure from London",
-                "description": "Check out from the hotel and private transfer to London Heathrow Airport for your onward journey."
-            }
-        ]
-    },
-    {
-        "id": "london-to-highlands",
-        "categoryId": "uk-ireland-scotland",
-        "name": "From London Landmarks to Scottish Highlands",
-        "destination": "London & Edinburgh, United Kingdom",
-        "duration": "08 Days / 07 Nights",
-        "description": "Experience the contrast between the bustling city of London and the historic charm of Edinburgh, including the legendary Scottish Highlands.",
-        "highlights": [
-            "London & Edinburgh Hop-On Hop-Off tours",
-            "Thames River sightseeing cruise",
-            "Warner Bros. Studio Tour – The Making of Harry Potter",
-            "Windsor, Stonehenge & Bath excursion",
-            "Scenic train journey from London to Edinburgh",
-            "Full-day excursion to Loch Ness & Scottish Highlands"
-        ],
-        "image": "/pictures/london/From london-landmarkstoscottishhighlands.jpeg",
-        "gallery": [
-            "/pictures/london/From london-landmarkstoscottishhighlands.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in London",
-                "description": "Arrival at London Heathrow Airport and private transfer to your hotel. Rest of the day free for leisure or a stroll around the city. Overnight stay in London."
-            },
-            {
-                "day": "Day 2",
-                "title": "London City Tour & Thames Cruise",
-                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of London. Visit major attractions such as Tower of London, Buckingham Palace, and Westminster Abbey. Included London Eye entry ticket and a one-way Thames River sightseeing cruise. Overnight stay in London."
-            },
-            {
-                "day": "Day 3",
-                "title": "Warner Bros. Studio Tour – The Making of Harry Potter",
-                "description": "Full-day excursion to Warner Bros. Studio. Explore the magical sets, props, and behind-the-scenes of Harry Potter. Return to London in the evening. Overnight stay in London."
-            },
-            {
-                "day": "Day 4",
-                "title": "Day Trip to Windsor, Stonehenge & Bath",
-                "description": "Full-day guided tour to Windsor, Stonehenge, and Bath. Optional entry tickets for local attractions can be added. Return to London in the evening. Overnight stay in London."
-            },
-            {
-                "day": "Day 5",
-                "title": "London to Edinburgh",
-                "description": "Check out from the hotel and travel from London to Edinburgh by train. Arrival in Edinburgh and check-in at the hotel. Evening free to explore the historic city streets. Overnight stay in Edinburgh."
-            },
-            {
-                "day": "Day 6",
-                "title": "Edinburgh City Exploration",
-                "description": "Edinburgh Hop on Hop off, visiting Edinburgh Castle, Royal Mile, and Holyrood Palace. Evening at leisure to enjoy local Scottish cuisine or city views. Overnight stay in Edinburgh."
-            },
-            {
-                "day": "Day 7",
-                "title": "Day Trip to Loch Ness & Scottish Highlands",
-                "description": "Full-day excursion to the legendary Loch Ness and the scenic Scottish Highlands. Enjoy breathtaking landscapes, picturesque villages, and the chance to spot Nessie! Return to Edinburgh in the evening. Overnight stay in Edinburgh."
-            },
-            {
-                "day": "Day 8",
-                "title": "Departure from Edinburgh",
-                "description": "Check out from the hotel and private transfer to Edinburgh Airport for your onward journey."
-            }
-        ]
-    },
-    {
-        "id": "croatia-adriatic-wonders",
-        "categoryId": "europe-package",
-        "name": "Plitvice, Islands & Adriatic Wonders – Croatia Tour",
-        "destination": "Zagreb • Plitvice • Split • Hvar • Dubrovnik",
-        "duration": "07 Days / 06 Nights",
-        "description": "Experience the natural wonders and historic coastal cities of Croatia, from the cascading waterfalls of Plitvice Lakes to the stunning islands of the Adriatic.",
-        "highlights": [
-            "Private transfer in Zagreb & Dubrovnik",
-            "Full-day excursion to Plitvice Lakes & Rastoke Village",
-            "Island hopping adventure by speedboat (Hvar & Blue Cave)",
-            "Scenic ferry journey from Split to Dubrovnik",
-            "Guided walking tour of Dubrovnik’s Old Town & Walls"
-        ],
-        "image": "/pictures/crotia-package/img1.jpeg",
-        "gallery": [
-            "/pictures/crotia-package/img1.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in Zagreb",
-                "description": "Arrival at Zagreb Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure or explore the city centre. Overnight stay in Zagreb."
-            },
-            {
-                "day": "Day 2",
-                "title": "Plitvice Lakes & Rastoke Village",
-                "description": "Full-day excursion to Plitvice Lakes National Park, a UNESCO World Heritage Site known for its cascading lakes and waterfalls. Visit Rastoke Village, famous for its charming watermills and riverside views. Return to Zagreb in the evening. Overnight stay in Zagreb."
-            },
-            {
-                "day": "Day 3",
-                "title": "Zagreb to Split",
-                "description": "Check out from your hotel and travel from Zagreb to Split by train, bus, or private transfer. Arrival in Split and check-in at the hotel. Evening free to explore Split’s historic centre and waterfront promenade. Overnight stay in Split."
-            },
-            {
-                "day": "Day 4",
-                "title": "Island Hopping Adventure",
-                "description": "Full-day excursion by speedboat to Blue Island, Hvar Island, and 5 nearby islands. Enjoy swimming, sunbathing, and exploring the islands’ scenic beaches and villages. Return to Split in the evening. Overnight stay in Split."
-            },
-            {
-                "day": "Day 5",
-                "title": "Split to Dubrovnik",
-                "description": "Check out from Split and travel to Dubrovnik by ferry. Arrival in Dubrovnik and check-in at the hotel. Evening at leisure to explore the Old Town or stroll along the Stradun. Overnight stay in Dubrovnik."
-            },
-            {
-                "day": "Day 6",
-                "title": "Dubrovnik City Tour & City Walls",
-                "description": "Guided walking tour of Dubrovnik’s historic Old Town. Walk along the famous city walls and enjoy panoramic views of the Adriatic Sea and red-tiled rooftops. Evening free for leisure. Overnight stay in Dubrovnik."
-            },
-            {
-                "day": "Day 7",
-                "title": "Departure from Dubrovnik",
-                "description": "Check out from your hotel and private transfer to Dubrovnik Airport for your onward journey."
-            }
-        ]
-    },
-    {
-        "id": "scotland-explorer",
-        "categoryId": "uk-ireland-scotland",
-        "name": "Scotland Explorer – Castles, Lakes & Highlands",
-        "destination": "Edinburgh • Glasgow • Inverness",
-        "duration": "07 Days / 06 Nights",
-        "description": "Discover the best of Scotland with this explorer package, featuring iconic castles, stunning lakes, and the majestic Highlands.",
-        "highlights": [
-            "Edinburgh Castle tickets",
-            "Edinburgh Hop on Hop off city bus tour",
-            "Loch Lomond & The Trossachs National Park excursion",
-            "Isle of Skye and Eilean Donan Castle Tour",
-            "Scenic Highland landscapes",
-            "Private airport transfers"
-        ],
-        "image": "/pictures/scotland-explorere/scotland-explorer.jpeg",
-        "gallery": [
-            "/pictures/scotland-explorere/scotland-explorer.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in Edinburgh",
-                "description": "Arrival at Edinburgh Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure or a stroll along the Royal Mile. Overnight stay in Edinburgh."
-            },
-            {
-                "day": "Day 2",
-                "title": "Edinburgh City Tour",
-                "description": "Edinburgh Hop on Hop off city bus tour & Edinburgh Castle tickets. Visit: Edinburgh Castle, Royal Mile, Holyrood Palace, Princes Street Gardens. Evening free at leisure. Overnight stay in Edinburgh."
-            },
-            {
-                "day": "Day 3",
-                "title": "Edinburgh to Glasgow",
-                "description": "Check out from the hotel and travel from Edinburgh to Glasgow by train or private transfer. Arrival in Glasgow and check-in at the hotel. Explore Glasgow city highlights: George Square, Glasgow Cathedral, River Clyde waterfront. Evening free for shopping or leisure. Overnight stay in Glasgow."
-            },
-            {
-                "day": "Day 4",
-                "title": "Loch Lomond & The Trossachs National Park",
-                "description": "Full-day excursion to Loch Lomond & The Trossachs National Park. Enjoy scenic landscapes, lakes, and charming villages. Return to Glasgow in the evening. Overnight stay in Glasgow."
-            },
-            {
-                "day": "Day 5",
-                "title": "Glasgow to Inverness (Scottish Highlands)",
-                "description": "Check out from Glasgow and travel to Inverness, the capital of the Scottish Highlands. En route, enjoy scenic Highland landscapes and photo stops. Arrival in Inverness and check-in at the hotel. Evening free to explore the city. Overnight stay in Inverness."
-            },
-            {
-                "day": "Day 6",
-                "title": "Isle of Skye and Eilean Donan Castle Tour",
-                "description": "Discover the natural beauty of Scotland's Highlands and the Isle of Skye. Return to Inverness in the evening. Overnight stay in Inverness."
-            },
-            {
-                "day": "Day 7",
-                "title": "Departure from Inverness",
-                "description": "Check out from the hotel and transfer to Inverness Airport for your onward journey."
-            }
-        ]
-    },
-    {
-        "id": "giants-castles-ireland",
-        "categoryId": "uk-ireland-scotland",
-        "name": "Giants, Castles & Culture – Ireland Tour",
-        "destination": "Belfast • Dublin",
-        "duration": "06 Days / 05 Nights",
-        "description": "Explore the wonders of Northern Ireland and the Republic of Ireland, from the Giant's Causeway to the vibrant city of Dublin.",
-        "highlights": [
-            "Giant’s Causeway (UNESCO World Heritage Site)",
-            "Game of Thrones filming locations tour",
-            "Belfast HOHO city bus tour",
-            "Dublin HOHO city bus tour",
-            "Guinness Storehouse entry ticket",
-            "Private airport transfers"
-        ],
-        "image": "/pictures/scotland-explorere/giant-castle.jpeg",
-        "gallery": [
-            "/pictures/scotland-explorere/giant-castle.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in Belfast",
-                "description": "Arrival at Belfast Airport. Meet & greet and private transfer to your hotel. Rest of the day free at leisure. Overnight stay in Belfast."
-            },
-            {
-                "day": "Day 2",
-                "title": "Belfast City Tour",
-                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Belfast. Explore major attractions at your own pace, including City Hall, Titanic Quarter, and the Peace Walls. Overnight stay in Belfast."
-            },
-            {
-                "day": "Day 3",
-                "title": "Giant’s Causeway & Game of Thrones Tour",
-                "description": "Full-day guided excursion to the spectacular Giant’s Causeway, a UNESCO World Heritage Site. Visit famous Game of Thrones filming locations along the scenic Antrim Coast. Return to Belfast in the evening. Overnight stay in Belfast."
-            },
-            {
-                "day": "Day 4",
-                "title": "Belfast to Dublin",
-                "description": "Check out from the hotel and travel from Belfast to Dublin by train. Arrival in Dublin and check-in at the hotel. Evening free for leisure or exploring Dublin’s city centre. Overnight stay in Dublin."
-            },
-            {
-                "day": "Day 5",
-                "title": "Dublin City Tour & Guinness Storehouse",
-                "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Dublin. Visit iconic landmarks at your own pace. Included entry ticket to the Guinness Storehouse. Overnight stay in Dublin."
-            },
-            {
-                "day": "Day 6",
-                "title": "Departure from Dublin",
-                "description": "Check out from the hotel and private transfer to Dublin Airport for your onward journey."
-            }
-        ]
-    },
-    {
-        "id": "norway-northern-lights-fjords",
-        "categoryId": "scandinavia",
-        "name": "Chasing Northern Lights & Fjords – Discover Magical Norway",
-        "destination": "Tromsø • Oslo • Bergen",
-        "duration": "07 Days / 06 Nights",
-        "description": "Experience the magical beauty of Norway with Northern Lights tours, stunning fjords, and iconic Norwegian cities.",
-        "highlights": [
-            "Northern Lights tour in Tromsø",
-            "Arctic Cathedral & Polar Museum visit",
-            "Oslo Hop-on Hop-off Bus Tour",
-            "Norway in a Nutshell journey",
-            "Bergen guided walking tour",
-            "Mount Ulriken Cable Car ride",
-            "Private airport transfers"
-        ],
-        "image": "/pictures/scandinavia/img1.jpeg",
-        "gallery": [
-            "/pictures/scandinavia/img1.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in Tromsø",
-                "description": "Arrival at Tromsø Airport. Meet & greet followed by a private transfer to the hotel. Overnight stay in Tromsø."
-            },
-            {
-                "day": "Day 2",
-                "title": "Tromsø City Tour & Northern Lights",
-                "description": "Guided walking tour of Tromsø, exploring Arctic Cathedral, Polar Museum and city highlights. In the evening, enjoy an exciting Northern Lights tour. Overnight stay in Tromsø."
-            },
-            {
-                "day": "Day 3",
-                "title": "Tromsø to Oslo",
-                "description": "Check out from the hotel and transfer to the airport. Flight from Tromsø to Oslo. Arrival and transfer to the hotel. Overnight stay in Oslo."
-            },
-            {
-                "day": "Day 4",
-                "title": "Oslo City Exploration",
-                "description": "Enjoy a Hop-on Hop-off Bus Tour (24 hrs) covering major attractions such as the Royal Palace, Vigeland Sculpture Park, Opera House and more. Overnight stay in Oslo."
-            },
-            {
-                "day": "Day 5",
-                "title": "Oslo to Bergen (Norway in a Nutshell)",
-                "description": "Check out from Oslo and experience the famous Norway in a Nutshell journey by train, fjord cruise and bus en route to Bergen. Arrival in Bergen and transfer to the hotel. Overnight stay in Bergen."
-            },
-            {
-                "day": "Day 6",
-                "title": "Bergen City Tour & Mount Ulriken",
-                "description": "Guided walking tour of Bergen including Bryggen Wharf, Fish Market and historic city centre. Enjoy a round-trip ride on the Ulriken Cable Car for panoramic views. Overnight stay in Bergen."
-            },
-            {
-                "day": "Day 7",
-                "title": "Departure from Bergen",
-                "description": "Check out from the hotel and transfer to Bergen Airport for departure."
-            }
-        ]
-    },
-    {
-        "id": "finland-explorer",
-        "categoryId": "scandinavia",
-        "name": "Finland Explorer – Northern Lights & Santa's Wonderland",
-        "destination": "Helsinki • Rovaniemi",
-        "duration": "05 Days / 04 Nights",
-        "description": "Explore the magic of Finland from the vibrant capital Helsinki to the Arctic wonders of Rovaniemi, home to Santa Claus.",
-        "highlights": [
-            "Helsinki Hop-On Hop-Off City Bus Tour",
-            "Helsinki Cathedral & Sibelius Monument",
-            "Temppeliaukio Rock Church",
-            "Northern Lights Tour in Rovaniemi",
-            "Santa Claus Village visit",
-            "Reindeer sleigh ride",
-            "Husky safari experience",
-            "Arctic Circle crossing ceremony"
-        ],
-        "image": "/pictures/scandinavia/img2.jpeg",
-        "gallery": [
-            "/pictures/scandinavia/img2.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in Helsinki",
-                "description": "Arrival at Helsinki Airport. Meet & greet and private transfer to your hotel. Rest of the day free at leisure. Overnight stay in Helsinki."
-            },
-            {
-                "day": "Day 2",
-                "title": "Helsinki City Tour",
-                "description": "Enjoy a Hop-On Hop-Off City Bus Tour covering major attractions: Senate Square, Helsinki Cathedral, Market Square, Sibelius Monument, and Temppeliaukio (Rock Church). Overnight stay in Helsinki."
-            },
-            {
-                "day": "Day 3",
-                "title": "Helsinki to Rovaniemi (Lapland)",
-                "description": "Check out from the hotel and travel from Helsinki to Rovaniemi by train. Arrival and transfer to the hotel. In the evening, enjoy an exciting Northern Lights Tour. Overnight stay in Rovaniemi."
-            },
-            {
-                "day": "Day 4",
-                "title": "Santa Claus Village & Arctic Activities",
-                "description": "Visit the famous Santa Claus Village at the Arctic Circle. Enjoy: Reindeer Farm visit with sleigh ride, Husky Farm visit with husky safari, and Arctic Circle crossing ceremony. Free time for shopping and photos. Overnight stay in Rovaniemi."
-            },
-            {
-                "day": "Day 5",
-                "title": "Departure from Rovaniemi",
-                "description": "Check out from the hotel and transfer to Rovaniemi Airport for your onward journey."
-            }
-        ]
-    },
-    {
-        "id": "lapland-adventure",
-        "categoryId": "scandinavia",
-        "name": "Lapland Adventure – Northern Lights, Igloos & Arctic Dreams",
-        "destination": "Helsinki • Tallinn • Rovaniemi • Saariselkä",
-        "duration": "09 Days / 08 Nights",
-        "description": "An unforgettable Arctic adventure featuring a day trip to Tallinn, Northern Lights tours, Santa Claus Village, and a magical stay in a Glass Igloo Resort.",
-        "highlights": [
-            "Day trip to Tallinn, Estonia",
-            "Santa Claus Express overnight train",
-            "Northern Lights tours",
-            "Santa Claus Village & Arctic activities",
-            "Reindeer & Husky safaris",
-            "2 nights in Glass Igloo Resort",
-            "Arctic Circle crossing ceremony",
-            "Optional winter activities (snowmobile, ice fishing)"
-        ],
-        "image": "/pictures/scandinavia/img3.jpeg",
-        "gallery": [
-            "/pictures/scandinavia/img3.jpeg"
-        ],
-        "itinerary": [
-            {
-                "day": "Day 1",
-                "title": "Arrival in Helsinki",
-                "description": "Arrival at Helsinki Airport. Meet & greet and private transfer to the hotel. Rest of the day free at leisure. Overnight stay in Helsinki."
-            },
-            {
-                "day": "Day 2",
-                "title": "Day Trip to Tallinn & Overnight Train to Rovaniemi",
-                "description": "Guided day trip to Tallinn, Estonia with return ferry tickets. Explore Tallinn Old Town, medieval streets, and historic landmarks. In the evening, board the Santa Claus Express overnight train to Rovaniemi. Overnight on train."
-            },
-            {
-                "day": "Day 3",
-                "title": "Arrival in Rovaniemi & Northern Lights Tour",
-                "description": "Arrival in Rovaniemi, the capital of Lapland. Transfer to the hotel and free time to explore the city. In the evening, enjoy an exciting Northern Lights Tour. Overnight stay in Rovaniemi."
-            },
-            {
-                "day": "Day 4",
-                "title": "Santa Claus Village & Arctic Activities",
-                "description": "Full-day excursion to Santa Claus Village at the Arctic Circle. Enjoy: Reindeer Farm visit with sleigh ride, Husky Farm visit with husky safari, and Arctic Circle crossing ceremony. Free time for shopping and photos. Overnight stay in Rovaniemi."
-            },
-            {
-                "day": "Day 5",
-                "title": "Rovaniemi to Saariselkä (Igloo Stay)",
-                "description": "Check out from Rovaniemi and travel to Saariselkä by bus or private transfer. Check-in at a Glass Igloo Resort. Enjoy the magical Arctic surroundings and Northern Lights views (weather permitting). Overnight stay in a Glass Igloo."
-            },
-            {
-                "day": "Day 6",
-                "title": "Free Day in Saariselkä",
-                "description": "Free day at the resort for optional activities: Snowmobile safari, Husky safari, Ice fishing, Winter hiking and Arctic experiences. Overnight stay in a Glass Igloo."
-            },
-            {
-                "day": "Day 7",
-                "title": "Free Day in Saariselkä",
-                "description": "Free day at the resort for optional activities: Snowmobile safari, Husky safari, Ice fishing, Winter hiking and Arctic experiences. Overnight stay in a Glass Igloo."
-            },
-            {
-                "day": "Day 8",
-                "title": "Saariselkä to Helsinki",
-                "description": "Check out from the resort and transfer to Ivalo Airport. Flight from Ivalo to Helsinki. Arrival in Helsinki and transfer to the hotel. Overnight stay in Helsinki."
-            },
-            {
-                "day": "Day 9",
-                "title": "Departure from Helsinki",
-                "description": "Check out from the hotel and private transfer to Helsinki Airport for your onward journey."
-            }
-        ]
-    }
+  {
+    "id": "paris-city-break",
+    "categoryId": "europe-package",
+    "name": "Paris City Break – Honeymoon Package",
+    "destination": "Paris, France",
+    "duration": "3 Nights / 4 Days",
+    "description": "Experience the magical beauty of Paris with this specially curated tour. Ideal for couples, families, and photography lovers.",
+    "highlights": [
+      "Centrally located hotel stay",
+      "Paris Hop-On Hop-Off City Tour (24 Hours)",
+      "Eiffel Tower",
+      "Louvre Museum",
+      "Seine River Cruise & Eiffel Tower Experience"
+    ],
+    "image": "/pictures/paris-city-break/paris-city-break-1.jpeg",
+    "gallery": [
+      "/pictures/paris-city-break/paris-city-break-2.jpeg",
+      "/pictures/paris-city-break/paris-city-break-3.jpeg",
+      "/pictures/paris-city-break/paris-city-break-4.jpeg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 01",
+        "title": "Arrival in Paris – Private Transfer to Hotel",
+        "description": "Arrival at Paris Charles de Gaulle (CDG) Airport. Meet & greet and private transfer to a centrally located hotel in Paris. Check-in and rest of the day at leisure. Overnight stay in Paris."
+      },
+      {
+        "day": "Day 02",
+        "title": "Paris Hop-On Hop-Off City Tour (24 Hours)",
+        "description": "Breakfast at the hotel. Enjoy a 24-hour Hop-On Hop-Off Paris City Bus Tour, covering major landmarks such as Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, Champs-Élysées, and Arc de Triomphe. Explore the city at your own pace. Overnight stay in Paris."
+      },
+      {
+        "day": "Day 03",
+        "title": "Seine River Cruise & Eiffel Tower Experience",
+        "description": "Breakfast at the hotel. Experience a romantic Seine River Cruise. Visit the Eiffel Tower with Skip-the-Line access to the 2nd Level by elevator. Free time for shopping or leisure. Overnight stay in Paris."
+      },
+      {
+        "day": "Day 04",
+        "title": "Departure – Private Transfer to Airport",
+        "description": "Breakfast at the hotel. Check-out from the hotel. Private transfer to Paris Charles de Gaulle (CDG) Airport for onward journey."
+      }
+    ]
+  },
+  {
+    "id": "swiss-experience",
+    "categoryId": "europe-package",
+    "name": "Swiss Experience",
+    "destination": "Lucerne • Interlaken • Zurich",
+    "duration": "5 Nights / 6 Days",
+    "description": "Discover the breathtaking beauty of Switzerland with this perfectly curated 6-day itinerary covering charming cities, majestic mountains, scenic lakes, and world-famous attractions.",
+    "highlights": [
+      "05 Nights accommodation in Lucerne, Interlaken & Zurich",
+      "04 Days Swiss Travel Pass (Consecutive)",
+      "Mount Titlis excursion with rotating cable car",
+      "Jungfraujoch – Top of Europe experience",
+      "Scenic Swiss train journeys",
+      "Lake cruises in Interlaken & Zurich",
+      "Lindt Home of Chocolate visit",
+      "Private airport transfer on departure"
+    ],
+    "image": "/pictures/swiss-package/swiss-package-1.jpeg",
+    "gallery": [
+      "/pictures/swiss-package/swiss-package-2.jpeg",
+      "/pictures/swiss-package/swiss-package-3.jpeg",
+      "/pictures/swiss-package/swiss-package-4.jpeg",
+      "/pictures/swiss-package/swiss-package-5.jpeg",
+      "/pictures/swiss-package/swiss-package-6.jpeg",
+      "/pictures/swiss-package/swiss-package-7.jpeg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 01",
+        "title": "Arrival in Zurich – Lucerne",
+        "description": "Arrival at Zurich Airport. Travel to Lucerne by train from Zurich Airport (train tickets included). Check-in at the hotel and enjoy leisure time. Overnight stay in Lucerne."
+      },
+      {
+        "day": "Day 02",
+        "title": "Mount Titlis Excursion",
+        "description": "Activate your 04 Days Swiss Travel Pass (Consecutive). Enjoy a full-day excursion to Mount Titlis with stunning Alpine views, Titlis Cliff Walk, and snow experiences. Overnight stay in Lucerne."
+      },
+      {
+        "day": "Day 03",
+        "title": "Lucerne – Interlaken & Lake Cruises",
+        "description": "Travel to Interlaken by train using the Swiss Travel Pass. Enjoy scenic views of Lake Thun and Lake Brienz, followed by a sightseeing lake cruise. Overnight stay in Interlaken."
+      },
+      {
+        "day": "Day 04",
+        "title": "Jungfraujoch – Top of Europe",
+        "description": "Full-day excursion to Jungfraujoch – Top of Europe. Explore the Ice Palace, Sphinx Observatory, and panoramic Alpine landscapes. Overnight stay in Interlaken."
+      },
+      {
+        "day": "Day 05",
+        "title": "Interlaken – Zurich & Lindt Chocolate",
+        "description": "Travel to Zurich by train using the Swiss Travel Pass. Visit Lindt Home of Chocolate, explore Zurich Old Town, and enjoy a Zurich Lake Cruise. Overnight stay in Zurich."
+      },
+      {
+        "day": "Day 06",
+        "title": "Departure from Zurich",
+        "description": "Check-out from the hotel and transfer to Zurich Airport by private vehicle."
+      }
+    ]
+  },
+  {
+    "id": "amsterdam-tulip",
+    "categoryId": "europe-package",
+    "name": "Amsterdam Tulip Garden Experience",
+    "destination": "Amsterdam, Netherlands",
+    "duration": "3 Nights / 4 Days",
+    "description": "Experience the magical beauty of spring in the Netherlands with our Amsterdam Tulip Garden Experience. Best Travel Period: Mid-March to Mid-May.",
+    "highlights": [
+      "Keukenhof Tulip Gardens",
+      "Amsterdam Canal Cruise",
+      "Zaanse Schans Windmills & Volendam",
+      "City sightseeing & leisure time"
+    ],
+    "image": "/pictures/amsterdam/amsterdam-1.jpeg",
+    "gallery": [
+      "/pictures/amsterdam/amsterdam-2.jpeg",
+      "/pictures/amsterdam/amsterdam-3.jpeg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 01",
+        "title": "Arrival in Amsterdam",
+        "description": "Arrival at Amsterdam Airport Schiphol. Transfer to hotel in Amsterdam city centre. Check-in and leisure time. Explore nearby cafes, Dam Square or shopping streets. Overnight stay in Amsterdam."
+      },
+      {
+        "day": "Day 02",
+        "title": "Keukenhof Tulip Garden Tour",
+        "description": "Breakfast at the hotel. Visit the world-famous Keukenhof Tulip Gardens. Enjoy millions of blooming tulips, themed gardens, and photo spots. Free time for leisure or shopping. Overnight stay in Amsterdam."
+      },
+      {
+        "day": "Day 03",
+        "title": "Zaanse Schans, Volendam & Marken + Canal Cruise",
+        "description": "Breakfast at the hotel. Half-day excursion to Zaanse Schans (traditional windmills), Volendam (fishing village), and Marken (Dutch countryside). Evening Amsterdam Canal Cruise. Overnight stay in Amsterdam."
+      },
+      {
+        "day": "Day 04",
+        "title": "Departure",
+        "description": "Breakfast at the hotel. Check-out and transfer to Amsterdam Airport."
+      }
+    ]
+  },
+  {
+    "id": "amsterdam-city",
+    "categoryId": "europe-package",
+    "name": "Amsterdam City Experience",
+    "destination": "Amsterdam, Netherlands",
+    "duration": "3 Nights / 4 Days",
+    "description": "Discover the charm of Amsterdam with our Amsterdam Standard City Experience, designed for travelers of all ages. Perfect for: Families, couples, seniors & youth.",
+    "highlights": [
+      "Amsterdam Hop-on Hop-off Tour",
+      "Canal Cruise",
+      "Zaanse Schans & Volendam",
+      "Giethoorn Village",
+      "Leisure & cultural exploration"
+    ],
+    "image": "/pictures/amsterdam/amsterdam-4.jpeg",
+    "gallery": ["/pictures/amsterdam/amsterdam-5.jpeg"],
+    "itinerary": [
+      {
+        "day": "Day 01",
+        "title": "Arrival in Amsterdam",
+        "description": "Arrival at Amsterdam Airport Schiphol. Transfer to hotel and check-in. Leisure time to explore the city. Overnight stay in Amsterdam."
+      },
+      {
+        "day": "Day 02",
+        "title": "Amsterdam City Tour + Canal Cruise",
+        "description": "Breakfast at the hotel. Enjoy Hop-on Hop-off Amsterdam City Tour covering Rijksmuseum, Van Gogh Museum, Anne Frank House, and Dam Square. Evening Canal Cruise. Overnight stay in Amsterdam."
+      },
+      {
+        "day": "Day 03",
+        "title": "Day trip to Zaanse Schans, Dutch Villages and Windmills",
+        "description": "Breakfast at the hotel. Excursion to Zaanse Schans (windmills & cheese farms). Visit Giethoorn Village, known as the “Venice of the Netherlands”. Return to Amsterdam. Overnight stay in Amsterdam."
+      },
+      {
+        "day": "Day 04",
+        "title": "Departure",
+        "description": "Breakfast at the hotel. Check-out and transfer to Amsterdam Airport."
+      }
+    ]
+  },
+  {
+    "id": "greece-highlights",
+    "categoryId": "europe-package",
+    "name": "Greece Highlights – Athens, Mykonos & Santorini Tour",
+    "destination": "Athens • Mykonos • Santorini",
+    "duration": "6 Nights / 7 Days",
+    "description": "Discover the timeless beauty of Greece with this perfectly curated multi-island journey. From ancient history in Athens to the vibrant charm of Mykonos and the romantic sunsets of Santorini.",
+    "highlights": [
+      "02 Nights in Athens",
+      "02 Nights in Mykonos",
+      "02 Nights in Santorini",
+      "Athens Hop-on Hop-off City Tour",
+      "Acropolis & Acropolis Museum visit",
+      "High-speed ferry transfers between islands",
+      "Mykonos guided highlights tour",
+      "Santorini sightseeing & Oia sunset experience",
+      "Private airport/port transfers"
+    ],
+    "image": "/pictures/greece-highlights/greece-highlights-1.jpeg",
+    "gallery": [
+      "/pictures/greece-highlights/greece-highlights-2.jpeg",
+      "/pictures/greece-highlights/greece-highlights-3.jpeg",
+      "/pictures/greece-highlights/greece-highlights-4.jpeg",
+      "/pictures/greece-highlights/greece-highlights-5.jpeg",
+      "/pictures/greece-highlights/greece-highlights-6.jpeg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 01",
+        "title": "Arrival in Athens",
+        "description": "Arrival at Athens International Airport. Meet & greet and private transfer to your hotel. Check-in and leisure time. Overnight stay in Athens."
+      },
+      {
+        "day": "Day 02",
+        "title": "Athens City Tour & Acropolis",
+        "description": "Breakfast at the hotel. Enjoy Hop-on Hop-off Athens City Bus Tour. Visit the iconic Acropolis and Acropolis Museum. Explore Athens city at your own pace. Overnight stay in Athens."
+      },
+      {
+        "day": "Day 03",
+        "title": "Athens – Mykonos by Fast Ferry",
+        "description": "Breakfast at the hotel. Transfer to Athens port. Travel to Mykonos by high-speed ferry. Arrival in Mykonos and transfer to your hotel. Rest of the day at leisure. Overnight stay in Mykonos."
+      },
+      {
+        "day": "Day 04",
+        "title": "Mykonos Guided Highlights Tour",
+        "description": "Breakfast at the hotel. Enjoy a guided highlights tour of Mykonos, covering Mykonos Town (Chora), Little Venice, Windmills, and Panagia Paraportiani Church. Free time to explore beaches or cafés. Overnight stay in Mykonos."
+      },
+      {
+        "day": "Day 05",
+        "title": "Mykonos – Santorini by High-Speed Ferry",
+        "description": "Breakfast at the hotel. Transfer to Mykonos port. Travel to Santorini by high-speed ferry. Arrival in Santorini and transfer to your hotel. Leisure time to explore the island. Overnight stay in Santorini."
+      },
+      {
+        "day": "Day 06",
+        "title": "Santorini Sightseeing & Oia Sunset",
+        "description": "Breakfast at the hotel. Enjoy a traditional guided sightseeing tour of Santorini, including Fira Town, Pyrgos Village, and Black Sand Beach / Red Beach. Experience the world-famous sunset at Oia Village. Overnight stay in Santorini."
+      },
+      {
+        "day": "Day 07",
+        "title": "Departure from Santorini",
+        "description": "Breakfast at the hotel. Check-out from the hotel. Transfer to Santorini Airport / Port for onward journey."
+      }
+    ]
+  },
+  {
+    "id": "spain-highlights",
+    "categoryId": "europe-package",
+    "name": "Spain Highlights – Barcelona & Madrid",
+    "destination": "Barcelona • Madrid",
+    "duration": "5 Nights / 6 Days",
+    "description": "Discover the vibrant culture, stunning architecture, and rich history of Spain with this beautifully curated tour covering Barcelona and Madrid.",
+    "highlights": [
+      "03 Nights in Barcelona & 02 Nights in Madrid",
+      "Hop-on Hop-off Barcelona City Tour",
+      "Sagrada Familia entrance tickets",
+      "Costa Brava & Girona excursion",
+      "High-speed train: Barcelona – Madrid",
+      "Madrid panoramic city tour",
+      "Royal Palace of Madrid visit",
+      "Private airport transfers"
+    ],
+    "image": "/pictures/spain-highlights/spain-highlights-1.jpeg",
+    "gallery": [
+      "/pictures/spain-highlights/spain-highlights-2.jpeg",
+      "/pictures/spain-highlights/spain-highlights-3.jpeg",
+      "/pictures/spain-highlights/spain-highlights-4.jpeg",
+      "/pictures/spain-highlights/spain-highlights-5.jpeg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 01",
+        "title": "Arrival in Barcelona",
+        "description": "Arrival at Barcelona Airport. Meet & greet and private transfer to your hotel. Check-in and leisure time to explore the city. Overnight stay in Barcelona."
+      },
+      {
+        "day": "Day 02",
+        "title": "Barcelona City Tour & Sagrada Familia",
+        "description": "Breakfast at the hotel. Enjoy Hop-on Hop-off Barcelona City Bus Tour (24 Hours). Visit the iconic Sagrada Familia with entrance tickets. Explore Barcelona’s famous landmarks and neighborhoods. Overnight stay in Barcelona."
+      },
+      {
+        "day": "Day 03",
+        "title": "Costa Brava & Girona Day Trip",
+        "description": "Breakfast at the hotel. Full-day excursion to Costa Brava and Girona. Discover scenic coastal landscapes, medieval streets, and charming villages. Return to Barcelona. Overnight stay in Barcelona."
+      },
+      {
+        "day": "Day 04",
+        "title": "Barcelona – Madrid by High-Speed Train",
+        "description": "Breakfast at the hotel. Check-out from the hotel. Travel from Barcelona to Madrid by high-speed train. Arrival in Madrid and transfer to your hotel. Rest of the day at leisure. Overnight stay in Madrid."
+      },
+      {
+        "day": "Day 05",
+        "title": "Madrid City Tour & Royal Palace",
+        "description": "Breakfast at the hotel. Enjoy a panoramic Madrid City Tour by bus. Visit the magnificent Royal Palace of Madrid with entrance tickets. Free time for shopping or exploring the city. Overnight stay in Madrid."
+      },
+      {
+        "day": "Day 06",
+        "title": "Departure from Madrid",
+        "description": "Breakfast at the hotel. Check-out from the hotel. Private transfer to Madrid Airport for onward journey."
+      }
+    ]
+  },
+  {
+    "id": "explore-spain-portugal",
+    "categoryId": "europe-package",
+    "name": "Explore Spain & Portugal – Culture, Cities & Coastlines",
+    "destination": "Barcelona • Madrid • Lisbon • Porto",
+    "duration": "7 Nights / 8 Days",
+    "description": "Explore the vibrant culture, historic cities, stunning coastlines, and rich heritage of Spain and Portugal in one unforgettable journey.",
+    "highlights": [
+      "Barcelona, Madrid, Lisbon & Porto",
+      "Hop-on Hop-off Barcelona City Tour",
+      "Sagrada Familia entrance tickets",
+      "High-speed train: Barcelona – Madrid",
+      "Royal Palace of Madrid visit",
+      "Guided Lisbon city tour",
+      "Douro River cruise in Porto"
+    ],
+    "image": "/pictures/explore-spain-portugal/explore-spain-portugal-1.jpeg",
+    "gallery": [
+      "/pictures/explore-spain-portugal/explore-spain-portugal-2.jpeg",
+      "/pictures/explore-spain-portugal/explore-spain-portugal-3.jpeg",
+      "/pictures/explore-spain-portugal/explore-spain-portugal-4.jpeg",
+      "/pictures/explore-spain-portugal/explore-spain-portugal-5.jpeg",
+      "/pictures/explore-spain-portugal/explore-spain-portugal-6.jpeg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 01",
+        "title": "Arrival in Barcelona",
+        "description": "Arrival at Barcelona Airport. Meet & greet and private transfer to the hotel. Check-in and leisure time. Overnight stay in Barcelona."
+      },
+      {
+        "day": "Day 02",
+        "title": "Barcelona City Tour & Sagrada Familia",
+        "description": "Breakfast at the hotel. Enjoy Hop-on Hop-off Barcelona City Tour (24 Hours). Visit the iconic Sagrada Familia with entrance tickets. Explore Barcelona’s famous landmarks and neighborhoods. Overnight stay in Barcelona."
+      },
+      {
+        "day": "Day 03",
+        "title": "Barcelona – Madrid by High-Speed Train",
+        "description": "Breakfast at the hotel. Check-out from the hotel. Travel to Madrid by high-speed train. Arrival in Madrid and transfer to your hotel. Leisure time. Overnight stay in Madrid."
+      },
+      {
+        "day": "Day 04",
+        "title": "Madrid City Tour & Royal Palace",
+        "description": "Breakfast at the hotel. Enjoy a panoramic Madrid city tour by bus. Visit the Royal Palace of Madrid with entrance tickets. Free time for shopping or exploration. Overnight stay in Madrid."
+      },
+      {
+        "day": "Day 05",
+        "title": "Madrid – Lisbon (Portugal)",
+        "description": "Breakfast at the hotel. Transfer to Madrid Airport. Travel to Lisbon by flight. Arrival in Lisbon and transfer to your hotel. Leisure time. Overnight stay in Lisbon."
+      },
+      {
+        "day": "Day 06",
+        "title": "Lisbon City Tour & Belem",
+        "description": "Breakfast at the hotel. Guided Lisbon city tour including Belem Tower, Jerónimos Monastery, Alfama District, and Commerce Square. Overnight stay in Lisbon."
+      },
+      {
+        "day": "Day 07",
+        "title": "Lisbon – Porto",
+        "description": "Breakfast at the hotel. Travel to Porto by train. Explore Porto city and Douro River waterfront. Douro River cruise with tickets. Overnight stay in Porto."
+      },
+      {
+        "day": "Day 08",
+        "title": "Departure from Porto / Lisbon",
+        "description": "Breakfast at the hotel. Check-out and transfer to the airport for onward journey."
+      }
+    ]
+  },
+  {
+    "id": "italy-explorer",
+    "categoryId": "europe-package",
+    "name": "Italy Explorer: 6 Cities, Endless Wonders",
+    "destination": "Milan • Venice • Florence • Pisa • Rome & Vatican city",
+    "duration": "7 Nights / 8 Days",
+    "description": "Discover the art, history, and romance of Italy with this comprehensive 8-day tour covering the most iconic cities.",
+    "highlights": [
+      "Milan, Venice, Florence, Pisa, Rome & Vatican City",
+      "Gondola ride in Venice",
+      "Skip-the-Line Colosseum & Roman Forum",
+      "Vatican Museums & St. Peter’s Basilica",
+      "Leaning Tower of Pisa",
+      "Tuscany wine tasting"
+    ],
+    "image": "/pictures/italy/italy-1.png",
+    "gallery": [
+      "/pictures/italy/italy-2.jpeg",
+      "/pictures/italy/italy-3.jpeg",
+      "/pictures/italy/italy-4.jpeg",
+      "/pictures/italy/italy-5.jpeg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Milan",
+        "description": "Arrival at Milan Airport and private transfer to your hotel. Check-in and relax. Overnight stay in Milan."
+      },
+      {
+        "day": "Day 2",
+        "title": "Milan City Tour",
+        "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Milan. Explore major attractions such as the Duomo Cathedral, La Scala Opera House, and Sforza Castle at your own pace. Overnight stay in Milan."
+      },
+      {
+        "day": "Day 3",
+        "title": "Milan to Venice",
+        "description": "Check out from the hotel and travel from Milan to Venice Island by train. Upon arrival, proceed to your hotel. In the evening, enjoy a romantic Gondola ride through Venice’s picturesque canals. Overnight stay in Venice."
+      },
+      {
+        "day": "Day 4",
+        "title": "Venice to Florence",
+        "description": "Check out from Venice and travel to Florence by train. Arrival in Florence and check-in at the hotel. Evening free for leisure and exploration of the historic city centre. Overnight stay in Florence."
+      },
+      {
+        "day": "Day 5",
+        "title": "Tuscany & Pisa Excursion",
+        "description": "Enjoy a day trip to the beautiful Tuscan countryside and Pisa. Visit the Leaning Tower of Pisa and enjoy a wine tasting experience in Tuscany. Return to Florence. Overnight stay in Florence."
+      },
+      {
+        "day": "Day 6",
+        "title": "Florence to Rome",
+        "description": "Check out from Florence and travel to Rome by train. Arrival in Rome and check-in at the hotel. In the evening, enjoy a Skip-the-Line guided tour of the Colosseum and Roman Forum. Overnight stay in Rome."
+      },
+      {
+        "day": "Day 7",
+        "title": "Rome & Vatican City",
+        "description": "Enjoy a 24-hour Hop-On Hop-Off bus tour in Rome. Visit Vatican City and the Vatican Museums with entrance tickets. Explore St. Peter’s Basilica and other major attractions. Overnight stay in Rome."
+      },
+      {
+        "day": "Day 8",
+        "title": "Departure from Rome",
+        "description": "Check out from the hotel and private transfer to Rome Airport for your onward journey."
+      }
+    ]
+  },
+  {
+    "id": "south-italy-dream",
+    "categoryId": "europe-package",
+    "name": "South Italy Dream – Rome, Capri & Amalfi Coast",
+    "destination": "Rome • Naples • Capri • Amalfi Coast • Sorrento • Positano",
+    "duration": "5 Nights / 6 Days",
+    "description": "Experience the stunning beauty of Southern Italy, from the eternal city of Rome to the breathtaking Amalfi Coast and the glamorous island of Capri.",
+    "highlights": [
+      "Rome, Naples, Capri & Amalfi Coast",
+      "Colosseum entrance tickets",
+      "Full-day excursion to Capri Island",
+      "Blue Grotto & Faraglioni Rocks visit",
+      "Amalfi Coast scenic day trip",
+      "Sorrento & Positano exploration"
+    ],
+    "image": "/pictures/italy/italy-2.jpeg",
+    "gallery": [
+      "/pictures/italy/italy-3.jpeg",
+      "/pictures/italy/italy-4.jpeg",
+      "/pictures/italy/italy-5.jpeg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Rome",
+        "description": "Arrival at Rome International Airport & private transfer to your hotel. Rest of the day free at leisure. Overnight stay in Rome."
+      },
+      {
+        "day": "Day 2",
+        "title": "Rome City Tour & Colosseum",
+        "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Rome. Visit major landmarks at your own pace. Entrance tickets to the Colosseum included. Overnight stay in Rome."
+      },
+      {
+        "day": "Day 3",
+        "title": "Rome to Naples",
+        "description": "Check out from the hotel and travel from Rome to Naples by train. Arrival in Naples and check-in at the hotel. Evening free to explore Naples city or the waterfront. Overnight stay in Naples."
+      },
+      {
+        "day": "Day 4",
+        "title": "Capri Island Excursion",
+        "description": "After breakfast, proceed for a full-day excursion to Capri Island by ferry. Visit the famous Blue Grotto (Grotta Azzurra), Faraglioni Rocks, and enjoy free time in Capri town. Return to Naples in the evening. Overnight stay in Naples."
+      },
+      {
+        "day": "Day 5",
+        "title": "Amalfi Coast, Sorrento & Positano",
+        "description": "Enjoy a scenic day trip along the Amalfi Coast. Visit the beautiful towns of Sorrento and Positano. Enjoy breathtaking coastal views and leisure time. Return to Naples in the evening. Overnight stay in Naples."
+      },
+      {
+        "day": "Day 6",
+        "title": "Departure from Naples",
+        "description": "Check out from the hotel and private transfer to Naples Airport for your onward journey."
+      }
+    ]
+  },
+  {
+    "id": "eastern-europe-highlights",
+    "categoryId": "europe-package",
+    "name": "Eastern Europe Highlights – Prague, Vienna & Budapest",
+    "destination": "Prague • Vienna • Budapest",
+    "duration": "6 Nights / 7 Days",
+    "description": "Explore the imperial majesty of Central and Eastern Europe's most beautiful capitals: Prague, Vienna, and Budapest.",
+    "highlights": [
+      "Prague, Vienna & Budapest",
+      "Vltava River cruise in Prague",
+      "Schönbrunn Palace skip-the-line tickets",
+      "Danube River cruise in Budapest",
+      "Imperial landmarks & historic streets",
+      "Prague Castle guided tour"
+    ],
+    "image": "/pictures/uk-ireland/eastern-europe-highlights.jpeg",
+    "gallery": [],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Prague",
+        "description": "Arrival at Prague International Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure. Overnight stay in Prague."
+      },
+      {
+        "day": "Day 2",
+        "title": "Prague City Tour & River Cruise",
+        "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Prague. Guided tour of Prague Castle exteriors in English. Enjoy a relaxing Vltava River cruise. Overnight stay in Prague."
+      },
+      {
+        "day": "Day 3",
+        "title": "Prague to Vienna",
+        "description": "Check out from the hotel and travel from Prague to Vienna by train. Arrival in Vienna and check-in at the hotel. Evening free for leisure. Overnight stay in Vienna."
+      },
+      {
+        "day": "Day 4",
+        "title": "Vienna Guided Sightseeing & Schönbrunn Palace",
+        "description": "Enjoy a guided sightseeing tour of Vienna by bus. Skip-the-line tickets to Schönbrunn Palace included. Explore Vienna’s imperial landmarks. Overnight stay in Vienna."
+      },
+      {
+        "day": "Day 5",
+        "title": "Vienna to Budapest & Danube Cruise",
+        "description": "Check out from Vienna and travel to Budapest by train. Arrival in Budapest and check-in at the hotel. In the evening, enjoy a romantic sightseeing cruise along the River Danube with drinks. Overnight stay in Budapest."
+      },
+      {
+        "day": "Day 6",
+        "title": "Budapest City Tour",
+        "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Budapest. Explore major attractions such as Buda Castle, Parliament, and Heroes’ Square. Overnight stay in Budapest."
+      },
+      {
+        "day": "Day 7",
+        "title": "Departure from Budapest",
+        "description": "Check out from the hotel and private transfer to Budapest Airport for your onward journey."
+      }
+    ]
+  },
+  {
+    "id": "austria-explorer",
+    "categoryId": "europe-package",
+    "name": "Austria Explorer – Vienna, Salzburg & Innsbruck",
+    "destination": "Vienna • Salzburg • Hallstatt • Innsbruck",
+    "duration": "7 Nights / 8 Days",
+    "description": "Explore the imperial beauty of Austria, from the vibrant streets of Vienna to the stunning Alpine landscapes of Salzburg and Innsbruck.",
+    "highlights": [
+      "Centrally located hotel stays",
+      "Vienna City Tour & Schönbrunn Palace (Skip-the-line)",
+      "Salzburg guided walking tour",
+      "Full-day excursion to Hallstatt",
+      "Swarovski Crystal Worlds visit",
+      "Scenic intercity train journeys"
+    ],
+    "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&auto=format&fit=crop&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&auto=format&fit=crop&q=80"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Vienna",
+        "description": "Arrival at Vienna International Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure or short stroll around the city centre. Overnight stay in Vienna."
+      },
+      {
+        "day": "Day 2",
+        "title": "Vienna City Tour & Schönbrunn Palace",
+        "description": "Enjoy a full-day guided sightseeing tour of Vienna by bus. Visit attractions like Hofburg Palace, St. Stephen’s Cathedral, and Belvedere Palace. Skip-the-line tickets to Schönbrunn Palace included. Evening free to explore Vienna’s vibrant cafes. Overnight stay in Vienna."
+      },
+      {
+        "day": "Day 3",
+        "title": "Vienna to Salzburg",
+        "description": "Check out from Vienna and travel to Salzburg by train. Guided walking tour of Salzburg, visiting Mozart’s Birthplace, Mirabell Gardens, and Salzburg Cathedral. Evening at leisure. Overnight stay in Salzburg."
+      },
+      {
+        "day": "Day 4",
+        "title": "Day Trip to Hallstatt",
+        "description": "Full-day excursion to the picturesque village of Hallstatt. Explore the lakefront and enjoy panoramic views. Return to Salzburg in the evening. Overnight stay in Salzburg."
+      },
+      {
+        "day": "Day 5",
+        "title": "Salzburg to Innsbruck",
+        "description": "Check out from Salzburg and travel to Innsbruck by train. Overnight stay in Innsbruck."
+      },
+      {
+        "day": "Day 6",
+        "title": "Swarovski Crystal World",
+        "description": "Visit Swarovski Crystal Worlds in Wattens with Shuttle bus and tickets. Enjoy stunning Alpine scenery and unique experiences. Overnight stay in Innsbruck."
+      },
+      {
+        "day": "Day 7",
+        "title": "Innsbruck to Vienna",
+        "description": "Check out from Innsbruck and return to Vienna by train. Evening free for last-minute shopping or a stroll around Ringstrasse. Overnight stay in Vienna."
+      },
+      {
+        "day": "Day 8",
+        "title": "Departure from Vienna",
+        "description": "Check out from the hotel and private transfer to Vienna Airport for your onward journey."
+      }
+    ]
+  },
+  {
+    "id": "london-explorer",
+    "categoryId": "uk-ireland-scotland",
+    "name": "London Explorer – Iconic Sights & Magical Experiences",
+    "destination": "London, United Kingdom",
+    "duration": "4 Nights / 5 Days",
+    "description": "Discover the best of London with this comprehensive explorer package, featuring iconic landmarks, Thames cruises, and the magical world of Harry Potter.",
+    "highlights": [
+      "Private airport transfers",
+      "London Hop-On Hop-Off city tour (24 Hours)",
+      "Thames River sightseeing cruise",
+      "London Eye entry ticket",
+      "Warner Bros. Studio Tour – The Making of Harry Potter",
+      "Full-day guided tour to Windsor, Stonehenge & Bath"
+    ],
+    "image": "/pictures/london/LondonExplorerIconicSights-MagicalExperiences.jpeg",
+    "gallery": [
+      "/pictures/london/LondonExplorerIconicSights-MagicalExperiences.jpeg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in London",
+        "description": "Arrival at London Heathrow Airport and private transfer to your hotel. Rest of the day free for leisure or a stroll around the city. Overnight stay in London."
+      },
+      {
+        "day": "Day 2",
+        "title": "London City Tour & Thames Cruise",
+        "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of London. Visit major attractions such as Tower of London, Buckingham Palace, and Westminster Abbey. Included London Eye entry ticket and a one-way Thames River sightseeing cruise. Overnight stay in London."
+      },
+      {
+        "day": "Day 3",
+        "title": "Warner Bros. Studio Tour – The Making of Harry Potter",
+        "description": "Full-day excursion to Warner Bros. Studio. Explore the magical sets, props, and behind-the-scenes of Harry Potter. Return to London in the evening. Overnight stay in London."
+      },
+      {
+        "day": "Day 4",
+        "title": "Day Trip to Windsor, Stonehenge & Bath",
+        "description": "Full-day guided tour to Windsor, Stonehenge, and Bath. Optional entry tickets for local attractions can be added. Return to London in the evening. Overnight stay in London."
+      },
+      {
+        "day": "Day 5",
+        "title": "Departure from London",
+        "description": "Check out from the hotel and private transfer to London Heathrow Airport for your onward journey."
+      }
+    ]
+  },
+  {
+    "id": "london-to-highlands",
+    "categoryId": "uk-ireland-scotland",
+    "name": "From London Landmarks to Scottish Highlands",
+    "destination": "London & Edinburgh, United Kingdom",
+    "duration": "7 Nights / 8 Days",
+    "description": "Experience the contrast between the bustling city of London and the historic charm of Edinburgh, including the legendary Scottish Highlands.",
+    "highlights": [
+      "London & Edinburgh Hop-On Hop-Off tours",
+      "Thames River sightseeing cruise",
+      "Warner Bros. Studio Tour – The Making of Harry Potter",
+      "Windsor, Stonehenge & Bath excursion",
+      "Scenic train journey from London to Edinburgh",
+      "Full-day excursion to Loch Ness & Scottish Highlands"
+    ],
+    "image": "/pictures/london/From london-landmarkstoscottishhighlands.jpeg",
+    "gallery": [
+      "/pictures/london/From london-landmarkstoscottishhighlands.jpeg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in London",
+        "description": "Arrival at London Heathrow Airport and private transfer to your hotel. Rest of the day free for leisure or a stroll around the city. Overnight stay in London."
+      },
+      {
+        "day": "Day 2",
+        "title": "London City Tour & Thames Cruise",
+        "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of London. Visit major attractions such as Tower of London, Buckingham Palace, and Westminster Abbey. Included London Eye entry ticket and a one-way Thames River sightseeing cruise. Overnight stay in London."
+      },
+      {
+        "day": "Day 3",
+        "title": "Warner Bros. Studio Tour – The Making of Harry Potter",
+        "description": "Full-day excursion to Warner Bros. Studio. Explore the magical sets, props, and behind-the-scenes of Harry Potter. Return to London in the evening. Overnight stay in London."
+      },
+      {
+        "day": "Day 4",
+        "title": "Day Trip to Windsor, Stonehenge & Bath",
+        "description": "Full-day guided tour to Windsor, Stonehenge, and Bath. Optional entry tickets for local attractions can be added. Return to London in the evening. Overnight stay in London."
+      },
+      {
+        "day": "Day 5",
+        "title": "London to Edinburgh",
+        "description": "Check out from the hotel and travel from London to Edinburgh by train. Arrival in Edinburgh and check-in at the hotel. Evening free to explore the historic city streets. Overnight stay in Edinburgh."
+      },
+      {
+        "day": "Day 6",
+        "title": "Edinburgh City Exploration",
+        "description": "Edinburgh Hop on Hop off, visiting Edinburgh Castle, Royal Mile, and Holyrood Palace. Evening at leisure to enjoy local Scottish cuisine or city views. Overnight stay in Edinburgh."
+      },
+      {
+        "day": "Day 7",
+        "title": "Day Trip to Loch Ness & Scottish Highlands",
+        "description": "Full-day excursion to the legendary Loch Ness and the scenic Scottish Highlands. Enjoy breathtaking landscapes, picturesque villages, and the chance to spot Nessie! Return to Edinburgh in the evening. Overnight stay in Edinburgh."
+      },
+      {
+        "day": "Day 8",
+        "title": "Departure from Edinburgh",
+        "description": "Check out from the hotel and private transfer to Edinburgh Airport for your onward journey."
+      }
+    ]
+  },
+  {
+    "id": "croatia-adriatic-wonders",
+    "categoryId": "europe-package",
+    "name": "Plitvice, Islands & Adriatic Wonders – Croatia Tour",
+    "destination": "Zagreb • Plitvice • Split • Hvar • Dubrovnik",
+    "duration": "6 Nights / 7 Days",
+    "description": "Experience the natural wonders and historic coastal cities of Croatia, from the cascading waterfalls of Plitvice Lakes to the stunning islands of the Adriatic.",
+    "highlights": [
+      "Private transfer in Zagreb & Dubrovnik",
+      "Full-day excursion to Plitvice Lakes & Rastoke Village",
+      "Island hopping adventure by speedboat (Hvar & Blue Cave)",
+      "Scenic ferry journey from Split to Dubrovnik",
+      "Guided walking tour of Dubrovnik’s Old Town & Walls"
+    ],
+    "image": "/pictures/crotia-package/img1.jpeg",
+    "gallery": ["/pictures/crotia-package/img1.jpeg"],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Zagreb",
+        "description": "Arrival at Zagreb Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure or explore the city centre. Overnight stay in Zagreb."
+      },
+      {
+        "day": "Day 2",
+        "title": "Plitvice Lakes & Rastoke Village",
+        "description": "Full-day excursion to Plitvice Lakes National Park, a UNESCO World Heritage Site known for its cascading lakes and waterfalls. Visit Rastoke Village, famous for its charming watermills and riverside views. Return to Zagreb in the evening. Overnight stay in Zagreb."
+      },
+      {
+        "day": "Day 3",
+        "title": "Zagreb to Split",
+        "description": "Check out from your hotel and travel from Zagreb to Split by train, bus, or private transfer. Arrival in Split and check-in at the hotel. Evening free to explore Split’s historic centre and waterfront promenade. Overnight stay in Split."
+      },
+      {
+        "day": "Day 4",
+        "title": "Island Hopping Adventure",
+        "description": "Full-day excursion by speedboat to Blue Island, Hvar Island, and 5 nearby islands. Enjoy swimming, sunbathing, and exploring the islands’ scenic beaches and villages. Return to Split in the evening. Overnight stay in Split."
+      },
+      {
+        "day": "Day 5",
+        "title": "Split to Dubrovnik",
+        "description": "Check out from Split and travel to Dubrovnik by ferry. Arrival in Dubrovnik and check-in at the hotel. Evening at leisure to explore the Old Town or stroll along the Stradun. Overnight stay in Dubrovnik."
+      },
+      {
+        "day": "Day 6",
+        "title": "Dubrovnik City Tour & City Walls",
+        "description": "Guided walking tour of Dubrovnik’s historic Old Town. Walk along the famous city walls and enjoy panoramic views of the Adriatic Sea and red-tiled rooftops. Evening free for leisure. Overnight stay in Dubrovnik."
+      },
+      {
+        "day": "Day 7",
+        "title": "Departure from Dubrovnik",
+        "description": "Check out from your hotel and private transfer to Dubrovnik Airport for your onward journey."
+      }
+    ]
+  },
+  {
+    "id": "scotland-explorer",
+    "categoryId": "uk-ireland-scotland",
+    "name": "Scotland Explorer – Castles, Lakes & Highlands",
+    "destination": "Edinburgh • Glasgow • Inverness",
+    "duration": "6 Nights / 7 Days",
+    "description": "Discover the best of Scotland with this explorer package, featuring iconic castles, stunning lakes, and the majestic Highlands.",
+    "highlights": [
+      "Edinburgh Castle tickets",
+      "Edinburgh Hop on Hop off city bus tour",
+      "Loch Lomond & The Trossachs National Park excursion",
+      "Isle of Skye and Eilean Donan Castle Tour",
+      "Scenic Highland landscapes",
+      "Private airport transfers"
+    ],
+    "image": "/pictures/scotland-explorere/scotland-explorer.jpeg",
+    "gallery": ["/pictures/scotland-explorere/scotland-explorer.jpeg"],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Edinburgh",
+        "description": "Arrival at Edinburgh Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure or a stroll along the Royal Mile. Overnight stay in Edinburgh."
+      },
+      {
+        "day": "Day 2",
+        "title": "Edinburgh City Tour",
+        "description": "Edinburgh Hop on Hop off city bus tour & Edinburgh Castle tickets. Visit: Edinburgh Castle, Royal Mile, Holyrood Palace, Princes Street Gardens. Evening free at leisure. Overnight stay in Edinburgh."
+      },
+      {
+        "day": "Day 3",
+        "title": "Edinburgh to Glasgow",
+        "description": "Check out from the hotel and travel from Edinburgh to Glasgow by train or private transfer. Arrival in Glasgow and check-in at the hotel. Explore Glasgow city highlights: George Square, Glasgow Cathedral, River Clyde waterfront. Evening free for shopping or leisure. Overnight stay in Glasgow."
+      },
+      {
+        "day": "Day 4",
+        "title": "Loch Lomond & The Trossachs National Park",
+        "description": "Full-day excursion to Loch Lomond & The Trossachs National Park. Enjoy scenic landscapes, lakes, and charming villages. Return to Glasgow in the evening. Overnight stay in Glasgow."
+      },
+      {
+        "day": "Day 5",
+        "title": "Glasgow to Inverness (Scottish Highlands)",
+        "description": "Check out from Glasgow and travel to Inverness, the capital of the Scottish Highlands. En route, enjoy scenic Highland landscapes and photo stops. Arrival in Inverness and check-in at the hotel. Evening free to explore the city. Overnight stay in Inverness."
+      },
+      {
+        "day": "Day 6",
+        "title": "Isle of Skye and Eilean Donan Castle Tour",
+        "description": "Discover the natural beauty of Scotland's Highlands and the Isle of Skye. Return to Inverness in the evening. Overnight stay in Inverness."
+      },
+      {
+        "day": "Day 7",
+        "title": "Departure from Inverness",
+        "description": "Check out from the hotel and transfer to Inverness Airport for your onward journey."
+      }
+    ]
+  },
+  {
+    "id": "giants-castles-ireland",
+    "categoryId": "uk-ireland-scotland",
+    "name": "Giants, Castles & Culture – Ireland Tour",
+    "destination": "Belfast • Dublin",
+    "duration": "5 Nights / 6 Days",
+    "description": "Explore the wonders of Northern Ireland and the Republic of Ireland, from the Giant's Causeway to the vibrant city of Dublin.",
+    "highlights": [
+      "Giant’s Causeway (UNESCO World Heritage Site)",
+      "Game of Thrones filming locations tour",
+      "Belfast HOHO city bus tour",
+      "Dublin HOHO city bus tour",
+      "Guinness Storehouse entry ticket",
+      "Private airport transfers"
+    ],
+    "image": "/pictures/scotland-explorere/giant-castle.jpeg",
+    "gallery": ["/pictures/scotland-explorere/giant-castle.jpeg"],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Belfast",
+        "description": "Arrival at Belfast Airport. Meet & greet and private transfer to your hotel. Rest of the day free for leisure. Overnight stay in Belfast."
+      },
+      {
+        "day": "Day 2",
+        "title": "Belfast City Tour",
+        "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Belfast. Explore major attractions at your own pace, including City Hall, Titanic Quarter, and the Peace Walls. Overnight stay in Belfast."
+      },
+      {
+        "day": "Day 3",
+        "title": "Giant’s Causeway & Game of Thrones Tour",
+        "description": "Full-day guided excursion to the spectacular Giant’s Causeway, a UNESCO World Heritage Site. Visit famous Game of Thrones filming locations along the scenic Antrim Coast. Return to Belfast in the evening. Overnight stay in Belfast."
+      },
+      {
+        "day": "Day 4",
+        "title": "Belfast to Dublin",
+        "description": "Check out from the hotel and travel from Belfast to Dublin by train. Arrival in Dublin and check-in at the hotel. Evening free for leisure or exploring Dublin’s city centre. Overnight stay in Dublin."
+      },
+      {
+        "day": "Day 5",
+        "title": "Dublin City Tour & Guinness Storehouse",
+        "description": "Enjoy a 24-hour Hop-On Hop-Off city bus tour of Dublin. Visit iconic landmarks at your own pace. Included entry ticket to the Guinness Storehouse. Overnight stay in Dublin."
+      },
+      {
+        "day": "Day 6",
+        "title": "Departure from Dublin",
+        "description": "Check out from the hotel and private transfer to Dublin Airport for your onward journey."
+      }
+    ]
+  },
+  {
+    "id": "norway-northern-lights-fjords",
+    "categoryId": "scandinavia",
+    "name": "Chasing Northern Lights & Fjords – Discover Magical Norway",
+    "destination": "Tromsø • Oslo • Bergen",
+    "duration": "6 Nights / 7 Days",
+    "description": "Experience the magical beauty of Norway with Northern Lights tours, stunning fjords, and iconic Norwegian cities.",
+    "highlights": [
+      "Northern Lights tour in Tromsø",
+      "Arctic Cathedral & Polar Museum visit",
+      "Oslo Hop-on Hop-off Bus Tour",
+      "Norway in a Nutshell journey",
+      "Bergen guided walking tour",
+      "Mount Ulriken Cable Car ride",
+      "Private airport transfers"
+    ],
+    "image": "/pictures/scandinavia/img1.jpeg",
+    "gallery": ["/pictures/scandinavia/img1.jpeg"],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Tromsø",
+        "description": "Arrival at Tromsø Airport. Meet & greet followed by a private transfer to the hotel. Overnight stay in Tromsø."
+      },
+      {
+        "day": "Day 2",
+        "title": "Tromsø City Tour & Northern Lights",
+        "description": "Guided walking tour of Tromsø, exploring Arctic Cathedral, Polar Museum and city highlights. In the evening, enjoy an exciting Northern Lights tour. Overnight stay in Tromsø."
+      },
+      {
+        "day": "Day 3",
+        "title": "Tromsø to Oslo",
+        "description": "Check out from the hotel and transfer to the airport. Flight from Tromsø to Oslo. Arrival and transfer to the hotel. Overnight stay in Oslo."
+      },
+      {
+        "day": "Day 4",
+        "title": "Oslo City Exploration",
+        "description": "Enjoy a Hop-on Hop-off Bus Tour (24 hrs) covering major attractions such as the Royal Palace, Vigeland Sculpture Park, Opera House and more. Overnight stay in Oslo."
+      },
+      {
+        "day": "Day 5",
+        "title": "Oslo to Bergen (Norway in a Nutshell)",
+        "description": "Check out from Oslo and experience the famous Norway in a Nutshell journey by train, fjord cruise and bus en route to Bergen. Arrival in Bergen and transfer to the hotel. Overnight stay in Bergen."
+      },
+      {
+        "day": "Day 6",
+        "title": "Bergen City Tour & Mount Ulriken",
+        "description": "Guided walking tour of Bergen including Bryggen Wharf, Fish Market and historic city centre. Enjoy a round-trip ride on the Ulriken Cable Car for panoramic views. Overnight stay in Bergen."
+      },
+      {
+        "day": "Day 7",
+        "title": "Departure from Bergen",
+        "description": "Check out from the hotel and transfer to Bergen Airport for departure."
+      }
+    ]
+  },
+  {
+    "id": "finland-explorer",
+    "categoryId": "scandinavia",
+    "name": "Finland Explorer – Northern Lights & Santa's Wonderland",
+    "destination": "Helsinki • Rovaniemi",
+    "duration": "4 Nights / 5 Days",
+    "description": "Explore the magic of Finland from the vibrant capital Helsinki to the Arctic wonders of Rovaniemi, home to Santa Claus.",
+    "highlights": [
+      "Helsinki Hop-On Hop-Off City Bus Tour",
+      "Helsinki Cathedral & Sibelius Monument",
+      "Temppeliaukio Rock Church",
+      "Northern Lights Tour in Rovaniemi",
+      "Santa Claus Village visit",
+      "Reindeer sleigh ride",
+      "Husky safari experience",
+      "Arctic Circle crossing ceremony"
+    ],
+    "image": "/pictures/scandinavia/img2.jpeg",
+    "gallery": ["/pictures/scandinavia/img2.jpeg"],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Helsinki",
+        "description": "Arrival at Helsinki Airport. Meet & greet and private transfer to your hotel. Rest of the day free at leisure. Overnight stay in Helsinki."
+      },
+      {
+        "day": "Day 2",
+        "title": "Helsinki City Tour",
+        "description": "Enjoy a Hop-On Hop-Off City Bus Tour covering major attractions: Senate Square, Helsinki Cathedral, Market Square, Sibelius Monument, and Temppeliaukio (Rock Church). Overnight stay in Helsinki."
+      },
+      {
+        "day": "Day 3",
+        "title": "Helsinki to Rovaniemi (Lapland)",
+        "description": "Check out from the hotel and travel from Helsinki to Rovaniemi by train. Arrival and transfer to the hotel. In the evening, enjoy an exciting Northern Lights Tour. Overnight stay in Rovaniemi."
+      },
+      {
+        "day": "Day 4",
+        "title": "Santa Claus Village & Arctic Activities",
+        "description": "Visit the famous Santa Claus Village at the Arctic Circle. Enjoy: Reindeer Farm visit with sleigh ride, Husky Farm visit with husky safari, and Arctic Circle crossing ceremony. Free time for shopping and photos. Overnight stay in Rovaniemi."
+      },
+      {
+        "day": "Day 5",
+        "title": "Departure from Rovaniemi",
+        "description": "Check out from the hotel and transfer to Rovaniemi Airport for your onward journey."
+      }
+    ]
+  },
+  {
+    "id": "lapland-adventure",
+    "categoryId": "scandinavia",
+    "name": "Lapland Adventure – Northern Lights, Igloos & Arctic Dreams",
+    "destination": "Helsinki • Tallinn • Rovaniemi • Saariselkä",
+    "duration": "8 Nights / 9 Days",
+    "description": "An unforgettable Arctic adventure featuring a day trip to Tallinn, Northern Lights tours, Santa Claus Village, and a magical stay in a Glass Igloo Resort.",
+    "highlights": [
+      "Day trip to Tallinn, Estonia",
+      "Santa Claus Express overnight train",
+      "Northern Lights tours",
+      "Santa Claus Village & Arctic activities",
+      "Reindeer & Husky safaris",
+      "2 nights in Glass Igloo Resort",
+      "Arctic Circle crossing ceremony",
+      "Optional winter activities (snowmobile, ice fishing)"
+    ],
+    "image": "/pictures/scandinavia/img3.jpeg",
+    "gallery": ["/pictures/scandinavia/img3.jpeg"],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Helsinki",
+        "description": "Arrival at Helsinki Airport. Meet & greet and private transfer to the hotel. Rest of the day free at leisure. Overnight stay in Helsinki."
+      },
+      {
+        "day": "Day 2",
+        "title": "Day Trip to Tallinn & Overnight Train to Rovaniemi",
+        "description": "Guided day trip to Tallinn, Estonia with return ferry tickets. Explore Tallinn Old Town, medieval streets, and historic landmarks. In the evening, board the Santa Claus Express overnight train to Rovaniemi. Overnight on train."
+      },
+      {
+        "day": "Day 3",
+        "title": "Arrival in Rovaniemi & Northern Lights Tour",
+        "description": "Arrival in Rovaniemi, the capital of Lapland. Transfer to the hotel and free time to explore the city. In the evening, enjoy an exciting Northern Lights Tour. Overnight stay in Rovaniemi."
+      },
+      {
+        "day": "Day 4",
+        "title": "Santa Claus Village & Arctic Activities",
+        "description": "Full-day excursion to Santa Claus Village at the Arctic Circle. Enjoy: Reindeer Farm visit with sleigh ride, Husky Farm visit with husky safari, and Arctic Circle crossing ceremony. Free time for shopping and photos. Overnight stay in Rovaniemi."
+      },
+      {
+        "day": "Day 5",
+        "title": "Rovaniemi to Saariselkä (Igloo Stay)",
+        "description": "Check out from Rovaniemi and travel to Saariselkä by bus or private transfer. Check-in at a Glass Igloo Resort. Enjoy the magical Arctic surroundings and Northern Lights views (weather permitting). Overnight stay in a Glass Igloo."
+      },
+      {
+        "day": "Day 6",
+        "title": "Free Day in Saariselkä",
+        "description": "Free day at the resort for optional activities: Snowmobile safari, Husky safari, Ice fishing, Winter hiking and Arctic experiences. Overnight stay in a Glass Igloo."
+      },
+      {
+        "day": "Day 7",
+        "title": "Free Day in Saariselkä",
+        "description": "Free day at the resort for optional activities: Snowmobile safari, Husky safari, Ice fishing, Winter hiking and Arctic experiences. Overnight stay in a Glass Igloo."
+      },
+      {
+        "day": "Day 8",
+        "title": "Saariselkä to Helsinki",
+        "description": "Check out from the resort and transfer to Ivalo Airport. Flight from Ivalo to Helsinki. Arrival in Helsinki and transfer to the hotel. Overnight stay in Helsinki."
+      },
+      {
+        "day": "Day 9",
+        "title": "Departure from Helsinki",
+        "description": "Check out from the hotel and private transfer to Helsinki Airport for your onward journey."
+      }
+    ]
+  }
 ]
