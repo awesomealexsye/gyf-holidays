@@ -37,13 +37,13 @@ const ContactUs = () => {
 
   const offices = [
     {
-      city: 'New Delhi (Head Office)',
+      city: 'New Delhi',
       address: 'Unit No 590, 5th Floor, Vegas Commercial Building, Plot No 6, Block - B, Sector 14, Dwarka',
       phone: '+91 88823 82864',
       emails: ['info@gyfholidays.com', 'sales@gyfholidays.com', 'support@gyfholidays.com'],
     },
     {
-      city: 'London - Mayfair',
+      city: ' ⁠Registered office - London Mayfair',
       address: 'Albemarle Street, Mayfair, London, W1S',
       emails: ['info@gyfholidays.com', 'sales@gyfholidays.com', 'support@gyfholidays.com'],
     },

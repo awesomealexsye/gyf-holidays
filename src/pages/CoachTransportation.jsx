@@ -26,7 +26,7 @@ const CoachTransportation = () => {
       title: 'Executive Minibus',
       capacity: 'Up to 15 Seater',
       description: 'Perfect for small groups, FIT movements & corporate travel.',
-      image: '/pictures/coach-transportation/2.jpeg',
+      image: '/pictures/coach-transportation/5.jpeg',
       icon: FaBus
     },
     {
@@ -329,7 +329,6 @@ const CoachTransportation = () => {
               <div className="text-white/80 text-lg mb-14 max-w-2xl font-medium leading-loose">
                 <p>📧 sales@gyfholidays.com</p>
                 <p>📞 +91 88823 82864</p>
-                <p>🌐 www.gyfholidays.com</p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-8 w-full max-w-md">
