@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Services from './pages/Services'
 import Destination from './pages/Destination'
+import CoachTransportation from './pages/CoachTransportation'
 import ContactUs from './pages/ContactUs'
 import PackageCategory from './pages/PackageCategory'
 import PackageDetails from './pages/PackageDetails'
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
           <Route path="/destinations" element={<Destination />} />
+          <Route path="/coach-transportation" element={<CoachTransportation />} />
           <Route path="/contact" element={<ContactUs />} />
 
           <Route path="/packages/:categoryId" element={<PackageCategory />} />
