@@ -13,13 +13,30 @@
 <div class="bg-white rounded-xl shadow-xl p-6 {{ $compact ? 'md:p-6' : 'md:p-8' }}">
     <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">{{ $title }}</h3>
 
+    @if(session('success'))
+        <div class="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800">
+            {{ session('success') }}
+        </div>
+    @endif
+
+    @if ($errors->any())
+        <div class="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg text-red-800 text-sm">
+            <ul class="list-disc list-inside">
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
     <form 
-        action="https://gyfholidays.com/my-forms-submit.php" 
+        action="{{ route('enquiry.submit') }}" 
         method="POST" 
         class="space-y-4"
         x-data="{ isSubmitting: false }"
         @submit="isSubmitting = true"
     >
+        @csrf
         <div class="grid {{ $compact ? 'grid-cols-1' : 'grid-cols-1 md:grid-cols-2' }} gap-4">
             <!-- Name -->
             <div>
@@ -31,6 +48,7 @@
                     <input
                         type="text"
                         name="name"
+                        value="{{ old('name') }}"
                         required
                         class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                         placeholder="John Doe"
@@ -48,6 +66,7 @@
                     <input
                         type="email"
                         name="email"
+                        value="{{ old('email') }}"
                         required
                         class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                         placeholder="john@example.com"
@@ -65,7 +84,10 @@
                     <input
                         type="tel"
                         name="phone"
+                        value="{{ old('phone') }}"
                         required
+                        pattern="^([0-9\s\-\+\(\)]*)$"
+                        title="Please enter a valid phone number (digits, space, -, +, () allowed)"
                         class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                         placeholder="+91 98765 43210"
                     >
@@ -82,6 +104,7 @@
                     <input
                         type="text"
                         name="businessName"
+                        value="{{ old('businessName') }}"
                         required
                         class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                         placeholder="Your Company Name"
@@ -103,7 +126,7 @@
                     >
                         <option value="">Select Type</option>
                         @foreach($companyTypes as $type)
-                            <option value="{{ $type }}">{{ $type }}</option>
+                            <option value="{{ $type }}" {{ old('companyType') == $type ? 'selected' : '' }}>{{ $type }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -119,6 +142,7 @@
                     <input
                         type="number"
                         name="numberOfTravelers"
+                        value="{{ old('numberOfTravelers') }}"
                         class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                         placeholder="10"
                         min="1"
@@ -136,6 +160,7 @@
                     <input
                         type="date"
                         name="travelDate"
+                        value="{{ old('travelDate') }}"
                         class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     >
                 </div>
@@ -151,6 +176,7 @@
                     <input
                         type="text"
                         name="destination"
+                        value="{{ old('destination') }}"
                         class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                         placeholder="e.g., Bali, Dubai, Europe"
                     >
@@ -170,7 +196,7 @@
                     rows="4"
                     class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="Tell us more about your requirements..."
-                ></textarea>
+                >{{ old('message') }}</textarea>
             </div>
         </div>
 
@@ -190,8 +216,8 @@
                 <template x-if="!isSubmitting">
                     <div class="flex items-center space-x-2">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
-                        <span class="hidden sm:inline">Send Inquiry via Email</span>
-                        <span class="sm:hidden">Send Email</span>
+                        <span class="hidden sm:inline">Submit Inquiry</span>
+                        <span class="sm:hidden">Submit</span>
                     </div>
                 </template>
             </button>
