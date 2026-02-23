@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
+use App\Models\DynamicPage;
 use App\Models\Enquiry;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -65,5 +67,67 @@ class AdminController extends Controller
         $enquiry = Enquiry::findOrFail($id);
         $enquiry->delete();
         return redirect()->route('admin.enquiries')->with('success', 'Enquiry deleted successfully.');
+    }
+
+    // SEO Pages Methods
+    public function pages()
+    {
+        $pages = DynamicPage::latest()->paginate(10);
+        return view('admin.pages.index', compact('pages'));
+    }
+
+    public function createPage()
+    {
+        $categories = Category::all();
+        return view('admin.pages.create', compact('categories'));
+    }
+
+    public function storePage(Request $request)
+    {
+        $validated = $request->validate([
+            'slug' => 'required|string|unique:dynamic_pages,slug',
+            'title' => 'required|string|max:255',
+            'description' => 'required|string',
+            'category_id' => 'nullable|exists:categories,id',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords' => 'nullable|string',
+        ]);
+
+        DynamicPage::create($validated);
+
+        return redirect()->route('admin.pages')->with('success', 'SEO Page created successfully.');
+    }
+
+    public function editPage($id)
+    {
+        $page = DynamicPage::findOrFail($id);
+        $categories = Category::all();
+        return view('admin.pages.edit', compact('page', 'categories'));
+    }
+
+    public function updatePage(Request $request, $id)
+    {
+        $page = DynamicPage::findOrFail($id);
+        $validated = $request->validate([
+            'slug' => 'required|string|unique:dynamic_pages,slug,' . $id,
+            'title' => 'required|string|max:255',
+            'description' => 'required|string',
+            'category_id' => 'nullable|exists:categories,id',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords' => 'nullable|string',
+        ]);
+
+        $page->update($validated);
+
+        return redirect()->route('admin.pages')->with('success', 'SEO Page updated successfully.');
+    }
+
+    public function deletePage($id)
+    {
+        $page = DynamicPage::findOrFail($id);
+        $page->delete();
+        return redirect()->route('admin.pages')->with('success', 'SEO Page deleted successfully.');
     }
 }

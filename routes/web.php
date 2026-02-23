@@ -35,7 +35,20 @@ Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.lo
 // Admin Panel Routes
 Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::get('/', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+    
+    // Enquiries
     Route::get('/enquiries', [AdminController::class, 'enquiries'])->name('admin.enquiries');
     Route::get('/enquiry/{id}', [AdminController::class, 'enquiryDetails'])->name('admin.enquiry.details');
     Route::delete('/enquiry/{id}', [AdminController::class, 'deleteEnquiry'])->name('admin.enquiry.delete');
+
+    // SEO Pages
+    Route::get('/pages', [AdminController::class, 'pages'])->name('admin.pages');
+    Route::get('/page/create', [AdminController::class, 'createPage'])->name('admin.page.create');
+    Route::post('/page/store', [AdminController::class, 'storePage'])->name('admin.page.store');
+    Route::get('/page/{id}/edit', [AdminController::class, 'editPage'])->name('admin.page.edit');
+    Route::put('/page/{id}', [AdminController::class, 'updatePage'])->name('admin.page.update');
+    Route::delete('/page/{id}', [AdminController::class, 'deletePage'])->name('admin.page.delete');
 });
+
+// Dynamic SEO Pages (MUST BE AT THE VERY END)
+Route::get('/{slug}', [PageController::class, 'dynamicPage'])->name('dynamic.page');

@@ -2,22 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
+use App\Models\DynamicPage;
+use App\Models\Package;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\File;
 
 class PageController extends Controller
 {
-    private function getData($file)
-    {
-        $path = resource_path("data/{$file}.json");
-        return collect(json_decode(File::get($path), true));
-    }
-
     public function home()
     {
-        $categories = $this->getData('categories');
-        $packages = $this->getData('packages')->take(6);
-        return view('pages.home', compact('categories', 'packages'));
+        $categories = Category::all();
+        $packages = Package::latest()->take(6)->get();
+        $dynamicPages = DynamicPage::where('is_active', true)->get();
+        return view('pages.home', compact('categories', 'packages', 'dynamicPages'));
     }
 
     public function about()
@@ -32,7 +29,7 @@ class PageController extends Controller
 
     public function destinations()
     {
-        $categories = $this->getData('categories');
+        $categories = Category::all();
         return view('pages.destinations', compact('categories'));
     }
 
@@ -48,31 +45,33 @@ class PageController extends Controller
 
     public function packageCategory($categoryId)
     {
-        $categories = $this->getData('categories');
-        $category = $categories->firstWhere('id', $categoryId);
-        
-        if (!$category) {
-            abort(404);
-        }
-
-        $packages = $this->getData('packages')->where('categoryId', $categoryId);
+        $category = Category::findOrFail($categoryId);
+        $packages = $category->packages;
         
         return view('pages.package-category', compact('category', 'packages'));
     }
 
     public function packageDetails($packageId)
     {
-        $packages = $this->getData('packages');
-        $package = $packages->firstWhere('id', $packageId);
-        
-        if (!$package) {
-            abort(404);
-        }
-
-        $relatedPackages = $packages->where('categoryId', $package['categoryId'])
+        $package = Package::with('category')->findOrFail($packageId);
+        $relatedPackages = Package::where('category_id', $package->category_id)
             ->where('id', '!=', $packageId)
-            ->take(3);
+            ->take(3)
+            ->get();
             
         return view('pages.package-details', compact('package', 'relatedPackages'));
+    }
+
+    public function dynamicPage($slug)
+    {
+        $page = DynamicPage::where('slug', $slug)->where('is_active', true)->firstOrFail();
+        
+        // Fetch packages related to the category linked to this dynamic page
+        $packages = collect();
+        if ($page->category_id) {
+            $packages = Package::where('category_id', $page->category_id)->get();
+        }
+
+        return view('pages.dynamic', compact('page', 'packages'));
     }
 }
