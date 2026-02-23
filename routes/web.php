@@ -50,5 +50,8 @@ Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::delete('/page/{id}', [AdminController::class, 'deletePage'])->name('admin.page.delete');
 });
 
+// Sitemap
+Route::get('/sitemap.xml', [\App\Http\Controllers\SitemapController::class, 'index'])->name('sitemap');
+
 // Dynamic SEO Pages (MUST BE AT THE VERY END)
 Route::get('/{slug}', [PageController::class, 'dynamicPage'])->name('dynamic.page');
