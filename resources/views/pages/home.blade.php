@@ -2,6 +2,7 @@
 
 @section('title', 'GYF Holidays - Your Trusted B2B Travel Partner')
 @section('meta_description', 'GYF Holidays offers premium B2B travel and tour packages for corporate clients, group bookings, and customized holiday trips worldwide.')
+@section('meta_keywords', 'B2B Travel Partner, Corporate Travel Solutions, Group Bookings, Customized Tour Packages, International Travel Agency, GYF Holidays')
 
 @section('content')
     @php

@@ -2,6 +2,7 @@
 
 @section('title', 'About Us - GYF Holidays | Trusted B2B Travel Partner')
 @section('meta_description', 'Learn about GYF Holidays (GYF PLANNERS PVT LTD), our mission, vision, and how we provide exceptional B2B travel solutions since 2018.')
+@section('meta_keywords', 'About GYF Holidays, B2B Travel History, Corporate Travel Experts, European Destination Management, UK Travel Partner')
 
 @section('content')
     <x-hero

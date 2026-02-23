@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Contact Us - GYF Holidays')
+@section('meta_description', 'Get in touch with GYF Holidays for B2B travel inquiries, corporate bookings, and customized tour packages. We provide 24/7 support for our partners.')
+@section('meta_keywords', 'Contact GYF Holidays, B2B Travel Inquiry, Corporate Booking Support, Travel Agency Help, Delhi Travel Office')
 
 @section('content')
     <x-hero

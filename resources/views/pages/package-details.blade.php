@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('title', $package['name'] . ' - GYF Holidays')
+@section('meta_description', $package['description'])
+@section('meta_keywords', $package['name'] . ', ' . $package['destination'] . ' tour, ' . $package['duration'] . ' trip, B2B ' . $package['destination'] . ' travel')
 
 @section('content')
     <x-hero

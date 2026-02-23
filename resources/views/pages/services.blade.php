@@ -2,6 +2,7 @@
 
 @section('title', 'Our Services - GYF Holidays | B2B Travel Management')
 @section('meta_description', 'Explore our comprehensive B2B travel services: Corporate land travel management, group tours, customized packages, MICE solutions, and private van tours.')
+@section('meta_keywords', 'Corporate Travel Management, Group Tour Bookings, MICE Solutions, Private Van Tours, Travel Consultation B2B')
 
 @section('content')
     <x-hero

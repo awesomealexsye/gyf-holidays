@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Explore Destinations - GYF Holidays')
+@section('meta_description', 'Discover premium B2B tour packages for Europe, UK, Ireland, Scotland, and Scandinavia. Tailor-made itineraries for corporate and group travel.')
+@section('meta_keywords', 'Europe Destinations, UK Tour Packages, Scandinavia Travel, B2B Travel Destinations, Global Tour Planning')
 
 @section('content')
     <x-hero

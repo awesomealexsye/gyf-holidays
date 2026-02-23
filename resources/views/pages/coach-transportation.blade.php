@@ -2,6 +2,7 @@
 
 @section('title', 'Coach & Transfer Services - GYF Holidays | UK & Europe')
 @section('meta_description', 'Premium standalone coach services across UK and Europe. Luxury coaches, executive minibuses, and premium vans for B2B partners and corporate planners.')
+@section('meta_keywords', 'Coach Services Europe, UK Bus Hire B2B, Luxury Minibus Rental, European Group Transport, Chauffeur Services UK')
 
 @section('content')
     <x-hero
