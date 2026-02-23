@@ -59,5 +59,44 @@ class DataMigrationSeeder extends Seeder
                 'meta_keywords' => "Scandinavia DMC $location, Nordic B2B Travel $location, Scandinavia Packages $location"
             ]);
         }
+
+        // 4. Add Specific Requested Dynamic Pages
+        $additionalPages = [
+            [
+                'slug' => 'europe-b2b-travel-dmc-in-nagpur',
+                'title' => 'Europe B2B Travel DMC in Nagpur',
+                'category_id' => 'europe-package',
+                'description' => 'GYF Holidays is the leading Europe B2B travel DMC in Nagpur, providing comprehensive travel solutions, hotel bookings, and ground handling for European tours.'
+            ],
+            [
+                'slug' => 'europe-b2b-travel-dmc-in-maharastra',
+                'title' => 'Europe B2B Travel DMC in Maharastra',
+                'category_id' => 'europe-package',
+                'description' => 'As a premier Europe B2B travel DMC in Maharastra, we offer customized itineraries and competitive rates for all your European travel requirements.'
+            ],
+            [
+                'slug' => 'europe-b2b-dmc-in-pune',
+                'title' => 'Europe B2B DMC in Pune',
+                'category_id' => 'europe-package',
+                'description' => 'Looking for a reliable Europe B2B DMC in Pune? GYF Holidays offers specialized B2B travel services for Europe, ensuring the best experiences for your clients.'
+            ],
+            [
+                'slug' => 'uk-b2b-travel-dmc-in-mumbai',
+                'title' => 'UK B2B Travel DMC in Mumbai',
+                'category_id' => 'uk-ireland-scotland',
+                'description' => 'GYF Holidays is your trusted UK B2B travel DMC in Mumbai, specializing in comprehensive tour packages across the United Kingdom and Ireland.'
+            ],
+        ];
+
+        foreach ($additionalPages as $page) {
+            DynamicPage::updateOrCreate(['slug' => $page['slug']], [
+                'title' => $page['title'],
+                'description' => $page['description'],
+                'category_id' => $page['category_id'],
+                'meta_title' => $page['title'] . " | GYF Holidays",
+                'meta_description' => $page['description'],
+                'meta_keywords' => str_replace(' ', ', ', $page['title'])
+            ]);
+        }
     }
 }
