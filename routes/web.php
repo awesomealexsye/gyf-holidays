@@ -3,7 +3,12 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\EnquiryController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
+
+// Sitemap
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
+Route::get('/sitemap', [SitemapController::class, 'index']);
 
 // Public Pages
 Route::get('/', [PageController::class, 'home'])->name('home');
@@ -49,9 +54,6 @@ Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::put('/page/{id}', [AdminController::class, 'updatePage'])->name('admin.page.update');
     Route::delete('/page/{id}', [AdminController::class, 'deletePage'])->name('admin.page.delete');
 });
-
-// Sitemap
-Route::get('/sitemap.xml', [\App\Http\Controllers\SitemapController::class, 'index'])->name('sitemap');
 
 // Dynamic SEO Pages (MUST BE AT THE VERY END)
 Route::get('/{slug}', [PageController::class, 'dynamicPage'])->name('dynamic.page');

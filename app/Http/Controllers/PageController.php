@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use App\Models\DynamicPage;
 use App\Models\Package;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -64,6 +65,11 @@ class PageController extends Controller
 
     public function dynamicPage($slug)
     {
+        // Fallback for sitemap.xml if the main route is missed in production
+        if ($slug === 'sitemap.xml') {
+            return app(SitemapController::class)->index();
+        }
+
         $page = DynamicPage::where('slug', $slug)->where('is_active', true)->firstOrFail();
         
         // Fetch packages related to the category linked to this dynamic page
