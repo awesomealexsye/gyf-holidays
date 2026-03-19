@@ -4,6 +4,25 @@
 @section('meta_description', 'GYF Holidays offers premium B2B travel and tour packages for corporate clients, group bookings, and customized holiday trips worldwide.')
 @section('meta_keywords', 'B2B Travel Partner, Corporate Travel Solutions, Group Bookings, Customized Tour Packages, International Travel Agency, GYF Holidays')
 
+@section('og_image', 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&auto=format&fit=crop&q=80')
+
+@push('schema')
+    <script type="application/ld+json">
+    {
+        "@@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": "What is GYF Holidays and what services do you offer?", "acceptedAnswer": {"@type": "Answer", "text": "GYF Holidays is a B2B Destination Management Company (DMC) based in New Delhi, India. We specialize in providing ground handling services, hotel bookings, transfers, and curated tour packages across Europe, Scandinavia, and the UK for travel agents and tour operators."}},
+            {"@type": "Question", "name": "How can travel agents partner with GYF Holidays?", "acceptedAnswer": {"@type": "Answer", "text": "Travel agents across India can partner with us by submitting an inquiry through our website or contacting our sales team. We offer competitive B2B wholesale rates, dedicated account managers, marketing support, and product training."}},
+            {"@type": "Question", "name": "Which European destinations does GYF Holidays cover?", "acceptedAnswer": {"@type": "Answer", "text": "We cover 150+ destinations across Europe including France, Italy, Switzerland, Spain, Germany, Netherlands, Austria, Czech Republic, Hungary, Greece, Croatia, Portugal, all Scandinavian countries, and the UK including England, Scotland, Wales, and Ireland."}},
+            {"@type": "Question", "name": "Do you offer customized tour packages for B2B clients?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, every package can be fully customized based on your client requirements including hotel category, meal plans, specific activities, routing, and budget."}},
+            {"@type": "Question", "name": "What kind of support does GYF provide during tours?", "acceptedAnswer": {"@type": "Answer", "text": "We provide 24/7 on-ground support across all our destinations including airport transfers, English-speaking guides, emergency assistance, and real-time coordination with the booking agent."}},
+            {"@type": "Question", "name": "Where is GYF Holidays office located?", "acceptedAnswer": {"@type": "Answer", "text": "Our head office is located at Unit No 590, 5th Floor, Vegas Commercial Building, Sector 14, Dwarka, New Delhi 110078. We serve travel agents across all major Indian cities."}}
+        ]
+    }
+    </script>
+@endpush
+
 @section('preload')
     <link rel="preload" as="image" href="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop&q=75" imagesrcset="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=480&auto=format&fit=crop&q=70 480w, https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop&q=75 800w, https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&auto=format&fit=crop&q=80 1200w, https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1920&auto=format&fit=crop&q=80 1920w" imagesizes="100vw" fetchpriority="high">
 @endsection
@@ -278,6 +297,60 @@
             </div>
         </section>
     @endif
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Frequently Asked Questions
+                    </h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        Common questions about GYF Holidays B2B travel services
+                    </p>
+                </div>
+
+                @php
+                    $homeFaqs = [
+                        ['question' => 'What is GYF Holidays and what services do you offer?', 'answer' => 'GYF Holidays is a B2B Destination Management Company (DMC) based in New Delhi, India. We specialize in providing ground handling services, hotel bookings, transfers, and curated tour packages across Europe, Scandinavia, and the UK for travel agents and tour operators.'],
+                        ['question' => 'How can travel agents partner with GYF Holidays?', 'answer' => 'Travel agents across India can partner with us by submitting an inquiry through our website or contacting our sales team. We offer competitive B2B wholesale rates, dedicated account managers, marketing support, and product training to help agents grow their European tour business.'],
+                        ['question' => 'Which European destinations does GYF Holidays cover?', 'answer' => 'We cover 150+ destinations across Europe including France, Italy, Switzerland, Spain, Germany, Netherlands, Austria, Czech Republic, Hungary, Greece, Croatia, Portugal, all Scandinavian countries (Norway, Sweden, Finland, Denmark, Iceland), and the UK including England, Scotland, Wales, and Ireland.'],
+                        ['question' => 'Do you offer customized tour packages for B2B clients?', 'answer' => 'Yes, every package can be fully customized based on your client requirements including hotel category, meal plans, specific activities, routing, and budget. Our expert team creates bespoke itineraries tailored to group size and preferences.'],
+                        ['question' => 'What kind of support does GYF provide during tours?', 'answer' => 'We provide 24/7 on-ground support across all our destinations. This includes airport transfers, English-speaking guides, emergency assistance, real-time coordination with the booking agent, and local contact numbers for immediate help.'],
+                        ['question' => 'Where is GYF Holidays office located?', 'answer' => 'Our head office is located at Unit No 590, 5th Floor, Vegas Commercial Building, Plot No 6, Block B, Sector 14, Dwarka, New Delhi 110078. We serve travel agents across all major Indian cities including Delhi, Mumbai, Chennai, Bangalore, Kolkata, Hyderabad, and Pune.'],
+                    ];
+                @endphp
+
+                <div class="space-y-4" x-data="{ openFaq: null }">
+                    @foreach($homeFaqs as $index => $faq)
+                        <div class="bg-gray-50 rounded-2xl overflow-hidden border border-gray-100">
+                            <button
+                                @click="openFaq = openFaq === {{ $index }} ? null : {{ $index }}"
+                                class="w-full flex items-center justify-between p-6 text-left"
+                            >
+                                <h3 class="font-bold text-gray-900 pr-4">{{ $faq['question'] }}</h3>
+                                <svg
+                                    class="w-5 h-5 text-gray-400 flex-shrink-0 transition-transform duration-300"
+                                    :class="{ 'rotate-180': openFaq === {{ $index }} }"
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                >
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <div
+                                x-show="openFaq === {{ $index }}"
+                                x-transition
+                                class="px-6 pb-6"
+                            >
+                                <p class="text-gray-600 leading-relaxed">{{ $faq['answer'] }}</p>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Ready to Start -->
     <section class="py-20">

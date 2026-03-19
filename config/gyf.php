@@ -6,7 +6,7 @@ return [
         'tagline' => 'Your Trusted B2B Travel Partner',
         'fullName' => 'GYF Holidays Pvt. Ltd.',
         'description' => 'Leading B2B travel solutions provider specializing in corporate travel, group bookings, and customized holiday packages worldwide.',
-        'foundedYear' => 2015,
+        'foundedYear' => 2018,
     ],
 
     'contact' => [
@@ -38,7 +38,7 @@ return [
     'stats' => [
         'destinations' => 150,
         'happyClients' => 5000,
-        'yearsExperience' => 10,
+        'yearsExperience' => 8,
         'teamMembers' => 50,
     ],
 

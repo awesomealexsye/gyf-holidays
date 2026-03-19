@@ -10,7 +10,7 @@
     <meta name="description" content="@yield('meta_description', 'GYF Holidays offers premium B2B travel and tour packages for corporate clients, group bookings, and customized holiday trips worldwide.')">
     <meta name="keywords" content="@yield('meta_keywords', 'GYF Holidays, B2B Travel, Corporate Travel, Group Bookings, Europe Tour Packages, UK Travel, Scandinavia Tours')">
     <meta name="author" content="GYF Holidays">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="robots" content="@yield('robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1')">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ url()->current() }}">

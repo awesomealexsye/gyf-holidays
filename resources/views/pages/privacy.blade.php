@@ -3,6 +3,7 @@
 @section('title', 'Privacy Policy - GYF Holidays')
 @section('meta_description', 'Read the privacy policy of GYF Holidays to understand how we collect, use, and protect your personal information.')
 @section('meta_keywords', 'Privacy Policy, Data Protection, GYF Holidays Privacy, Travel Agency Terms')
+@section('robots', 'noindex, follow')
 
 @section('content')
     <div class="container mx-auto px-4 py-20">

@@ -3,6 +3,7 @@
 @section('title', 'Terms & Conditions - GYF Holidays')
 @section('meta_description', 'Review the terms and conditions for using GYF Holidays services, including booking, payment, and cancellation policies.')
 @section('meta_keywords', 'Terms and Conditions, Booking Policy, Cancellation Policy, GYF Holidays Terms')
+@section('robots', 'noindex, follow')
 
 @section('content')
     <div class="container mx-auto px-4 py-20">
