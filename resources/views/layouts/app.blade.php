@@ -36,6 +36,18 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y97N5KV1L6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Y97N5KV1L6');
+    </script>
 </head>
 
 <body class="font-sans antialiased min-h-screen flex flex-col bg-gray-50">
