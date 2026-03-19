@@ -36,8 +36,10 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <meta name="google-site-verification" content="bcuU-VxvQ1OefDYM1Teq0xYF35ir6zrTWG0Vg_gy9pI" />
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y97N5KV1L6"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7R0P5T50GJ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -46,7 +48,7 @@
         }
         gtag('js', new Date());
 
-        gtag('config', 'G-Y97N5KV1L6');
+        gtag('config', 'G-7R0P5T50GJ');
     </script>
 </head>
 
