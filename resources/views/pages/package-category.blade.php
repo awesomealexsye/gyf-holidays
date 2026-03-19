@@ -22,9 +22,10 @@
                             <a href="/package/{{ $pkg['id'] }}">
                                 <div class="relative aspect-video overflow-hidden">
                                     <img
-                                        src="{{ $pkg['image'] }}"
-                                        alt="{{ $pkg['name'] }}"
+                                        src="@webp($pkg['image'])"
+                                        alt="{{ $pkg['name'] }} - {{ $category['name'] ?? 'Tour Package' }} by GYF Holidays"
                                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                        loading="lazy"
                                     >
                                     <div class="absolute top-4 right-4 bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                                         {{ $pkg['duration'] }}

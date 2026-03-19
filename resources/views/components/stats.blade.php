@@ -13,8 +13,8 @@
     >
         @foreach($stats as $index => $stat)
             <div class="text-center {{ $index !== count($stats) - 1 ? 'md:border-r md:border-gray-100' : '' }}">
-                <h3 class="text-3xl md:text-4xl font-black text-gray-900 mb-2 font-poppins">{{ $stat['value'] }}</h3>
-                <p class="text-xs md:text-sm font-bold text-gray-400 tracking-widest uppercase">{{ $stat['label'] }}</p>
+                <p class="text-3xl md:text-4xl font-black text-gray-900 mb-2 font-poppins">{{ $stat['value'] }}</p>
+                <p class="text-xs md:text-sm font-bold text-gray-600 tracking-widest uppercase">{{ $stat['label'] }}</p>
             </div>
         @endforeach
     </div>

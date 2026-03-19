@@ -35,8 +35,8 @@
         <url>
             <loc>{{ url($page->slug) }}</loc>
             <lastmod>{{ ($page->updated_at ?? now())->tz('UTC')->toAtomString() }}</lastmod>
-            <changefreq>monthly</changefreq>
-            <priority>0.6</priority>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
         </url>
     @endforeach
 </urlset>

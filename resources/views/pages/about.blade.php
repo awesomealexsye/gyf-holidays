@@ -56,8 +56,9 @@
                 <div class="relative">
                     <img
                         src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&auto=format&fit=crop&q=80"
-                        alt="Our Story"
+                        alt="GYF Holidays Team - Trusted B2B Travel Partner Since 2015"
                         class="rounded-2xl shadow-2xl"
+                        loading="lazy"
                     >
                 </div>
             </div>

@@ -2,7 +2,9 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use App\Helpers\ImageHelper;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,6 +21,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        // Register webp() as a global Blade directive
+        Blade::directive('webp', function ($expression) {
+            return "<?php echo \App\Helpers\ImageHelper::webp($expression); ?>";
+        });
     }
 }

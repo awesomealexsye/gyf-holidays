@@ -15,6 +15,10 @@ return Application::configure(basePath: dirname(__DIR__))
             guests: '/admin/login',
             users: '/admin'
         );
+
+        $middleware->web(append: [
+            \App\Http\Middleware\CompressResponse::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //

@@ -70,14 +70,28 @@ class PageController extends Controller
             return app(SitemapController::class)->index();
         }
 
+        // 301 Redirect old slugs to new SEO-optimized slugs
+        if (array_key_exists($slug, DynamicPage::SLUG_REDIRECTS)) {
+            return redirect('/' . DynamicPage::SLUG_REDIRECTS[$slug], 301);
+        }
+
         $page = DynamicPage::where('slug', $slug)->where('is_active', true)->firstOrFail();
-        
+
         // Fetch packages related to the category linked to this dynamic page
         $packages = collect();
         if ($page->category_id) {
             $packages = Package::where('category_id', $page->category_id)->get();
         }
 
-        return view('pages.dynamic', compact('page', 'packages'));
+        // Fetch related dynamic pages for internal linking (same region or same city)
+        $relatedPages = DynamicPage::where('is_active', true)
+            ->where('id', '!=', $page->id)
+            ->get()
+            ->filter(function ($p) use ($page) {
+                return $p->city === $page->city || $p->region === $page->region;
+            })
+            ->take(6);
+
+        return view('pages.dynamic', compact('page', 'packages', 'relatedPages'));
     }
 }

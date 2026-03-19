@@ -57,15 +57,22 @@
                 </ul>
             </div>
 
-            <!-- Services -->
+            <!-- Services & DMC Pages -->
             <div>
                 <h4 class="text-white font-semibold text-lg mb-4">Our Services</h4>
                 <ul class="space-y-2">
-                    <li class="hover:text-primary-400 transition">Corporate Travel</li>
-                    <li class="hover:text-primary-400 transition">Group Bookings</li>
-                    <li class="hover:text-primary-400 transition">Customized Packages</li>
-                    <li class="hover:text-primary-400 transition">Event Management</li>
-                    <li class="hover:text-primary-400 transition">Travel Consultation</li>
+                    <li><a href="/services" class="hover:text-primary-400 transition">Corporate Travel</a></li>
+                    <li><a href="/services" class="hover:text-primary-400 transition">Group Bookings</a></li>
+                    <li><a href="/services" class="hover:text-primary-400 transition">Customized Packages</a></li>
+                    <li><a href="/coach-transportation" class="hover:text-primary-400 transition">Coach Transportation</a></li>
+                </ul>
+                <h4 class="text-white font-semibold text-lg mt-6 mb-3">Popular DMC Services</h4>
+                <ul class="space-y-2">
+                    <li><a href="/europe-b2b-dmc-in-delhi" class="hover:text-primary-400 transition text-sm">Europe B2B DMC in Delhi</a></li>
+                    <li><a href="/europe-b2b-dmc-in-mumbai" class="hover:text-primary-400 transition text-sm">Europe B2B DMC in Mumbai</a></li>
+                    <li><a href="/scandinavia-b2b-dmc-in-bangalore" class="hover:text-primary-400 transition text-sm">Scandinavia DMC in Bangalore</a></li>
+                    <li><a href="/europe-b2b-dmc-in-chennai" class="hover:text-primary-400 transition text-sm">Europe B2B DMC in Chennai</a></li>
+                    <li><a href="/uk-b2b-travel-dmc-in-mumbai" class="hover:text-primary-400 transition text-sm">UK B2B DMC in Mumbai</a></li>
                 </ul>
             </div>
 

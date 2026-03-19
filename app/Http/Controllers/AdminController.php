@@ -88,11 +88,23 @@ class AdminController extends Controller
             'slug' => 'required|string|unique:dynamic_pages,slug',
             'title' => 'required|string|max:255',
             'description' => 'required|string',
+            'city_specific_content' => 'nullable|string',
+            'seo_content' => 'nullable|string',
             'category_id' => 'nullable|exists:categories,id',
             'meta_title' => 'nullable|string|max:255',
             'meta_description' => 'nullable|string',
             'meta_keywords' => 'nullable|string',
+            'faqs' => 'nullable|array',
+            'faqs.*.question' => 'required_with:faqs|string',
+            'faqs.*.answer' => 'required_with:faqs|string',
         ]);
+
+        // Filter out empty FAQs
+        if (isset($validated['faqs'])) {
+            $validated['faqs'] = array_values(array_filter($validated['faqs'], function ($faq) {
+                return !empty($faq['question']) && !empty($faq['answer']);
+            }));
+        }
 
         DynamicPage::create($validated);
 
@@ -113,11 +125,25 @@ class AdminController extends Controller
             'slug' => 'required|string|unique:dynamic_pages,slug,' . $id,
             'title' => 'required|string|max:255',
             'description' => 'required|string',
+            'city_specific_content' => 'nullable|string',
+            'seo_content' => 'nullable|string',
             'category_id' => 'nullable|exists:categories,id',
             'meta_title' => 'nullable|string|max:255',
             'meta_description' => 'nullable|string',
             'meta_keywords' => 'nullable|string',
+            'faqs' => 'nullable|array',
+            'faqs.*.question' => 'required_with:faqs|string',
+            'faqs.*.answer' => 'required_with:faqs|string',
         ]);
+
+        // Filter out empty FAQs
+        if (isset($validated['faqs'])) {
+            $validated['faqs'] = array_values(array_filter($validated['faqs'], function ($faq) {
+                return !empty($faq['question']) && !empty($faq['answer']);
+            }));
+        } else {
+            $validated['faqs'] = [];
+        }
 
         $page->update($validated);
 

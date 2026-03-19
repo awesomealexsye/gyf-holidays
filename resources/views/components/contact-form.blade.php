@@ -121,7 +121,9 @@
                     <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 z-10 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path><path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path></svg>
                     <select
                         name="companyType"
+                        id="companyType"
                         required
+                        aria-label="Company Type"
                         class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent appearance-none bg-white"
                     >
                         <option value="">Select Type</option>
@@ -160,7 +162,9 @@
                     <input
                         type="date"
                         name="travelDate"
+                        id="travelDate"
                         value="{{ old('travelDate') }}"
+                        aria-label="Preferred Travel Date"
                         class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     >
                 </div>

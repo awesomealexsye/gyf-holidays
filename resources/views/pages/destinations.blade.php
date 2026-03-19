@@ -21,9 +21,10 @@
                         <a href="/packages/{{ $category['id'] }}" class="flex flex-col h-full">
                             <div class="relative aspect-[4/3] overflow-hidden">
                                 <img
-                                    src="{{ $category['image'] }}"
-                                    alt="{{ $category['name'] }}"
+                                    src="@webp($category['image'])"
+                                    alt="{{ $category['name'] }} - Travel Destinations by GYF Holidays"
                                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                    loading="lazy"
                                 >
                             </div>
                             <div class="p-8 flex-grow flex flex-col items-center text-center">

@@ -73,6 +73,7 @@
                 <button
                     @click="isOpen = !isOpen"
                     class="lg:hidden text-gray-700 hover:text-primary-600 transition"
+                    aria-label="Toggle navigation menu"
                 >
                     <template x-if="isOpen">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>

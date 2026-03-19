@@ -68,9 +68,10 @@
                     <div class="bg-white rounded-[2.5rem] overflow-hidden shadow-2xl group flex flex-col h-full">
                         <div class="h-72 overflow-hidden relative">
                             <img
-                                src="{{ $fleet['image'] }}"
-                                alt="{{ $fleet['title'] }}"
+                                src="@webp($fleet['image'])"
+                                alt="{{ $fleet['title'] }} - Coach Transportation by GYF Holidays"
                                 class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                                loading="lazy"
                             >
                             <div class="absolute top-6 right-6 bg-white/95 px-5 py-2 rounded-2xl text-xs font-black text-primary-600 shadow-xl">
                                 {{ $fleet['capacity'] }}

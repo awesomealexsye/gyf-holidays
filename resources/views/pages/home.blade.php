@@ -4,6 +4,10 @@
 @section('meta_description', 'GYF Holidays offers premium B2B travel and tour packages for corporate clients, group bookings, and customized holiday trips worldwide.')
 @section('meta_keywords', 'B2B Travel Partner, Corporate Travel Solutions, Group Bookings, Customized Tour Packages, International Travel Agency, GYF Holidays')
 
+@section('preload')
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop&q=75" imagesrcset="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=480&auto=format&fit=crop&q=70 480w, https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop&q=75 800w, https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&auto=format&fit=crop&q=80 1200w, https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1920&auto=format&fit=crop&q=80 1920w" imagesizes="100vw" fetchpriority="high">
+@endsection
+
 @section('content')
     @php
         $services = [
@@ -140,9 +144,10 @@
                         <a href="/packages/{{ $category['id'] }}" class="flex flex-col h-full">
                             <div class="relative aspect-[4/3] overflow-hidden">
                                 <img
-                                    src="{{ $category['image'] }}"
-                                    alt="{{ $category['name'] }}"
+                                    src="@webp($category['image'])"
+                                    alt="{{ $category['name'] }} - B2B Tour Packages by GYF Holidays"
                                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                    loading="lazy"
                                 >
                                 <div class="absolute inset-0 bg-black/5 group-hover:bg-black/0 transition-colors duration-500"></div>
                             </div>
@@ -225,7 +230,7 @@
                         </div>
                         <p class="text-gray-600 mb-6 italic">{{ $testimonial['text'] }}</p>
                         <div>
-                            <h4 class="font-bold text-gray-900">{{ $testimonial['name'] }}</h4>
+                            <p class="font-bold text-gray-900">{{ $testimonial['name'] }}</p>
                             <p class="text-sm text-gray-500">{{ $testimonial['company'] }}</p>
                         </div>
                     </div>
@@ -243,7 +248,7 @@
         <section class="py-24 bg-gray-50/50">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-16">
-                    <div class="inline-flex items-center space-x-2 bg-primary-100 text-primary-600 px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wider mb-6">
+                    <div class="inline-flex items-center space-x-2 bg-primary-100 text-primary-800 px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wider mb-6">
                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
                         <span>Our Global Network</span>
                     </div>
@@ -291,7 +296,7 @@
                                 <svg class="text-primary-600 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"></path></svg>
                             </div>
                             <div>
-                                <h4 class="font-semibold text-gray-900">Customized Solutions</h4>
+                                <h3 class="font-semibold text-gray-900">Customized Solutions</h4>
                                 <p class="text-gray-600">Tailored to your business needs</p>
                             </div>
                         </div>
@@ -300,7 +305,7 @@
                                 <svg class="text-primary-600 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                             </div>
                             <div>
-                                <h4 class="font-semibold text-gray-900">Best Rates</h4>
+                                <h3 class="font-semibold text-gray-900">Best Rates</h4>
                                 <p class="text-gray-600">Competitive B2B pricing</p>
                             </div>
                         </div>
@@ -309,7 +314,7 @@
                                 <svg class="text-primary-600 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
                             </div>
                             <div>
-                                <h4 class="font-semibold text-gray-900">24/7 Support</h4>
+                                <h3 class="font-semibold text-gray-900">24/7 Support</h4>
                                 <p class="text-gray-600">Always here when you need us</p>
                             </div>
                         </div>
