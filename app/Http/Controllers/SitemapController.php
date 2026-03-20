@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use App\Models\Blog;
+use App\Models\BlogCategory;
+use App\Models\BlogTag;
 use App\Models\Category;
 use App\Models\DynamicPage;
 use App\Models\Package;
@@ -27,11 +29,18 @@ class SitemapController extends Controller
         $packages = Package::all();
         $dynamicPages = DynamicPage::where('is_active', true)->get();
 
+        $blogs = Blog::published()->get();
+        $blogCategories = BlogCategory::has('blogs')->get();
+        $blogTags = BlogTag::has('blogs')->get();
+
         return response()->view('sitemap', [
             'staticPages' => $staticPages,
             'categories' => $categories,
             'packages' => $packages,
             'dynamicPages' => $dynamicPages,
+            'blogs' => $blogs,
+            'blogCategories' => $blogCategories,
+            'blogTags' => $blogTags,
         ])->header('Content-Type', 'text/xml');
     }
 }

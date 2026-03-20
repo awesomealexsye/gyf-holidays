@@ -51,4 +51,42 @@
             <priority>0.7</priority>
         </url>
     @endforeach
+
+    {{-- Blog Index --}}
+    <url>
+        <loc>{{ route('blog.index') }}</loc>
+        <lastmod>{{ now()->tz('UTC')->toAtomString() }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    {{-- Blog Posts --}}
+    @foreach($blogs as $blog)
+        <url>
+            <loc>{{ route('blog.show', $blog->slug) }}</loc>
+            <lastmod>{{ ($blog->updated_at ?? now())->tz('UTC')->toAtomString() }}</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.6</priority>
+        </url>
+    @endforeach
+
+    {{-- Blog Categories --}}
+    @foreach($blogCategories as $blogCategory)
+        <url>
+            <loc>{{ route('blog.category', $blogCategory->slug) }}</loc>
+            <lastmod>{{ ($blogCategory->updated_at ?? now())->tz('UTC')->toAtomString() }}</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+        </url>
+    @endforeach
+
+    {{-- Blog Tags --}}
+    @foreach($blogTags as $blogTag)
+        <url>
+            <loc>{{ route('blog.tag', $blogTag->slug) }}</loc>
+            <lastmod>{{ ($blogTag->updated_at ?? now())->tz('UTC')->toAtomString() }}</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.4</priority>
+        </url>
+    @endforeach
 </urlset>

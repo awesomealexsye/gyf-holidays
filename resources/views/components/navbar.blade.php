@@ -5,6 +5,7 @@
         ['path' => '/services', 'label' => 'Services'],
         ['path' => '/destinations', 'label' => 'Destinations'],
         ['path' => '/coach-transportation', 'label' => 'Coach and Transportation'],
+        ['path' => '/blog', 'label' => 'Blog'],
         ['path' => '/contact', 'label' => 'Contact Us'],
     ];
 @endphp

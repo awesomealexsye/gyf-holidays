@@ -53,6 +53,7 @@
                     <li><a href="/services" class="hover:text-primary-400 transition">Services</a></li>
                     <li><a href="/destinations" class="hover:text-primary-400 transition">Destinations</a></li>
                     <li><a href="/coach-transportation" class="hover:text-primary-400 transition">Coaches</a></li>
+                    <li><a href="/blog" class="hover:text-primary-400 transition">Blog</a></li>
                     <li><a href="/contact" class="hover:text-primary-400 transition">Contact Us</a></li>
                 </ul>
             </div>

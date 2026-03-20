@@ -95,6 +95,25 @@
                 </a>
 
                 <div class="pt-4 pb-2">
+                    <p class="px-4 text-[10px] font-bold text-primary-400 uppercase tracking-widest">Blog</p>
+                </div>
+
+                <a href="{{ route('admin.blogs') }}" class="flex items-center px-4 py-3 rounded-xl transition-all duration-200 {{ request()->routeIs('admin.blogs') || request()->routeIs('admin.blog.*') ? 'bg-primary-600 text-white shadow-lg shadow-primary-900/50' : 'text-primary-100 hover:bg-primary-800 hover:text-white' }}">
+                    <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
+                    <span class="font-medium">All Posts</span>
+                </a>
+
+                <a href="{{ route('admin.blog-categories') }}" class="flex items-center px-4 py-3 rounded-xl transition-all duration-200 {{ request()->routeIs('admin.blog-categories') || request()->routeIs('admin.blog-category.*') ? 'bg-primary-600 text-white shadow-lg shadow-primary-900/50' : 'text-primary-100 hover:bg-primary-800 hover:text-white' }}">
+                    <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
+                    <span class="font-medium">Categories</span>
+                </a>
+
+                <a href="{{ route('admin.blog-tags') }}" class="flex items-center px-4 py-3 rounded-xl transition-all duration-200 {{ request()->routeIs('admin.blog-tags') || request()->routeIs('admin.blog-tag.*') ? 'bg-primary-600 text-white shadow-lg shadow-primary-900/50' : 'text-primary-100 hover:bg-primary-800 hover:text-white' }}">
+                    <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path></svg>
+                    <span class="font-medium">Tags</span>
+                </a>
+
+                <div class="pt-4 pb-2">
                     <p class="px-4 text-[10px] font-bold text-primary-400 uppercase tracking-widest">External</p>
                 </div>
 

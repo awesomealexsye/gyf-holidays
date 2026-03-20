@@ -32,6 +32,12 @@ Route::get('/terms', function () {
 // Enquiry Submission
 Route::post('/enquiry/submit', [EnquiryController::class, 'store'])->name('enquiry.submit');
 
+// Blog
+Route::get('/blog', [PageController::class, 'blogIndex'])->name('blog.index');
+Route::get('/blog/category/{slug}', [PageController::class, 'blogCategory'])->name('blog.category');
+Route::get('/blog/tag/{slug}', [PageController::class, 'blogTag'])->name('blog.tag');
+Route::get('/blog/{slug}', [PageController::class, 'blogShow'])->name('blog.show');
+
 // Admin Auth Routes
 Route::get('/admin/login', [AdminController::class, 'showLogin'])->name('admin.login');
 Route::post('/admin/login', [AdminController::class, 'login'])->name('admin.login.submit');
@@ -53,6 +59,31 @@ Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::get('/page/{id}/edit', [AdminController::class, 'editPage'])->name('admin.page.edit');
     Route::put('/page/{id}', [AdminController::class, 'updatePage'])->name('admin.page.update');
     Route::delete('/page/{id}', [AdminController::class, 'deletePage'])->name('admin.page.delete');
+
+    // Blog Posts
+    Route::get('/blogs', [AdminController::class, 'blogs'])->name('admin.blogs');
+    Route::get('/blog/create', [AdminController::class, 'createBlog'])->name('admin.blog.create');
+    Route::post('/blog/store', [AdminController::class, 'storeBlog'])->name('admin.blog.store');
+    Route::get('/blog/{id}/edit', [AdminController::class, 'editBlog'])->name('admin.blog.edit');
+    Route::put('/blog/{id}', [AdminController::class, 'updateBlog'])->name('admin.blog.update');
+    Route::delete('/blog/{id}', [AdminController::class, 'deleteBlog'])->name('admin.blog.delete');
+    Route::post('/blog/upload-image', [AdminController::class, 'uploadBlogImage'])->name('admin.blog.upload-image');
+
+    // Blog Categories
+    Route::get('/blog-categories', [AdminController::class, 'blogCategories'])->name('admin.blog-categories');
+    Route::get('/blog-category/create', [AdminController::class, 'createBlogCategory'])->name('admin.blog-category.create');
+    Route::post('/blog-category/store', [AdminController::class, 'storeBlogCategory'])->name('admin.blog-category.store');
+    Route::get('/blog-category/{id}/edit', [AdminController::class, 'editBlogCategory'])->name('admin.blog-category.edit');
+    Route::put('/blog-category/{id}', [AdminController::class, 'updateBlogCategory'])->name('admin.blog-category.update');
+    Route::delete('/blog-category/{id}', [AdminController::class, 'deleteBlogCategory'])->name('admin.blog-category.delete');
+
+    // Blog Tags
+    Route::get('/blog-tags', [AdminController::class, 'blogTags'])->name('admin.blog-tags');
+    Route::get('/blog-tag/create', [AdminController::class, 'createBlogTag'])->name('admin.blog-tag.create');
+    Route::post('/blog-tag/store', [AdminController::class, 'storeBlogTag'])->name('admin.blog-tag.store');
+    Route::get('/blog-tag/{id}/edit', [AdminController::class, 'editBlogTag'])->name('admin.blog-tag.edit');
+    Route::put('/blog-tag/{id}', [AdminController::class, 'updateBlogTag'])->name('admin.blog-tag.update');
+    Route::delete('/blog-tag/{id}', [AdminController::class, 'deleteBlogTag'])->name('admin.blog-tag.delete');
 });
 
 // Dynamic SEO Pages (MUST BE AT THE VERY END)

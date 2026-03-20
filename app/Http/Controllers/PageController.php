@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
+use App\Models\BlogCategory;
+use App\Models\BlogTag;
 use App\Models\Category;
 use App\Models\DynamicPage;
 use App\Models\Package;
-use App\Http\Controllers\SitemapController;
-use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
@@ -15,6 +16,7 @@ class PageController extends Controller
         $categories = Category::all();
         $packages = Package::latest()->take(6)->get();
         $dynamicPages = DynamicPage::where('is_active', true)->get();
+
         return view('pages.home', compact('categories', 'packages', 'dynamicPages'));
     }
 
@@ -31,6 +33,7 @@ class PageController extends Controller
     public function destinations()
     {
         $categories = Category::all();
+
         return view('pages.destinations', compact('categories'));
     }
 
@@ -48,7 +51,7 @@ class PageController extends Controller
     {
         $category = Category::findOrFail($categoryId);
         $packages = $category->packages;
-        
+
         return view('pages.package-category', compact('category', 'packages'));
     }
 
@@ -59,8 +62,77 @@ class PageController extends Controller
             ->where('id', '!=', $packageId)
             ->take(3)
             ->get();
-            
+
         return view('pages.package-details', compact('package', 'relatedPackages'));
+    }
+
+    public function blogIndex()
+    {
+        $blogs = Blog::published()
+            ->with('category')
+            ->latest('published_at')
+            ->paginate(9);
+
+        return view('pages.blog-index', [
+            'blogs' => $blogs,
+            'title' => 'Travel Blog',
+            'description' => 'Travel tips, destination guides, and industry insights from GYF Holidays.',
+        ]);
+    }
+
+    public function blogShow($slug)
+    {
+        $blog = Blog::where('slug', $slug)
+            ->published()
+            ->with(['category', 'tags'])
+            ->firstOrFail();
+
+        $relatedPosts = Blog::published()
+            ->where('id', '!=', $blog->id)
+            ->when($blog->blog_category_id, function ($q) use ($blog) {
+                $q->where('blog_category_id', $blog->blog_category_id);
+            })
+            ->latest('published_at')
+            ->take(3)
+            ->get();
+
+        return view('pages.blog-details', compact('blog', 'relatedPosts'));
+    }
+
+    public function blogCategory($slug)
+    {
+        $category = BlogCategory::where('slug', $slug)->firstOrFail();
+
+        $blogs = Blog::published()
+            ->where('blog_category_id', $category->id)
+            ->with('category')
+            ->latest('published_at')
+            ->paginate(9);
+
+        return view('pages.blog-index', [
+            'blogs' => $blogs,
+            'category' => $category,
+            'title' => $category->name,
+            'description' => $category->meta_description ?? $category->description ?? 'Blog posts in '.$category->name,
+        ]);
+    }
+
+    public function blogTag($slug)
+    {
+        $tag = BlogTag::where('slug', $slug)->firstOrFail();
+
+        $blogs = Blog::published()
+            ->whereHas('tags', fn ($q) => $q->where('blog_tags.id', $tag->id))
+            ->with('category')
+            ->latest('published_at')
+            ->paginate(9);
+
+        return view('pages.blog-index', [
+            'blogs' => $blogs,
+            'tag' => $tag,
+            'title' => 'Tagged: '.$tag->name,
+            'description' => 'Blog posts tagged with '.$tag->name,
+        ]);
     }
 
     public function dynamicPage($slug)
@@ -72,7 +144,7 @@ class PageController extends Controller
 
         // 301 Redirect old slugs to new SEO-optimized slugs
         if (array_key_exists($slug, DynamicPage::SLUG_REDIRECTS)) {
-            return redirect('/' . DynamicPage::SLUG_REDIRECTS[$slug], 301);
+            return redirect('/'.DynamicPage::SLUG_REDIRECTS[$slug], 301);
         }
 
         $page = DynamicPage::where('slug', $slug)->where('is_active', true)->firstOrFail();
