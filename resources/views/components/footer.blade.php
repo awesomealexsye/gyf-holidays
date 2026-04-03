@@ -116,6 +116,9 @@
                 <p class="text-gray-400 text-sm">
                     &copy; {{ date('Y') }} GYF PLANNERS PVT LTD. All rights reserved.
                 </p>
+                <p class="text-gray-400 text-sm">
+                <a target="_blank" href="http://datasofttechnologies.com/">Designed By Datasoft Technologies</a>.
+                </p>
                 <div class="flex space-x-6 mt-4 md:mt-0">
                     <a href="/privacy" class="text-gray-400 hover:text-primary-400 text-sm transition">
                         Privacy Policy
