@@ -15,9 +15,16 @@ class PageController extends Controller
     {
         $categories = Category::all();
         $packages = Package::latest()->take(6)->get();
-        $dynamicPages = DynamicPage::where('is_active', true)->get();
+        $dynamicPages = DynamicPage::where('is_active', true)->latest()->take(8)->get();
 
         return view('pages.home', compact('categories', 'packages', 'dynamicPages'));
+    }
+
+    public function regionalPresence()
+    {
+        $dynamicPages = DynamicPage::where('is_active', true)->latest()->get();
+
+        return view('pages.regional-presence', compact('dynamicPages'));
     }
 
     public function about()

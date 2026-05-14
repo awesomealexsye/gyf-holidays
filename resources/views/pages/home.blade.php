@@ -294,6 +294,13 @@
                         </a>
                     @endforeach
                 </div>
+
+                <div class="flex justify-center mt-12">
+                    <a href="{{ route('regional-presence') }}" class="inline-flex items-center space-x-2 bg-primary-600 hover:bg-primary-700 text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-primary-600/20 hover:shadow-xl hover:shadow-primary-600/30 hover:-translate-y-0.5 transition-all duration-300">
+                        <span>View All Locations</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </a>
+                </div>
             </div>
         </section>
     @endif

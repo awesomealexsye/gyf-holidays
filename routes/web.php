@@ -17,6 +17,7 @@ Route::get('/services', [PageController::class, 'services'])->name('services');
 Route::get('/destinations', [PageController::class, 'destinations'])->name('destinations');
 Route::get('/coach-transportation', [PageController::class, 'coachTransportation'])->name('coach-transportation');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+Route::get('/regional-presence', [PageController::class, 'regionalPresence'])->name('regional-presence');
 
 Route::get('/packages/{categoryId}', [PageController::class, 'packageCategory'])->name('package-category');
 Route::get('/package/{packageId}', [PageController::class, 'packageDetails'])->name('package-details');
