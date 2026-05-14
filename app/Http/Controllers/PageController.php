@@ -78,7 +78,7 @@ class PageController extends Controller
         $blogs = Blog::published()
             ->with('category')
             ->latest('published_at')
-            ->paginate(9);
+            ->paginate(12);
 
         return view('pages.blog-index', [
             'blogs' => $blogs,
@@ -114,7 +114,7 @@ class PageController extends Controller
             ->where('blog_category_id', $category->id)
             ->with('category')
             ->latest('published_at')
-            ->paginate(9);
+            ->paginate(12);
 
         return view('pages.blog-index', [
             'blogs' => $blogs,
@@ -132,7 +132,7 @@ class PageController extends Controller
             ->whereHas('tags', fn ($q) => $q->where('blog_tags.id', $tag->id))
             ->with('category')
             ->latest('published_at')
-            ->paginate(9);
+            ->paginate(12);
 
         return view('pages.blog-index', [
             'blogs' => $blogs,
