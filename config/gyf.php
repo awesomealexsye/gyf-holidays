@@ -22,6 +22,15 @@ return [
             'zip' => '110078',
             'country' => 'India',
         ],
+        'internationalEmail' => 'accounts@gyfholidays.com',
+        'internationalPhone' => '+49 163 4762177',
+        'internationalAddress' => [
+            'name' => 'Avenue Louise',
+            'street' => 'Avenue Louise 163',
+            'city' => 'Brussels',
+            'zip' => '1050',
+            'country' => 'Belgium',
+        ],
     ],
 
     'businessHours' => [

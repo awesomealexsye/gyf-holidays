@@ -84,7 +84,17 @@
                     <li class="flex items-start space-x-3">
                         <svg class="w-5 h-5 text-primary-400 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
                         <span>
+                            <span class="block text-xs font-semibold uppercase tracking-wide text-gray-500">India Office</span>
                             {{ config('gyf.contact.address.street') }}, {{ config('gyf.contact.address.city') }}, {{ config('gyf.contact.address.state') }} {{ config('gyf.contact.address.zip') }}
+                        </span>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                        <svg class="w-5 h-5 text-primary-400 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd"></path></svg>
+                        <span>
+                            <span class="block text-xs font-semibold uppercase tracking-wide text-gray-500">International Office</span>
+                            {{ config('gyf.contact.internationalAddress.street') }}, {{ config('gyf.contact.internationalAddress.zip') }} {{ config('gyf.contact.internationalAddress.city') }}, {{ config('gyf.contact.internationalAddress.country') }}<br>
+                            <a href="tel:{{ config('gyf.contact.internationalPhone') }}" class="hover:text-primary-400 transition">{{ config('gyf.contact.internationalPhone') }}</a><br>
+                            <a href="mailto:{{ config('gyf.contact.internationalEmail') }}" class="hover:text-primary-400 transition">{{ config('gyf.contact.internationalEmail') }}</a>
                         </span>
                     </li>
                     <li class="flex items-center space-x-3">
