@@ -22,7 +22,7 @@ return [
             'zip' => '110078',
             'country' => 'India',
         ],
-        'internationalEmail' => 'accounts@gyfholidays.com',
+        'internationalEmail' => 'info@gyfholidays.com',
         'internationalPhone' => '+49 163 4762177',
         'internationalAddress' => [
             'name' => 'Avenue Louise',

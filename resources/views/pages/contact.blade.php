@@ -60,7 +60,7 @@
                                     <svg class="w-6 h-6 text-primary-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
                                 </div>
                                 <div>
-                                    <h3 class="font-bold text-gray-900 mb-1">India Office (Head Office)</h3>
+                                    <h3 class="font-bold text-gray-900 mb-1">India Office</h3>
                                     <p class="text-gray-600">{{ config('gyf.contact.address.street') }}, {{ config('gyf.contact.address.city') }}, {{ config('gyf.contact.address.state') }} {{ config('gyf.contact.address.zip') }}</p>
                                 </div>
                             </div>
