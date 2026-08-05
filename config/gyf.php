@@ -14,7 +14,7 @@ return [
         'email' => 'info@gyfholidays.com',
         'salesEmail' => 'sales@gyfholidays.com',
         'supportEmail' => 'support@gyfholidays.com',
-        'whatsapp' => '+919711333 620',
+        'whatsapp' => '+91 8796757775',
         'address' => [
             'street' => 'Unit No 590, 5th Floor, Vegas Commercial Building, Plot No 6, Block - B',
             'city' => 'Sector 14, Dwarka, New Delhi',
